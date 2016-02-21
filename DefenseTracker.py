@@ -10,7 +10,7 @@ game Stronghold.
 #!/usr/bin/env python 
 
 import tkinter as tk
-from tkinter import filedialog
+from tkinter import filedialog as fd
 
 def saveCurrentMatch(matchData, filename):
     '''(list, str)-> None
@@ -22,6 +22,14 @@ def saveCurrentMatch(matchData, filename):
     file.write(outstr)
     file.close()
 
+def setDefenseValue(used):
+    '''(list) -> str
+    Takes the list of currently available defenses and returns a selected string
+
+    '''
+    
+    return 'B1'
+
 #from tkinter import *
 
 root = tk.Tk()
@@ -30,31 +38,65 @@ app = tk.Frame(root)
 app.master.title('Defense Location Tracker v0.1')
 
 top = app.winfo_toplevel()
-top.rowconfigure(1,weight=1)
-top.columnconfigure(1,weight=1)
+top.rowconfigure(20,weight=5)
+top.columnconfigure(50,weight=1)
 
 filename = tk.StringVar()
 
 # command using lambda to prevent instant execution if function has parms
 # http://stackoverflow.com/questions/8269096/why-is-button-parameter-command-executed-when-declared
 
-fileButton = tk.Button(root, text = 'Set savefile', 
-                       command=lambda: filename.set(filedialog.asksaveasfilename(title='Save filename',
-                                                                                 filetypes=[('Text CSV', '.csv'),('All Files', '.*')])+'.csv'))
-fileButton.grid(column=1, row=1, sticky=tk.N+tk.S, padx=7)
+fileButton = tk.Button(top, text = 'Set savefile', 
+                       command=lambda: filename.set(fd.asksaveasfilename(title='Save filename',
+                                                                         filetypes=[('Text CSV', '.csv')])
+                                                    +'.csv'))
+fileButton.grid(column=6, row=1, sticky=tk.N+tk.S, padx=7)
 
-saveButton = tk.Button(root, text = 'Save data',
-                       command=lambda: saveCurrentMatch(['1','B1','A2','C1','D1','A1','C2','D2'],filename.get()))
-saveButton.grid(column=2, row=1, padx=7)
+saveButton = tk.Button(top, text = 'Save data',
+                       command=lambda: saveCurrentMatch(['1','B1','A2','C1','D1','A1','C2','D2'],
+                                                        filename.get()))
+saveButton.grid(column=6, row=4, padx=7)
+
+blue1Spot = tk.Label(top, relief='groove',
+                     bg='Blue', fg='White',text = 'Low Bar', padx=10,pady=10)
+                     #image=tk.PhotoImage(file='.\images\lowbar.gif'))
+                     #bitmap=tk.BitmapImage(file='.\images\lowbar.bmp'))
+                     
+#COOK I want to display a graphic of the low bar.  Instead I get a blank cell
+#     the size of the low bar. Subbing in text for the moment
+blue1Spot.grid(column=2, row=6, sticky=tk.N+tk.S+tk.E+tk.W)
 
 
+#COOK This button does nothing and displays no text
+blue2 = tk.StringVar()
+blue2Button = tk.Button(top, bg='Blue', fg='White', padx=10, pady=10,
+                        command = lambda: blue2.set('B1'), 
+                        textvariable = blue2.get())
+                     #image=tk.PhotoImage(file='.\images\lowbar.gif'))
+                     #bitmap=tk.BitmapImage(file='.\images\lowbar.bmp'))
+blue2Button.grid(column=2, row=5, sticky=tk.N+tk.S+tk.E+tk.W)
 
+blue3Spot = tk.Label(top, relief='groove',
+                     bg='Blue', fg='White',text = 'Audience Defense', padx=10,pady=10)
+blue3Spot.grid(column=2, row=4, sticky=tk.N+tk.S+tk.E+tk.W)
 
+blue4Button = tk.Button(top, bg='Blue', fg='White', padx=10, pady=10,
+                        text = 'Placeholder' )
+blue4Button.grid(column=2, row=3, sticky=tk.N+tk.S+tk.E+tk.W)
 
+blue5Button = tk.Button(top, bg='Blue', fg='White', padx=10, pady=10,
+                        text = 'Placeholder' )
+blue5Button.grid(column=2, row=2, sticky=tk.N+tk.S+tk.E+tk.W)
 
+audienceButton = tk.Button(top, bg='Purple', fg='White', padx=10, pady=10,
+                           text = 'Placeholder' )
+                           
+audienceButton.grid(column=3, row=3, rowspan=2, sticky=tk.E+tk.W, padx=10,pady=10)
 
-
-
+red1Spot = tk.Label(top, relief='groove',
+                     bg='Red', fg='White',text = 'Low Bar', padx=10,pady=10)
+#COOK Fix image with blue1Spot
+red1Spot.grid(column=4, row=1, sticky=tk.N+tk.S+tk.E+tk.W)
 
 
 
