@@ -27,31 +27,27 @@ def saveCurrentMatch(matchData, filename):
 root = tk.Tk()
 app = tk.Frame(root)
 
-app.master.title('Please don\'t crash on me')
+app.master.title('Defense Location Tracker v0.1')
 
 top = app.winfo_toplevel()
 top.rowconfigure(1,weight=1)
 top.columnconfigure(1,weight=1)
 
-#COOK quit button if pushed, crashes python.  Don't push the button.
-#quitButton = tk.Button(text = 'Quit', command=tk._exit) 
-#quitButton.grid(column=1, row=1, sticky=N+S+E+W,padx=3)
-
-
 filename = tk.StringVar()
-filename.set('test')
 
+# command using lambda to prevent instant execution if function has parms
+# http://stackoverflow.com/questions/8269096/why-is-button-parameter-command-executed-when-declared
 
 fileButton = tk.Button(root, text = 'Set savefile', 
-                       command=lambda: filename.set(filedialog.asksaveasfilename(title='Save filename')))
+                       command=lambda: filename.set(filedialog.asksaveasfilename(title='Save filename',
+                                                                                 filetypes=[('Text CSV', '.csv'),('All Files', '.*')])+'.csv'))
 fileButton.grid(column=1, row=1, sticky=tk.N+tk.S, padx=7)
 
 saveButton = tk.Button(root, text = 'Save data',
                        command=lambda: saveCurrentMatch(['1','B1','A2','C1','D1','A1','C2','D2'],filename.get()))
-saveButton.grid(column=1, row=2, padx=7)
+saveButton.grid(column=2, row=1, padx=7)
 
 
-#print(filename.get())
 
 
 
