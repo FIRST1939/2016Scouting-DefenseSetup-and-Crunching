@@ -16,6 +16,10 @@ unless I decide to go with
 
 {'A': ('Portcullis', 'Cheval de Frise'), 'B': ('Moat','Ramparts'), 'C': ('Drawbridge','Sally Port'), 'D': ('Rock Wall','Rough Terrain'), 'E': ('Low Bar')}
 
+or 
+
+['Portcullis', 'Cheval de Frise', 'Moat', 'Ramparts', 'Drawbridge', 'Sally Port', 'Rock Wall', 'Rough Terrain', 'Low Bar']
+
 DefenseTracker:
 
 The position 1 defense is always the low bar.  Position 3 is audience selected and the same for both alliances and will change once every N matches, where N is the number required for all teams at the regional to have seen the selection once.  First audience grouping will be randomly selected and will advance alphabetically through defense groups A-D.

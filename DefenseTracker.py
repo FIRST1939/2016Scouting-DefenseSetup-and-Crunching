@@ -32,22 +32,26 @@ app.master.title('Defense Location Tracker v0.1')
 top = app.winfo_toplevel()
 top.rowconfigure(20,weight=5)
 top.columnconfigure(50,weight=1)
-#blue2 = tk.StringVar()
+
 currentObstacles = [tk.IntVar(), tk.StringVar(), tk.StringVar(), tk.StringVar(),
                     # match #,   audience,       blue2,       ,  blue4
                     tk.StringVar(), tk.StringVar(), tk.StringVar(),
                     #blue5,         red2,           red4
                     tk.StringVar()]
                     #red5
-filename = tk.StringVar()    
 
+filename = tk.StringVar()   
+ 
+defenseGroups = {'A': ('Portcullis', 'Cheval de Frise'),
+                 'B': ('Moat','Ramparts'),
+                 'C': ('Drawbridge','Sally Port'),
+                 'D': ('Rock Wall','Rough Terrain'),
+                 'E': ('Low Bar')}
 
 def saveCurrentMatch(matchData, filename):
     '''(list, str)-> None
     Takes the list containing the current matchdata and appends it to filename.
     '''
-
-    #outstr = str(matchData)+'\n'
 
     outlist = []
     
@@ -69,7 +73,6 @@ def setDefenseValue(targetvar, targetLabel, secondLabel=None):
     '''
     targetvar.set('B1') #COOK need to actually pick a real defense here
 
-#    targetLabel.config(text=blue2.get())
     targetLabel.config(text=targetvar.get())
 
     if secondLabel != None:
@@ -97,6 +100,14 @@ matchLabel = tk.Label(text = 'Set Savefile',
                       font=('Helvetica','16'))
 matchLabel.grid(column=3, row=2, padx=7)
 
+#COOK This is where I'm trying to update match number on the fly.  Not working.
+#newMatchStr = tk.StringVar()
+#matchEntry = tk.Entry(textvariable = newMatchStr, width = 3)
+#matchEntry.grid(column=6, row=2, padx=10)
+#matchEntry.bind('<Return>',top.Enter)
+
+#newMatchLabel = tk.Label(text=newMatchStr.get())
+#newMatchLabel.grid(column=6,row=3)
 
 fileButton = tk.Button(top, text = 'Set savefile', 
                        command=lambda: setSaveFile(filename, 
@@ -119,13 +130,11 @@ blue1Spot = tk.Label(top, relief='groove',
 blue1Spot.grid(column=2, row=6, sticky=tk.N+tk.S+tk.E+tk.W)
 
 
-#blue2 = tk.StringVar()
+
 blue2Button = tk.Label(top, bg='Blue', fg='White', padx=10, pady=10,
-#                        textvariable = blue2.get())
                        text = 'Placeholder')
 blue2Button.grid(column=2, row=5, sticky=tk.N+tk.S+tk.E+tk.W)
 
-#changeB2 = tk.Button(top, command = lambda: setDefenseValue(blue2, blue2Button), text = 'Set')
 changeB2 = tk.Button(top, command = lambda: setDefenseValue(currentObstacles[2], 
                                                             blue2Button), 
                                                             text = 'Set')
@@ -162,7 +171,6 @@ audienceButton.grid(column=3, row=3, rowspan=2, sticky=tk.E+tk.W, padx=10,pady=1
 
 red1Spot = tk.Label(top, relief='groove',
                      bg='Red', fg='White',text = 'Low Bar', padx=10,pady=10)
-#COOK Fix image with blue1Spot
 red1Spot.grid(column=4, row=1, sticky=tk.N+tk.S+tk.E+tk.W)
 
 red2Button = tk.Label(top, bg='red', fg='White', padx=10, pady=10,
