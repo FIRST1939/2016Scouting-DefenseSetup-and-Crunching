@@ -90,7 +90,25 @@ def setSaveFile(filename, matchnum, matchLabel):
     matchnum.set(1)                          
     matchLabel.config(text=matchnum.get())
 
+def RepresentsInt(s):
+    try: 
+        int(s)
+        return True
+    except ValueError:
+        return False
 
+
+def Enter(event):
+
+    if RepresentsInt(matchEntry.get()):
+        currentObstacles[0].set(int(matchEntry.get()))
+        newMatchLabel = tk.Label(text=matchEntry.get())
+        matchLabel.config(text=matchEntry.get())
+
+    else:
+        newMatchLabel = tk.Label(text='Value Error')
+        
+    newMatchLabel.grid(column=6,row=3, sticky=tk.W+tk.E)
 # command using lambda to prevent instant execution if function has parms
 # http://stackoverflow.com/questions/8269096/why-is-button-parameter-command-executed-when-declared
 
@@ -101,13 +119,15 @@ matchLabel = tk.Label(text = 'Set Savefile',
 matchLabel.grid(column=3, row=2, padx=7)
 
 #COOK This is where I'm trying to update match number on the fly.  Not working.
-#newMatchStr = tk.StringVar()
-#matchEntry = tk.Entry(textvariable = newMatchStr, width = 3)
-#matchEntry.grid(column=6, row=2, padx=10)
-#matchEntry.bind('<Return>',top.Enter)
+newMatchStr = tk.StringVar()
+matchEntry = tk.Entry(width = 3)
+matchEntry.grid(column=6, row=2, padx=10)
+matchEntry.insert(0,newMatchStr.get())
+matchEntry.bind('<Return>',Enter)
 
-#newMatchLabel = tk.Label(text=newMatchStr.get())
-#newMatchLabel.grid(column=6,row=3)
+
+
+
 
 fileButton = tk.Button(top, text = 'Set savefile', 
                        command=lambda: setSaveFile(filename, 
