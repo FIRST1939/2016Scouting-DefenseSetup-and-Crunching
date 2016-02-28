@@ -33,13 +33,13 @@ top = app.winfo_toplevel()
 top.rowconfigure(20,weight=5)
 top.columnconfigure(50,weight=1)
 #blue2 = tk.StringVar()
-currentObstacles = [tk.IntVar, tk.StringVar(), tk.StringVar(), tk.StringVar(),
-                    # match #, audience,      blue2,       ,  blue4
+currentObstacles = [tk.IntVar(), tk.StringVar(), tk.StringVar(), tk.StringVar(),
+                    # match #,   audience,       blue2,       ,  blue4
                     tk.StringVar(), tk.StringVar(), tk.StringVar(),
                     #blue5,         red2,           red4
                     tk.StringVar()]
                     #red5
-    
+filename = tk.StringVar()    
 
 
 def saveCurrentMatch(matchData, filename):
@@ -51,11 +51,13 @@ def saveCurrentMatch(matchData, filename):
 
     outlist = []
     
-#COOK change to all once match number problem solved
-    for item in matchData[1:]:
+    for item in matchData:
         outlist.append(item.get())
         
     outstr = str(outlist).strip('[]')+'\n'
+    
+    matchData[0].set(matchData[0].get() + 1)
+    matchLabel.config(text=matchData[0].get())
         
     file=open(filename, mode='a')
     file.write(outstr)
@@ -73,26 +75,39 @@ def setDefenseValue(targetvar, targetLabel, secondLabel=None):
     if secondLabel != None:
         secondLabel.config(text=targetvar.get())
 
+def setSaveFile(filename, matchnum, matchLabel):
+    '''(tk.StringVar, tk.IntVar)-> Nonetype
+    
+    Does a dialog to set the savefile, and initializes match number to 1.
+    '''
+    
+    savefile = fd.asksaveasfilename(title='Save filename',
+                                    filetypes=[('Text CSV', '.csv')])+'.csv'    
+    filename.set(savefile)
+    matchnum.set(1)                          
+    matchLabel.config(text=matchnum.get())
 
-
-filename = tk.StringVar()
 
 # command using lambda to prevent instant execution if function has parms
 # http://stackoverflow.com/questions/8269096/why-is-button-parameter-command-executed-when-declared
 
+matchWord = tk.Label(text='Match', font=('Helvetica','16'))
+matchWord.grid(column=3, row=1)
+matchLabel = tk.Label(text = 'Set Savefile', 
+                      font=('Helvetica','16'))
+matchLabel.grid(column=3, row=2, padx=7)
+
+
 fileButton = tk.Button(top, text = 'Set savefile', 
-                       command=lambda: filename.set(fd.asksaveasfilename(title='Save filename',
-                                                                         filetypes=[('Text CSV', '.csv')])
-                                                    +'.csv'))
+                       command=lambda: setSaveFile(filename, 
+                                                   currentObstacles[0],
+                                                   matchLabel))
 fileButton.grid(column=6, row=1, padx=7)
 
 saveButton = tk.Button(top, text = 'Save data',
                        command=lambda: saveCurrentMatch(currentObstacles,
                                                         filename.get()))
 saveButton.grid(column=6, row=4, padx=7, sticky=tk.N+tk.S)
-
-#matchLabel = tk.Label(textvariable = 'Match\n' + str(currentObstacles[0].get()))
-#matchLabel.grid(column=3, row=1, padx=7)
 
 blue1Spot = tk.Label(top, relief='groove',
                      bg='Blue', fg='White',text = 'Low Bar', padx=10,pady=10)
