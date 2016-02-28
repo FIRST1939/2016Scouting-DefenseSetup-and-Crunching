@@ -51,17 +51,17 @@ def saveCurrentMatch(matchData, filename):
 
     outlist = []
     
-#    outlist.append(matchData[1].get())
+#COOK change to all once match number problem solved
     for item in matchData[1:]:
         outlist.append(item.get())
         
-    outstr = str(outlist)+'\n'
+    outstr = str(outlist).strip('[]')+'\n'
         
     file=open(filename, mode='a')
     file.write(outstr)
     file.close()
 
-def setDefenseValue(targetvar, targetLabel):
+def setDefenseValue(targetvar, targetLabel, secondLabel=None):
     '''(stringvar) -> None
     Sets the variable to selected defense and updates
     '''
@@ -70,6 +70,8 @@ def setDefenseValue(targetvar, targetLabel):
 #    targetLabel.config(text=blue2.get())
     targetLabel.config(text=targetvar.get())
 
+    if secondLabel != None:
+        secondLabel.config(text=targetvar.get())
 
 
 
@@ -138,8 +140,8 @@ changeB5.grid(column = 1, row = 2, padx = 10)
 audienceButton = tk.Button(top, bg='Purple', fg='White', padx=10, pady=10,
                            text = 'Set Audience Pick',
                            command = lambda: setDefenseValue(currentObstacles[1], 
-                                                            blue3Spot))
-                        #COOK Need to fix this to do 2 different text positions
+                                                            blue3Spot, red3Spot))
+
                            
 audienceButton.grid(column=3, row=3, rowspan=2, sticky=tk.E+tk.W, padx=10,pady=10)
 
