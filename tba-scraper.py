@@ -6,7 +6,7 @@ Created on Fri Mar  4 23:12:28 2016
 
 import urllib.request
 import json
-import pprint
+from pprint import pprint
 
 URL = 'http://www.thebluealliance.com/api/v2/'
 
@@ -16,6 +16,10 @@ Default User-Agent value causes 403 Forbidden so I pretend to be a browser.
 '''
 REQHEADERS = {'X-TBA-App-Id': 'vhcook-frc1939:scouting:1',
               'User-Agent': 'Mozilla/5.0'}
+              
+DEFENSES = ['A_Portcullis','A_ChevalDeFrise','B_Ramparts','B_Moat',
+            'C_Drawbridge','C_SallyPort','D_RoughTerrain', 'D_RockWall',
+            'E_LowBar', 'NotSpecified']    
               
 def get_request(fullurl):
     request = urllib.request.Request(fullurl, headers = REQHEADERS)
@@ -93,5 +97,52 @@ def analyze_matches(event, year=2016):
     '''
     
     data = get_event_matches(event, year)
+    print('Analyzing', event, '\n')    
     
-    print(data[0])
+    pprint(data[0])
+    dcrossed={}
+    dpositions={}
+    
+    for match in data:
+        if match['alliances']['blue']['score'] == -1:
+            print('Defect in',match['match_number'])
+            print('\n')
+            continue
+        for alliance in ['red', 'blue']:
+            if 'E_LowBar' not in dcrossed:
+                dcrossed['E_LowBar'] = []
+            dcrossed['E_LowBar'].append(match['score_breakdown'][alliance]['position1crossings'])
+            for pos in range(2, 5):
+                spot = str(pos)
+                d = match['score_breakdown'][alliance]['position'+spot]
+                if d not in dpositions:
+                    dpositions[d] = []
+                    dcrossed[d] = []
+                dpositions[d].append(spot)
+                dcrossed[d].append(match['score_breakdown'][alliance]['position'+spot+'crossings'])
+                
+                if d == 'NotSpecified':
+                    print('Missing Defense Info:', match['match_number'], alliance, pos)
+       
+    return #(dpositions, dcrossed)    
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
