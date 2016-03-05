@@ -106,13 +106,12 @@ def analyze_matches(event, year=2016):
     for match in data:
         if match['alliances']['blue']['score'] == -1:
             print('Defect in',match['match_number'])
-            print('\n')
             continue
         for alliance in ['red', 'blue']:
             if 'E_LowBar' not in dcrossed:
                 dcrossed['E_LowBar'] = []
             dcrossed['E_LowBar'].append(match['score_breakdown'][alliance]['position1crossings'])
-            for pos in range(2, 5):
+            for pos in range(2, 6):
                 spot = str(pos)
                 d = match['score_breakdown'][alliance]['position'+spot]
                 if d not in dpositions:
@@ -124,11 +123,29 @@ def analyze_matches(event, year=2016):
                 if d == 'NotSpecified':
                     print('Missing Defense Info:', match['match_number'], alliance, pos)
        
-    return #(dpositions, dcrossed)    
+    return (dpositions, dcrossed)    
+ 
+def crosser(event, year=2016):
+    '''
+    Take crossing data for an event, and determine times in each position
+    '''
+    
+    positions, crossings = analyze_matches(event, year)
+    
+    dpos = {}
+    '''    
+    '''
+    print(positions)
+    for defense in DEFENSES:
+        if defense not in dpos:
+            dpos[defense] = [0,0,0,0,0]
+            
+        if defense != 'E_LowBar':
+            for spot in positions[defense]:
+                print(spot)
+                dpos[defense][int(spot) - 1] += 1
         
-        
-        
-        
+    pprint(dpos)
         
         
         
