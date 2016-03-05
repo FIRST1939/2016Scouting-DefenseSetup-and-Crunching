@@ -9,10 +9,10 @@ game Stronghold.
 
 
 Still needs doing: 
-- add match number tracking to display and increment on save, 
++ add match number tracking to display and increment on save, 
 - actually pick a defense not a placeholder, 
-- get the save button to save current defense settings not placeholder line, 
-- allow selection of match number.
++ get the save button to save current defense settings not placeholder line, 
++ allow selection of match number.
 
 Future enhancements:
 - End swap button
