@@ -61,12 +61,37 @@ def get_event_list(year):
     result = get_request(fullurl)
     return result
 
-
-'mokc'
-
-def get_event_teams(event, year):
+def get_event_teams(event, year=2016):
     event_key = str(year) + event
     fullurl = URL + 'event/' + event_key + '/teams'
     print(fullurl)
     result = get_request(fullurl)
     return result
+
+def get_event_matches(event, year=2016):
+    event_key = str(year) + event
+    fullurl = URL + 'event/' + event_key + '/matches'
+    print(fullurl)
+    result = get_request(fullurl)
+    return result
+    
+def get_event_stats(event, year=2016):
+    #OPR, DPR, CCWM
+    event_key = str(year) + event
+    fullurl = URL + 'event/' + event_key + '/stats'
+    print(fullurl)
+    result = get_request(fullurl)
+    return result    
+
+def analyze_matches(event, year=2016):
+    '''
+    Take match data for event and find things
+    
+    Crossings per defense
+    Crossings per position
+    Crossings per defense in position
+    '''
+    
+    data = get_event_matches(event, year)
+    
+    print(data[0])
