@@ -71,6 +71,11 @@ def setDefenseValue(targetvar, targetLabel, secondLabel=None):
     '''(stringvar) -> None
     Sets the variable to selected defense and updates
     '''
+    choice = tk.tkMessageBox.askquestion(title='Defense Selection',
+                          message='Select a Defense:',
+                          options=('A_Portcullis','A_ChevalDeFrise','B_Ramparts','B_Moat',
+            'C_Drawbridge','C_SallyPort','D_RoughTerrain', 'D_RockWall'))    
+    
     targetvar.set('B1') #COOK need to actually pick a real defense here
 
     targetLabel.config(text=targetvar.get())
@@ -108,7 +113,7 @@ def Enter(event):
     else:
         newMatchLabel = tk.Label(text='Value Error')
         
-    newMatchLabel.grid(column=6,row=3, sticky=tk.W+tk.E)
+    newMatchLabel.grid(column=6,row=4, sticky=tk.W+tk.E)
 # command using lambda to prevent instant execution if function has parms
 # http://stackoverflow.com/questions/8269096/why-is-button-parameter-command-executed-when-declared
 
@@ -118,10 +123,13 @@ matchLabel = tk.Label(text = 'Set Savefile',
                       font=('Helvetica','16'))
 matchLabel.grid(column=3, row=2, padx=7)
 
-#COOK This is where I'm trying to update match number on the fly.  Not working.
+#This is where I'm trying to update match number on the fly. 
+changeLabel = tk.Label(text='Update match number')
+changeLabel.grid(column=6,row=2)
+
 newMatchStr = tk.StringVar()
 matchEntry = tk.Entry(width = 3)
-matchEntry.grid(column=6, row=2, padx=10)
+matchEntry.grid(column=6, row=3, padx=10)
 matchEntry.insert(0,newMatchStr.get())
 matchEntry.bind('<Return>',Enter)
 
@@ -138,7 +146,7 @@ fileButton.grid(column=6, row=1, padx=7)
 saveButton = tk.Button(top, text = 'Save data',
                        command=lambda: saveCurrentMatch(currentObstacles,
                                                         filename.get()))
-saveButton.grid(column=6, row=4, padx=7, sticky=tk.N+tk.S)
+saveButton.grid(column=6, row=6, padx=7, sticky=tk.N+tk.S)
 
 blue1Spot = tk.Label(top, relief='groove',
                      bg='Blue', fg='White',text = 'Low Bar', padx=10,pady=10)
