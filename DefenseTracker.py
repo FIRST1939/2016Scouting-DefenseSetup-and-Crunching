@@ -10,7 +10,7 @@ game Stronghold.
 
 Still needs doing: 
 + add match number tracking to display and increment on save, 
-- actually pick a defense not a placeholder, 
++ actually pick a defense not a placeholder, 
 + get the save button to save current defense settings not placeholder line, 
 + allow selection of match number.
 
@@ -50,13 +50,47 @@ def saveCurrentMatch(matchData, filename):
     '''(list, str)-> None
     Takes the list containing the current matchdata and appends it to filename.
     '''
-
+    if len(filename) < 4:
+        validSave.config(text='Set Savefile', fg='#ff1212')
+        return      
     outlist = []
+    validation = []
     
     for item in matchData:
-        outlist.append(item.get())
+        value = item.get()
+        outlist.append(value)
+        
+        if type(value) == str and len(value) > 1:
+            validation.append(value[0])
+    
+    # Check each alliance for presence of A-D once each
+    GOOD = ['A', 'B', 'C', 'D']
+    if len(validation) < 7:
+        validSave.config(text='Incomplete config', fg='#ff1212')
+        return
+    red = validation[0:4]
+    blue= [validation[0]]
+    blue.extend(validation[4:]) 
+    red.sort()
+    blue.sort()
+    
+   
+    if red != GOOD:
+        if blue != GOOD:
+            validSave.config(text='Configs Invalid', fg='#ff1212')
+            return
+        else:
+            validSave.config(text='Red Config Invalid', fg='#ff1212')
+            return      
+    elif blue != GOOD:
+        validSave.config(text='Blue Config Invalid', fg='#ff1212')
+        return         
+            
         
     outstr = str(outlist).strip('[]')+'\n'
+    
+        
+    #Increment match, save, and output message
     
     matchData[0].set(matchData[0].get() + 1)
     matchLabel.config(text=matchData[0].get())
