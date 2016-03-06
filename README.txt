@@ -1,4 +1,10 @@
-This repo contains two major programs.  DefenseTracker.py will have the code to track defenses throughout a regional for scouting.  Scoutmaster.py will have the code to combine the results file from DefenseTracker with the main Scouting system output file, and possibly results from pit scouting.
+This repo contains three major programs.  
+
+DefenseTracker.py will have the code to track defenses throughout a regional for scouting.  
+
+Scoutmaster.py will have the code to combine the results file from DefenseTracker with the main Scouting system output file, and possibly results from pit scouting.
+
+TBA-scraper.py pulls data from TBA and does various things with it.
 
 Coding for Groups in all programs is as follows:
 
@@ -20,6 +26,10 @@ or
 
 ['Portcullis', 'Cheval de Frise', 'Moat', 'Ramparts', 'Drawbridge', 'Sally Port', 'Rock Wall', 'Rough Terrain', 'Low Bar']
 
+TBA Format 
+['A_Portcullis','A_ChevalDeFrise','B_Ramparts','B_Moat','C_Drawbridge','C_SallyPort','D_RoughTerrain', 'D_RockWall','E_LowBar', 'NotSpecified']
+
+
 DefenseTracker:
 
 The position 1 defense is always the low bar.  Position 3 is audience selected and the same for both alliances and will change once every N matches, where N is the number required for all teams at the regional to have seen the selection once.  First audience grouping will be randomly selected and will advance alphabetically through defense groups A-D.
@@ -35,6 +45,4 @@ Sample output:
 Match#,Zone3Shared,Red2,Red4,Red5,Blue2,Blue4,Blue5
 1,B1,A1,C2,D2,C1,A2,D2
 2,B1,C1,A1,D1,A2,D2,C1
-
-
 

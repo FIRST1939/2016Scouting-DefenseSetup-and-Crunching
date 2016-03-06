@@ -7,6 +7,7 @@ Created on Fri Mar  4 23:12:28 2016
 import urllib.request
 import json
 from pprint import pprint
+from tkinter import filedialog as fd
 
 URL = 'http://www.thebluealliance.com/api/v2/'
 
@@ -20,6 +21,9 @@ REQHEADERS = {'X-TBA-App-Id': 'vhcook-frc1939:scouting:1',
 DEFENSES = ['A_Portcullis','A_ChevalDeFrise','B_Ramparts','B_Moat',
             'C_Drawbridge','C_SallyPort','D_RoughTerrain', 'D_RockWall',
             'E_LowBar', 'NotSpecified']    
+            
+DONE = ['scmb','casd','mndu','mndu2','onto2','mike2','misou','mista','miwat',
+        'waamv','waspo','ctwat','ncmcl','nhgrs','njfla','pahat','vahay']
               
 def get_request(fullurl):
     request = urllib.request.Request(fullurl, headers = REQHEADERS)
@@ -59,7 +63,7 @@ def get_team_year(team_num, year):
     result = get_request(fullurl)
     return result
     
-def get_event_list(year):
+def get_event_list(year=2016):
     fullurl = URL + 'events/' + str(year)
     print(fullurl)
     result = get_request(fullurl)
@@ -99,13 +103,13 @@ def analyze_matches(event, year=2016):
     data = get_event_matches(event, year)
     print('Analyzing', event, '\n')    
     
-    pprint(data[0])
+    #pprint(data[0])
     dcrossed={}
     dpositions={}
     
     for match in data:
         if match['alliances']['blue']['score'] == -1:
-            print('Defect in',match['match_number'])
+            #print('Defect in',match['match_number'])
             continue
         for alliance in ['red', 'blue']:
             if 'E_LowBar' not in dcrossed:
@@ -125,7 +129,7 @@ def analyze_matches(event, year=2016):
        
     return (dpositions, dcrossed)    
  
-def crosser(event, year=2016):
+def crosser(event, year=2016, write=None):
     '''
     Take crossing data for an event, and determine times in each position
     '''
@@ -133,27 +137,59 @@ def crosser(event, year=2016):
     positions, crossings = analyze_matches(event, year)
     
     dpos = {}
-    '''    
-    '''
-    print(positions)
+    cksum = [0,0,0,0]
+    
+    if write != None:
+        filename = open(write, mode='a')
+
     for defense in DEFENSES:
+        if defense not in crossings:
+            continue
         if defense not in dpos:
             dpos[defense] = [0,0,0,0,0]
             
         if defense != 'E_LowBar':
             for spot in positions[defense]:
-                print(spot)
                 dpos[defense][int(spot) - 1] += 1
-        
+            
+            total = 0
+            for i in dpos[defense]:
+                total += i
+            print(defense, total)
+            if defense[0] == 'A':
+                cksum[0] += total
+            elif defense[0] == 'B':
+                cksum[1] += total
+            elif defense[0] == 'C':
+                cksum[2] += total
+            elif defense[0] == 'D':
+                cksum[3] += total
+            else:
+                print(defense, 'Category not found')
+                
+        if write:
+            outtext = event + ',' +defense + ',' + str(dpos[defense]).strip('[]') + '\n'
+            filename.write(outtext)
+    
+    if write:
+        filename.close()
+            
     pprint(dpos)
+    print('Category checksums', cksum)
+    
+            
+        
+def quickevents():        
+    eventlist = get_event_list()
+    
+    for event in eventlist:
+        print(event['short_name'], event['event_code'])
         
         
-        
-        
-        
-        
-        
-        
+writefile = fd.asksaveasfilename(title='Save defense usage')        
+for thing in DONE:
+
+    crosser(thing, write=writefile)
         
         
         
