@@ -201,26 +201,142 @@ blue3Spot.grid(column=2, row=4, sticky=tk.N+tk.S+tk.E+tk.W)
 blue4Button = tk.Label(top, bg='Blue', fg='White', padx=10, pady=10,
                         text = 'Placeholder', relief='groove' )
 blue4Button.grid(column=2, row=3, sticky=tk.N+tk.S+tk.E+tk.W)
-changeB4 = tk.Button(top, command = lambda: setDefenseValue('bob', currentObstacles[3], 
-                                                            blue4Button), 
-                                                            text = 'Set')
+changeB4 = tk.Menubutton(top, text = 'Set', relief='raised')
 changeB4.grid(column = 1, row = 3, padx = 10)
+changeB4.menu = tk.Menu(changeB4)
+changeB4['menu'] = changeB4.menu
+changeB4.menu.add_radiobutton(label=DEFENSES[0],
+                              command = lambda: setDefenseValue(DEFENSES[0],
+                                                                currentObstacles[3], 
+                                                                blue4Button))
+changeB4.menu.add_radiobutton(label=DEFENSES[1],
+                              command = lambda: setDefenseValue(DEFENSES[1],
+                                                                currentObstacles[3], 
+                                                                blue4Button))
+changeB4.menu.add_radiobutton(label=DEFENSES[2],
+                              command = lambda: setDefenseValue(DEFENSES[2],
+                                                                currentObstacles[3], 
+                                                                blue4Button))
+changeB4.menu.add_radiobutton(label=DEFENSES[3],
+                              command = lambda: setDefenseValue(DEFENSES[3],
+                                                                currentObstacles[3], 
+                                                                blue4Button))
+changeB4.menu.add_radiobutton(label=DEFENSES[4],
+                              command = lambda: setDefenseValue(DEFENSES[4],
+                                                                currentObstacles[3], 
+                                                                blue4Button))
+changeB4.menu.add_radiobutton(label=DEFENSES[5],
+                              command = lambda: setDefenseValue(DEFENSES[5],
+                                                                currentObstacles[3], 
+                                                                blue4Button))
+changeB4.menu.add_radiobutton(label=DEFENSES[6],
+                              command = lambda: setDefenseValue(DEFENSES[6],
+                                                                currentObstacles[3], 
+                                                                blue4Button))
+changeB4.menu.add_radiobutton(label=DEFENSES[7],
+                              command = lambda: setDefenseValue(DEFENSES[7],
+                                                                currentObstacles[3], 
+                                                                blue4Button)) 
 
 blue5Button = tk.Label(top, bg='Blue', fg='White', padx=10, pady=10,
                         text = 'Placeholder', relief='groove' )
 blue5Button.grid(column=2, row=2, sticky=tk.N+tk.S+tk.E+tk.W)
-changeB5 = tk.Button(top, command = lambda: setDefenseValue('bob', currentObstacles[4], 
-                                                            blue5Button), 
-                                                            text = 'Set')
+
+changeB5 = tk.Menubutton(top, text = 'Set', relief='raised')
 changeB5.grid(column = 1, row = 2, padx = 10)
+changeB5.menu = tk.Menu(changeB5)
+changeB5['menu'] = changeB5.menu
+changeB5.menu.add_radiobutton(label=DEFENSES[0],
+                              command = lambda: setDefenseValue(DEFENSES[0],
+                                                                currentObstacles[4], 
+                                                                blue5Button))
+changeB5.menu.add_radiobutton(label=DEFENSES[1],
+                              command = lambda: setDefenseValue(DEFENSES[1],
+                                                                currentObstacles[4], 
+                                                                blue5Button))
+changeB5.menu.add_radiobutton(label=DEFENSES[2],
+                              command = lambda: setDefenseValue(DEFENSES[2],
+                                                                currentObstacles[4], 
+                                                                blue5Button))
+changeB5.menu.add_radiobutton(label=DEFENSES[3],
+                              command = lambda: setDefenseValue(DEFENSES[3],
+                                                                currentObstacles[4], 
+                                                                blue5Button))
+changeB5.menu.add_radiobutton(label=DEFENSES[4],
+                              command = lambda: setDefenseValue(DEFENSES[4],
+                                                                currentObstacles[4], 
+                                                                blue5Button))
+changeB5.menu.add_radiobutton(label=DEFENSES[5],
+                              command = lambda: setDefenseValue(DEFENSES[5],
+                                                                currentObstacles[4], 
+                                                                blue5Button))
+changeB5.menu.add_radiobutton(label=DEFENSES[6],
+                              command = lambda: setDefenseValue(DEFENSES[6],
+                                                                currentObstacles[4], 
+                                                                blue5Button))
+changeB5.menu.add_radiobutton(label=DEFENSES[7],
+                              command = lambda: setDefenseValue(DEFENSES[7],
+                                                                currentObstacles[4], 
+                                                                blue5Button))
+                                                                
 
-audienceButton = tk.Button(top, bg='Purple', fg='White', padx=10, pady=10,
-                           text = 'Set Audience Pick',
-                           command = lambda: setDefenseValue('bob', currentObstacles[1], 
-                                                            blue3Spot, red3Spot))
-
-                           
+audienceButton = tk.Menubutton(top, bg='Purple', fg='White', padx=10, pady=10,
+                               text = 'Set Audience Pick', relief='raised')
 audienceButton.grid(column=3, row=3, rowspan=2, sticky=tk.E+tk.W, padx=10,pady=10)
+audienceButton.menu = tk.Menu(audienceButton)
+audienceButton['menu'] = audienceButton.menu
+audienceButton.menu.add_radiobutton(label=DEFENSES[0],
+                                    command = lambda: setDefenseValue(DEFENSES[0],
+                                                                currentObstacles[1], 
+                                                                blue3Spot, red3Spot))
+audienceButton.menu.add_radiobutton(label=DEFENSES[1],
+                                    command = lambda: setDefenseValue(DEFENSES[1],
+                                                                currentObstacles[1], 
+                                                                blue3Spot, red3Spot))
+audienceButton.menu.add_radiobutton(label=DEFENSES[2],
+                                    command = lambda: setDefenseValue(DEFENSES[2],
+                                                                currentObstacles[1], 
+                                                                blue3Spot, red3Spot))
+audienceButton.menu.add_radiobutton(label=DEFENSES[3],
+                                    command = lambda: setDefenseValue(DEFENSES[3],
+                                                                currentObstacles[1], 
+                                                                blue3Spot, red3Spot))
+audienceButton.menu.add_radiobutton(label=DEFENSES[4],
+                                    command = lambda: setDefenseValue(DEFENSES[4],
+                                                                currentObstacles[1], 
+                                                                blue3Spot, red3Spot))
+audienceButton.menu.add_radiobutton(label=DEFENSES[5],
+                                    command = lambda: setDefenseValue(DEFENSES[5],
+                                                                currentObstacles[1], 
+                                                                blue3Spot, red3Spot))
+audienceButton.menu.add_radiobutton(label=DEFENSES[6],
+                                    command = lambda: setDefenseValue(DEFENSES[6],
+                                                                currentObstacles[1], 
+                                                                blue3Spot, red3Spot))
+audienceButton.menu.add_radiobutton(label=DEFENSES[7],
+                                    command = lambda: setDefenseValue(DEFENSES[7],
+                                                                currentObstacles[1], 
+                                                                blue3Spot, red3Spot))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 red1Spot = tk.Label(top, relief='groove',
                      bg='Red', fg='White',text = 'Low Bar', padx=10,pady=10)
