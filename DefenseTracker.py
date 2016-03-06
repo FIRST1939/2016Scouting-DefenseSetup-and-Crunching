@@ -131,7 +131,7 @@ def setSaveFile(filename, matchnum, matchLabel):
     matchLabel.config(text=matchnum.get())
     
     file=open(savefile, mode='w')
-    file.write('Match#,Zone3Shared,Red2,Red4,Red5,Blue2,Blue4,Blue5\n')
+    file.write('Match#,Zone3Shared,Blue2,Blue4,Blue5,Red2,Red4,Red5\n')
     file.close()
 
 def RepresentsInt(s):

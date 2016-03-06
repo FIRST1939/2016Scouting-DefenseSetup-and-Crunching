@@ -6,27 +6,8 @@ Scoutmaster.py will have the code to combine the results file from DefenseTracke
 
 TBA-scraper.py pulls data from TBA and does various things with it.
 
-Coding for Groups in all programs is as follows:
+Coding for Groups in all programs will match TBA's format:
 
-A1 Portcullis
-A2 Cheval de Frise
-B1 Moat
-B2 Ramparts
-C1 Drawbridge
-C2 Sally Port
-D1 Rock Wall
-D2 Rough Terrain
-E1 Low Bar
-
-unless I decide to go with
-
-{'A': ('Portcullis', 'Cheval de Frise'), 'B': ('Moat','Ramparts'), 'C': ('Drawbridge','Sally Port'), 'D': ('Rock Wall','Rough Terrain'), 'E': ('Low Bar')}
-
-or 
-
-['Portcullis', 'Cheval de Frise', 'Moat', 'Ramparts', 'Drawbridge', 'Sally Port', 'Rock Wall', 'Rough Terrain', 'Low Bar']
-
-TBA Format 
 ['A_Portcullis','A_ChevalDeFrise','B_Ramparts','B_Moat','C_Drawbridge','C_SallyPort','D_RoughTerrain', 'D_RockWall','E_LowBar', 'NotSpecified']
 
 
@@ -42,7 +23,7 @@ Output file will contain a CSV with the following header format:
 
 
 Sample output:
-Match#,Zone3Shared,Red2,Red4,Red5,Blue2,Blue4,Blue5
-1,B1,A1,C2,D2,C1,A2,D2
-2,B1,C1,A1,D1,A2,D2,C1
+'Match#,Zone3Shared,Blue2,Blue4,Blue5,Red2,Red4,Red5
+1, 'A_Portcullis', 'C_Drawbridge', 'D_RoughTerrain', 'B_Ramparts', 'B_Ramparts', 'D_RoughTerrain', 'C_SallyPort'
+2, 'A_Portcullis', 'C_Drawbridge', 'B_Ramparts', 'D_RockWall', 'B_Moat', 'C_Drawbridge', 'D_RockWall'
 
