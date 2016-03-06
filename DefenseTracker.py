@@ -88,10 +88,17 @@ def setSaveFile(filename, matchnum, matchLabel):
     '''
     
     savefile = fd.asksaveasfilename(title='Save filename',
-                                    filetypes=[('Text CSV', '.csv')])+'.csv'    
+                                    filetypes=[('Text CSV', '.csv')])
+    if savefile[-4:] != '.csv':
+        savefile = savefile + '.csv'
+        
     filename.set(savefile)
     matchnum.set(1)                          
     matchLabel.config(text=matchnum.get())
+    
+    file=open(savefile, mode='w')
+    file.write('Match#,Zone3Shared,Red2,Red4,Red5,Blue2,Blue4,Blue5\n')
+    file.close()
 
 def RepresentsInt(s):
     try: 
