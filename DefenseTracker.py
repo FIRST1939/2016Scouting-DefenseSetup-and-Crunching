@@ -42,11 +42,9 @@ currentObstacles = [tk.IntVar(), tk.StringVar(), tk.StringVar(), tk.StringVar(),
 
 filename = tk.StringVar()   
  
-defenseGroups = {'A': ('Portcullis', 'Cheval de Frise'),
-                 'B': ('Moat','Ramparts'),
-                 'C': ('Drawbridge','Sally Port'),
-                 'D': ('Rock Wall','Rough Terrain'),
-                 'E': ('Low Bar')}
+DEFENSES = ['A_Portcullis','A_ChevalDeFrise','B_Ramparts','B_Moat',
+            'C_Drawbridge','C_SallyPort','D_RoughTerrain', 'D_RockWall',
+            'E_LowBar', 'NotSpecified']  
 
 def saveCurrentMatch(matchData, filename):
     '''(list, str)-> None
@@ -67,16 +65,12 @@ def saveCurrentMatch(matchData, filename):
     file.write(outstr)
     file.close()
 
-def setDefenseValue(targetvar, targetLabel, secondLabel=None):
+def setDefenseValue(value, targetvar, targetLabel, secondLabel=None):
     '''(stringvar) -> None
     Sets the variable to selected defense and updates
     '''
-    choice = tk.tkMessageBox.askquestion(title='Defense Selection',
-                          message='Select a Defense:',
-                          options=('A_Portcullis','A_ChevalDeFrise','B_Ramparts','B_Moat',
-            'C_Drawbridge','C_SallyPort','D_RoughTerrain', 'D_RockWall'))    
     
-    targetvar.set('B1') #COOK need to actually pick a real defense here
+    targetvar.set(value) #COOK need to actually pick a real defense here
 
     targetLabel.config(text=targetvar.get())
 
@@ -160,38 +154,69 @@ blue1Spot.grid(column=2, row=6, sticky=tk.N+tk.S+tk.E+tk.W)
 
 
 blue2Button = tk.Label(top, bg='Blue', fg='White', padx=10, pady=10,
-                       text = 'Placeholder')
+                       text = 'Placeholder', relief='groove')
 blue2Button.grid(column=2, row=5, sticky=tk.N+tk.S+tk.E+tk.W)
 
-changeB2 = tk.Button(top, command = lambda: setDefenseValue(currentObstacles[2], 
-                                                            blue2Button), 
-                                                            text = 'Set')
+changeB2 = tk.Menubutton(top, text = 'Set', relief='raised')
 changeB2.grid(column = 1, row = 5, padx = 10)
-
-
+changeB2.menu = tk.Menu(changeB2)
+changeB2['menu'] = changeB2.menu
+changeB2.menu.add_radiobutton(label=DEFENSES[0],
+                              command = lambda: setDefenseValue(DEFENSES[0],
+                                                                currentObstacles[2], 
+                                                                blue2Button))
+changeB2.menu.add_radiobutton(label=DEFENSES[1],
+                              command = lambda: setDefenseValue(DEFENSES[1],
+                                                                currentObstacles[2], 
+                                                                blue2Button))
+changeB2.menu.add_radiobutton(label=DEFENSES[2],
+                              command = lambda: setDefenseValue(DEFENSES[2],
+                                                                currentObstacles[2], 
+                                                                blue2Button))
+changeB2.menu.add_radiobutton(label=DEFENSES[3],
+                              command = lambda: setDefenseValue(DEFENSES[3],
+                                                                currentObstacles[2], 
+                                                                blue2Button))
+changeB2.menu.add_radiobutton(label=DEFENSES[4],
+                              command = lambda: setDefenseValue(DEFENSES[4],
+                                                                currentObstacles[2], 
+                                                                blue2Button))
+changeB2.menu.add_radiobutton(label=DEFENSES[5],
+                              command = lambda: setDefenseValue(DEFENSES[5],
+                                                                currentObstacles[2], 
+                                                                blue2Button))
+changeB2.menu.add_radiobutton(label=DEFENSES[6],
+                              command = lambda: setDefenseValue(DEFENSES[6],
+                                                                currentObstacles[2], 
+                                                                blue2Button))
+changeB2.menu.add_radiobutton(label=DEFENSES[7],
+                              command = lambda: setDefenseValue(DEFENSES[7],
+                                                                currentObstacles[2], 
+                                                                blue2Button))                                                                
+                                                               
 blue3Spot = tk.Label(top, relief='groove',
                      bg='Blue', fg='White',text = 'Audience Defense', padx=10,pady=10)
 blue3Spot.grid(column=2, row=4, sticky=tk.N+tk.S+tk.E+tk.W)
 
 blue4Button = tk.Label(top, bg='Blue', fg='White', padx=10, pady=10,
-                        text = 'Placeholder' )
+                        text = 'Placeholder', relief='groove' )
 blue4Button.grid(column=2, row=3, sticky=tk.N+tk.S+tk.E+tk.W)
-changeB4 = tk.Button(top, command = lambda: setDefenseValue(currentObstacles[3], 
+changeB4 = tk.Button(top, command = lambda: setDefenseValue('bob', currentObstacles[3], 
                                                             blue4Button), 
                                                             text = 'Set')
 changeB4.grid(column = 1, row = 3, padx = 10)
 
 blue5Button = tk.Label(top, bg='Blue', fg='White', padx=10, pady=10,
-                        text = 'Placeholder' )
+                        text = 'Placeholder', relief='groove' )
 blue5Button.grid(column=2, row=2, sticky=tk.N+tk.S+tk.E+tk.W)
-changeB5 = tk.Button(top, command = lambda: setDefenseValue(currentObstacles[4], 
+changeB5 = tk.Button(top, command = lambda: setDefenseValue('bob', currentObstacles[4], 
                                                             blue5Button), 
                                                             text = 'Set')
 changeB5.grid(column = 1, row = 2, padx = 10)
 
 audienceButton = tk.Button(top, bg='Purple', fg='White', padx=10, pady=10,
                            text = 'Set Audience Pick',
-                           command = lambda: setDefenseValue(currentObstacles[1], 
+                           command = lambda: setDefenseValue('bob', currentObstacles[1], 
                                                             blue3Spot, red3Spot))
 
                            
@@ -202,10 +227,10 @@ red1Spot = tk.Label(top, relief='groove',
 red1Spot.grid(column=4, row=1, sticky=tk.N+tk.S+tk.E+tk.W)
 
 red2Button = tk.Label(top, bg='red', fg='White', padx=10, pady=10,
-                      text = 'Placeholder')
+                      text = 'Placeholder', relief='groove')
 red2Button.grid(column=4, row=2, sticky=tk.N+tk.S+tk.E+tk.W)
 
-changeR2 = tk.Button(top, command = lambda: setDefenseValue(currentObstacles[5], 
+changeR2 = tk.Button(top, command = lambda: setDefenseValue('bob', currentObstacles[5], 
                                                             red2Button), 
                                                             text = 'Set')
 changeR2.grid(column = 5, row = 2, padx = 10)
@@ -216,17 +241,17 @@ red3Spot = tk.Label(top, relief='groove',
 red3Spot.grid(column=4, row=3, sticky=tk.N+tk.S+tk.E+tk.W)
 
 red4Button = tk.Label(top, bg='red', fg='White', padx=10, pady=10,
-                        text = 'Placeholder' )
+                        text = 'Placeholder', relief='groove' )
 red4Button.grid(column=4, row=4, sticky=tk.N+tk.S+tk.E+tk.W)
-changeR4 = tk.Button(top, command = lambda: setDefenseValue(currentObstacles[6], 
+changeR4 = tk.Button(top, command = lambda: setDefenseValue('bob', currentObstacles[6], 
                                                             red4Button), 
                                                             text = 'Set')
 changeR4.grid(column = 5, row = 4, padx = 10)
 
 red5Button = tk.Label(top, bg='red', fg='White', padx=10, pady=10,
-                        text = 'Placeholder' )
+                        text = 'Placeholder', relief='groove' )
 red5Button.grid(column=4, row=5, sticky=tk.N+tk.S+tk.E+tk.W)
-changeR5 = tk.Button(top, command = lambda: setDefenseValue(currentObstacles[7], 
+changeR5 = tk.Button(top, command = lambda: setDefenseValue('bob', currentObstacles[7], 
                                                             red5Button), 
                                                             text = 'Set')
 changeR5.grid(column = 5, row = 5, padx = 10)
