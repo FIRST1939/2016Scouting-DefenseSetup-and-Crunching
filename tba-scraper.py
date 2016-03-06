@@ -23,7 +23,8 @@ DEFENSES = ['A_Portcullis','A_ChevalDeFrise','B_Ramparts','B_Moat',
             'E_LowBar', 'NotSpecified']    
             
 DONE = ['scmb','casd','mndu','mndu2','onto2','mike2','misou','mista','miwat',
-        'waamv','waspo','ctwat','ncmcl','nhgrs','njfla','pahat','vahay']
+        'waamv','waspo','ctwat','ncmcl','nhgrs','njfla','pahat','vahay'
+        ]
               
 def get_request(fullurl):
     request = urllib.request.Request(fullurl, headers = REQHEADERS)
@@ -129,12 +130,10 @@ def analyze_matches(event, year=2016):
        
     return (dpositions, dcrossed)    
  
-def crosser(event, year=2016, write=None):
+def defposit(positions, event, year=2016, write=None):
     '''
-    Take crossing data for an event, and determine times in each position
+    Determine times each defense is in each position at an event
     '''
-    
-    positions, crossings = analyze_matches(event, year)
     
     dpos = {}
     cksum = [0,0,0,0]
@@ -143,7 +142,7 @@ def crosser(event, year=2016, write=None):
         filename = open(write, mode='a')
 
     for defense in DEFENSES:
-        if defense not in crossings:
+        if defense not in positions:
             continue
         if defense not in dpos:
             dpos[defense] = [0,0,0,0,0]
@@ -167,17 +166,57 @@ def crosser(event, year=2016, write=None):
             else:
                 print(defense, 'Category not found')
                 
-        if write:
+        if write != None:
             outtext = event + ',' +defense + ',' + str(dpos[defense]).strip('[]') + '\n'
             filename.write(outtext)
     
-    if write:
+    if write != None:
         filename.close()
             
-    pprint(dpos)
+    #pprint(dpos)
     print('Category checksums', cksum)
     
+def defcrossings(crossings, positions, event, write=None)            :
+    '''
+    Take crossing data for an event, and determine defense durability
+    '''
+    print('\nEvaluating Crossings\n')
+    dcross = {}
+    dbreach = {}
+    
+    if write != None:
+        filename = open(write, mode='a')    
+    
+    for defense in DEFENSES:
+        if defense not in crossings:
+            continue
+        
+        if defense not in dcross:
+            dcross[defense] = [0,0,0,0,0]
+            dbreach[defense] = [0,0,0,0,0]
             
+        if defense == 'E_LowBar':
+            for i in range(len(crossings[defense])):
+                dcross[defense][0] += crossings[defense][i]
+                if crossings[defense][i] == 2:
+                    dbreach[defense][0] += 1
+        else:
+            assert len(crossings[defense]) == len(positions[defense])
+            for i in range(len(crossings[defense])):
+                pos = int(positions[defense][i]) - 1
+                dcross[defense][pos] += crossings[defense][i]
+                if crossings[defense][i] == 2:
+                    dbreach[defense][pos] += 1
+        print(defense, dcross[defense])
+
+        if write != None:
+            outtext = event + ',crossing,' +defense + ',' + str(dcross[defense]).strip('[]') + '\n'
+            filename.write(outtext)
+            outtext = event + ',breach,' +defense + ',' + str(dbreach[defense]).strip('[]') + '\n'
+            filename.write(outtext)
+    
+    if write != None:
+        filename.close()
         
 def quickevents():        
     eventlist = get_event_list()
@@ -186,10 +225,15 @@ def quickevents():
         print(event['short_name'], event['event_code'])
         
         
-writefile = fd.asksaveasfilename(title='Save defense usage')        
+#writefile = fd.asksaveasfilename(title='Save defense usage')      
+crossfile = fd.asksaveasfilename(title='Save crossing success')      
+  
 for thing in DONE:
-
-    crosser(thing, write=writefile)
+    positions, crossings = analyze_matches(thing)
+    #defposit(positions, thing, write=writefile)
+    defposit(positions, thing)
+    #defcrossings(crossings, positions, thing)
+    defcrossings(crossings, positions, thing, write=crossfile)
         
         
         
