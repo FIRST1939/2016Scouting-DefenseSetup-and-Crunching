@@ -64,6 +64,7 @@ def saveCurrentMatch(matchData, filename):
     file=open(filename, mode='a')
     file.write(outstr)
     file.close()
+    validSave.config(text='Saved match '+str(outlist[0]), fg='green')
 
 def setDefenseValue(value, targetvar, targetLabel, secondLabel=None):
     '''(stringvar) -> None
@@ -76,6 +77,9 @@ def setDefenseValue(value, targetvar, targetLabel, secondLabel=None):
 
     if secondLabel != None:
         secondLabel.config(text=targetvar.get())
+
+    validSave.config(text='Needs Save', fg='#ff1212')
+
 
 def setSaveFile(filename, matchnum, matchLabel):
     '''(tk.StringVar, tk.IntVar)-> Nonetype
@@ -449,6 +453,9 @@ changeR5.menu.add_radiobutton(label=DEFENSES[7],
                                                                 currentObstacles[7], 
                                                                 red5Button))
 
+validSave = tk.Label(top, text = 'Unsaved', fg='#ff1212', padx=7, pady=5,
+                     font=('Helvetica','10'))
+validSave.grid(column=6, row=5)
 
 # Runs the application
 app.mainloop()
