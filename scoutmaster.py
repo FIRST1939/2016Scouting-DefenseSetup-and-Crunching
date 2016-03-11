@@ -69,10 +69,37 @@ DEFENSES = ['A_Portcullis','A_ChevalDeFrise','B_Ramparts','B_Moat',
             'C_Drawbridge','C_SallyPort','D_RoughTerrain', 'D_RockWall',
             'E_LowBar', 'NotSpecified']  
             
+from pprint import pprint
+            
 def getData():
     '''
     Pulls data from match schedule, defense tracker, and match scouting files.
     '''
+    from tkinter import filedialog
+    
+    defensefilename = filedialog.askopenfilename(title='Defense File')
+    defensefile = open(defensefilename, newline = '')
+    #defensereader = csv.reader(defensefile, delimiter = ',')
+    
+    #defenses = []
+    #for row in defensereader:
+    #    defenses.append(row)
+     
+    defensestr = defensefile.readlines()
+    defensefile.close()
+    defenses = []
+    
+    for line in defensestr:        
+        defenses.append(line.replace(' ','').replace('\'','').rstrip('\r\n').split(sep=','))
+        
+    
+    scoutfilename = filedialog.askopenfilename(title='Scout File')
+    
+    
+    
+    
+    
+    
     pass
 
 def comboResult():

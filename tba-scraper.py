@@ -91,6 +91,14 @@ def get_event_stats(event, year=2016):
     print(fullurl)
     result = get_request(fullurl)
     return result    
+    
+def get_event_awards(event, year=2016):
+    # www.thebluealliance.com/api/v2/event/<event key>/awards
+    event_key = str(year) + event
+    fullurl = URL + 'event/' + event_key + '/awards'
+    print(fullurl)
+    result = get_request(fullurl)
+    return result    
 
 def analyze_matches(event, year=2016):
     '''
@@ -224,22 +232,89 @@ def quickevents():
     for event in eventlist:
         print(event['short_name'], event['event_code'])
         
-        
-#writefile = fd.asksaveasfilename(title='Save defense usage')      
-crossfile = fd.asksaveasfilename(title='Save crossing success')      
+
+def weekanalysis():
+    writefile = fd.asksaveasfilename(title='Save defense usage')      
+    crossfile = fd.asksaveasfilename(title='Save crossing success')      
   
-for thing in DONE:
-    positions, crossings = analyze_matches(thing)
-    #defposit(positions, thing, write=writefile)
-    defposit(positions, thing)
-    #defcrossings(crossings, positions, thing)
-    defcrossings(crossings, positions, thing, write=crossfile)
+    for thing in DONE:
+        positions, crossings = analyze_matches(thing)
+        defposit(positions, thing, write=writefile)
+        defposit(positions, thing)
+        defcrossings(crossings, positions, thing)
+        defcrossings(crossings, positions, thing, write=crossfile)
         
+def andy(event='mokc'):
+    teamdetails = get_event_teams(event)
+    #print(teamdetails[0])
+    teamlist=[]
+    nicks= {}
+    
+    for team in teamdetails:
+        teamlist.append(team['team_number'])
+        nicks[team['team_number']] = team['nickname']
         
+    teamlist.sort()
+    print(teamlist)
+
+    teamhistory=[]
+    team2016=[]
+    team2015=[]
+    teamawards={}
+
+    for team in teamlist:
+        history = get_team_history(team)
+        teamhistory.append(history)
+        thisyear = []
+        lastyear = []
+        for event in history:
+            if event['end_date'][0:4] == '2016':
+                #pprint(event)
+                thisyear.append(event)
+            elif event['end_date'][0:4] == '2015':
+                #pprint(event)
+                lastyear.append(event)
+
+        thisyearshort = []
+        thisyearshort.append((team, nicks[team]))
+        lastyearshort = []
+        for event in thisyear:
+            summary = {'name': event['name'], 'start_date': event['start_date'],
+                       'key': event['key']}
+            thisyearshort.append(summary)
+
+        for event in lastyear:
+            summary = {'name': event['name'], 'start_date': event['start_date'],
+                       'key': event['key']}
+            lastyearshort.append(summary)
         
+        team2016.append({team: thisyearshort})
+        team2015.append({team: lastyearshort})
+
+        awards = get_award_history(team)
+        #pprint(awards)
+        shortawards = {}
+        for award in awards:
+            if award['event_key'] not in shortawards:            
+                shortawards[award['event_key']] = []
+            shortawards[award['event_key']].append(award['name'])
+        teamawards[team] = shortawards
         
-        
-        
-        
-        
-        
+   # writefile = fd.asksaveasfile(title='Save Andy\'s stuff', mode = 'w')   
+   # writefile.write('\n2016 events:\n')
+   # writefile.write(str(team2016))
+   # writefile.write('\n\nAward histories\n')
+   # writefile.write(str(teamawards))
+                                        
+    print('\n2016 events:')
+    pprint(team2016)
+    print('\nAward histories')
+    pprint(teamawards)
+    
+    print('\nKC 2015 Awards')
+    pprint(get_event_awards(event, 2015))
+    
+    
+    
+    
+    
