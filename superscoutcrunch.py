@@ -44,7 +44,10 @@ def adddefense(team, teamfeatures, defense, count):
 from pprint import pprint
 
 # For my computer - change to your file location if otherwise located
-datafilename = 'C:\\Users\\stat\\Documents\\GitHub\\2016Scouting-DefenseSetup-and-Crunching\\KC Data\\v8 match data - kc friday.csv'
+#datafilename = 'C:\\Users\\stat\\Documents\\GitHub\\2016Scouting-DefenseSetup-and-Crunching\\KC Data\\v8 match data - kc friday.csv'
+from tkinter import filedialog
+
+datafilename = filedialog.askopenfile(mode = 'r', title = 'Select Data File')
 
 datafile = open(datafilename, mode='r')
 
