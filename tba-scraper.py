@@ -8,6 +8,7 @@ import urllib.request
 import json
 from pprint import pprint
 from tkinter import filedialog as fd
+import csv
 
 URL = 'http://www.thebluealliance.com/api/v2/'
 
@@ -84,6 +85,12 @@ def get_event_matches(event, year=2016):
     result = get_request(fullurl)
     return result
     
+def get_one_match(key):
+    fullurl = URL + 'match/' + key
+    print(fullurl)
+    result = get_request(fullurl)
+    return result
+    
 def get_event_stats(event, year=2016):
     #OPR, DPR, CCWM
     event_key = str(year) + event
@@ -100,6 +107,36 @@ def get_event_awards(event, year=2016):
     result = get_request(fullurl)
     return result    
 
+def getauto(match):
+    '''(dict) -> list of int
+    
+    Takes the dict of one match result and returns a list containing the 
+    autonomous instances of 
+    [scored high boulders, scored low boulders, crossings, reaches]
+    
+    For error-checking, crossings + reaches must be no greater than 6
+    '''
+
+    high = 0
+    low = 0
+    cross = 0
+    reach = 0
+    
+    for al in ('red', 'blue'):
+        high += match['score_breakdown'][al]['autoBouldersHigh']
+        low += match['score_breakdown'][al]['autoBouldersLow']
+        for bot in ['robot1Auto', 'robot2Auto', 'robot3Auto']:
+            if match['score_breakdown'][al][bot] == 'Crossed':
+                cross += 1
+            elif match['score_breakdown'][al][bot] == 'Reached':
+                reach += 1
+    
+    assert (cross + reach) <= 6
+        
+    return [match['key'], high, low, cross, reach]        
+    
+
+
 def analyze_matches(event, year=2016):
     '''
     Take match data for event and find things
@@ -115,12 +152,23 @@ def analyze_matches(event, year=2016):
     #pprint(data[0])
     dcrossed={}
     dpositions={}
+    autokey = []
+    autohigh=[]
+    autolow=[]
+    autocross=[]
+    autoreach=[]
+    
+    if len(data) == 0:
+        print('\nSomething is horribly wrong with', event, year)
+        autovectors = {}
     
     for match in data:
+      
         if match['alliances']['blue']['score'] == -1:
             #print('Defect in',match['match_number'])
             continue
         for alliance in ['red', 'blue']:
+            #Do the defenses
             if 'E_LowBar' not in dcrossed:
                 dcrossed['E_LowBar'] = []
             dcrossed['E_LowBar'].append(match['score_breakdown'][alliance]['position1crossings'])
@@ -135,10 +183,21 @@ def analyze_matches(event, year=2016):
                 
                 if d == 'NotSpecified':
                     print('Missing Defense Info:', match['match_number'], alliance, pos)
-       
-    return (dpositions, dcrossed)    
+            
+        # Do auton
+        autons = getauto(match)
+        autokey.append(autons[0])
+        autohigh.append(autons[1])
+        autolow.append(autons[2])
+        autocross.append(autons[3])
+        autoreach.append(autons[4])
+        
+    autovectors = {'keys': autokey, 'high': autohigh, 'low': autolow,
+                   'cross': autocross, 'reach': autoreach}
+        
+    return (dpositions, dcrossed, autovectors)    
  
-def defposit(positions, event, year=2016, write=None):
+def defposit(positions, event, week, year=2016, write=None):
     '''
     Determine times each defense is in each position at an event
     '''
@@ -162,7 +221,7 @@ def defposit(positions, event, year=2016, write=None):
             total = 0
             for i in dpos[defense]:
                 total += i
-            print(defense, total)
+            #print(defense, total)
             if defense[0] == 'A':
                 cksum[0] += total
             elif defense[0] == 'B':
@@ -175,7 +234,7 @@ def defposit(positions, event, year=2016, write=None):
                 print(defense, 'Category not found')
                 
         if write != None:
-            outtext = event + ',' +defense + ',' + str(dpos[defense]).strip('[]') + '\n'
+            outtext = week + ',' + event + ',usage,' +defense + ',' + str(dpos[defense]).strip('[]') + '\n'
             filename.write(outtext)
     
     if write != None:
@@ -184,7 +243,7 @@ def defposit(positions, event, year=2016, write=None):
     #pprint(dpos)
     print('Category checksums', cksum)
     
-def defcrossings(crossings, positions, event, write=None)            :
+def defcrossings(crossings, positions, event, week, write=None)            :
     '''
     Take crossing data for an event, and determine defense durability
     '''
@@ -215,12 +274,12 @@ def defcrossings(crossings, positions, event, write=None)            :
                 dcross[defense][pos] += crossings[defense][i]
                 if crossings[defense][i] == 2:
                     dbreach[defense][pos] += 1
-        print(defense, dcross[defense])
+        #print(defense, dcross[defense])
 
         if write != None:
-            outtext = event + ',crossing,' +defense + ',' + str(dcross[defense]).strip('[]') + '\n'
+            outtext = week + ',' + event + ',crossing,' +defense + ',' + str(dcross[defense]).strip('[]') + '\n'
             filename.write(outtext)
-            outtext = event + ',breach,' +defense + ',' + str(dbreach[defense]).strip('[]') + '\n'
+            outtext = week + ',' + event + ',breach,' +defense + ',' + str(dbreach[defense]).strip('[]') + '\n'
             filename.write(outtext)
     
     if write != None:
@@ -228,21 +287,69 @@ def defcrossings(crossings, positions, event, write=None)            :
         
 def quickevents():        
     eventlist = get_event_list()
-    
-    for event in eventlist:
-        print(event['short_name'], event['event_code'])
+    outfilename = '2016 Events.csv'
+    outkeys = ['name', 'event_code', 'start_date', 'end_date',
+               'event_type_string']
+               
+    with open(outfilename, 'w', newline='') as outfile:
+        outwriter = csv.writer(outfile, delimiter='|')
         
-
-def weekanalysis():
+        outwriter.writerow(outkeys)
+    
+        for event in eventlist:
+            print(event['short_name'], event['event_code'], event['start_date'])
+            outwriter.writerow([event['name'], event['event_code'],
+                               event['start_date'], event['end_date'],
+                               event['event_type_string']])
+        
+def autofun(autons, event, week, outfile=None):
+    '''(dict of lists of int, str, str)--> None
+    
+    Take the lists of auton performance, clean up and append a parseable file.
+    '''
+    import os.path
+    
+    
+    
+    if outfile != None:
+        if not os.path.isfile(outfile):
+            #print headers
+            file = open(outfile, 'w')
+            file.write('Week,Event,Match,High,Low,Crossing,Reach\n')
+            file.close()
+    
+        file = open(outfile, 'a')
+        for i in range(len(autons['keys'])):
+            goals = [str(autons['high'][i]),str(autons['low'][i]),
+                     str(autons['cross'][i]),str(autons['reach'][i])]
+            line = event + ',' + week + ',' + str(autons['keys'][i])
+            line = line + ',' + str(goals).strip('[]') +'\n'
+            file.write(line)
+        file.close
+        
+    
+    
+def weekanalysis(week):
     writefile = fd.asksaveasfilename(title='Save defense usage')      
-    crossfile = fd.asksaveasfilename(title='Save crossing success')      
+    autofile = fd.asksaveasfilename(title='Save auton success')      
+    
+    eventfilename = fd.askopenfilename(title='Event List')
+    
+    weekevents = []
+    
+    with open(eventfilename, mode='r', newline='') as eventfile:
+        eventreader = csv.reader(eventfile, delimiter='|')
+        for row in eventreader:
+            if row[5] == str(week):
+                weekevents.append(row[1])
   
-    for thing in DONE:
-        positions, crossings = analyze_matches(thing)
-        defposit(positions, thing, write=writefile)
-        defposit(positions, thing)
-        defcrossings(crossings, positions, thing)
-        defcrossings(crossings, positions, thing, write=crossfile)
+    for item in weekevents:
+        positions, crossings, autons = analyze_matches(item)
+        defposit(positions, item, str(week), write=writefile)
+        defcrossings(crossings, positions, item, str(week), write=writefile)
+        autofun(autons, item, str(week), autofile)
+        
+    print('\nAll Done Now\n')
         
 def andy(event='mokc'):
     teamdetails = get_event_teams(event)
@@ -311,7 +418,7 @@ def andy(event='mokc'):
     print('\nAward histories')
     pprint(teamawards)
     
-    print('\nKC 2015 Awards')
+    print('\n', event ,'2015 Awards')
     pprint(get_event_awards(event, 2015))
     
     
