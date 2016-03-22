@@ -9,6 +9,7 @@ import json
 from pprint import pprint
 from tkinter import filedialog as fd
 import csv
+import os.path
 
 URL = 'http://www.thebluealliance.com/api/v2/'
 
@@ -135,7 +136,66 @@ def getauto(match):
         
     return [match['key'], high, low, cross, reach]        
     
+def gettele(match):
+    '''(dict) -> list of int
+    
+    Takes the match dictionary and returns a list of these teleop scores:
+    [high goals, low goals, robots challenging, robots scaling,
+     number of breaches, number of towers captured]
+   
+    '''
+    
+    high = 0
+    low = 0
+    chal = 0
+    scale = 0
+    breach = 0
+    cap = 0
+    
+    sb = match['score_breakdown']
+    
+    for al in ('red', 'blue'):
+        high += sb[al]['teleopBouldersHigh']
+        low += sb[al]['teleopBouldersLow']
 
+        for face in ('towerFaceA', 'towerFaceB', 'towerFaceC'):
+            if sb[al][face] == 'Challenged':
+                chal += 1
+            elif sb[al][face] == 'Scaled':
+                scale += 1
+        
+        if sb[al]['teleopDefensesBreached']:
+            breach += 1
+        
+        if sb[al]['teleopTowerCaptured']:
+            cap += 1
+            
+    assert (scale + chal) <= 6
+
+    return [high, low, chal, scale, breach, cap]
+    
+def getcode(keys):
+    '''(list of str)-> list of str
+    
+    Takes match keys like '2016vahay_f1m1' and '2016mokc_f1m3', and returns a
+    list coding the match type.
+    
+    'qm' Qualifying Match
+    'qf' Quarterfinals
+    'sf' Semifinals
+    'f1' Finals
+    '''
+    
+    outlist = []
+    
+    for item in keys:
+        idx = item.find('_') + 1
+        mt = item[idx:idx+2]
+        
+        outlist.append(mt)
+    
+    return outlist
+    
 
 def analyze_matches(event, year=2016):
     '''
@@ -157,6 +217,13 @@ def analyze_matches(event, year=2016):
     autolow=[]
     autocross=[]
     autoreach=[]
+    thigh=[]
+    tlow=[]
+    tchallenge=[]
+    tscale=[]
+    tbreachct=[]
+    tcapct=[]
+    
     
     if len(data) == 0:
         print('\nSomething is horribly wrong with', event, year)
@@ -192,13 +259,30 @@ def analyze_matches(event, year=2016):
         autolow.append(autons[2])
         autocross.append(autons[3])
         autoreach.append(autons[4])
+
         
         # Do Teleop
+        teles = gettele(match)
+        thigh.append(teles[0])
+        tlow.append(teles[1])
+        tchallenge.append(teles[2])
+        tscale.append(teles[3])
+        tbreachct.append(teles[4])
+        tcapct.append(teles[5])
+
+
+    matchtype = getcode(keys)
+
         
-    autovectors = {'keys': keys, 'high': autohigh, 'low': autolow,
+        
+    autovectors = {'keys': keys, 'mt': matchtype,
+                   'high': autohigh, 'low': autolow,
                    'cross': autocross, 'reach': autoreach}
     
-    televectors = {}
+    televectors = {'keys': keys, 'mt': matchtype,
+                   'high': thigh, 'low': tlow,
+                   'challenges': tchallenge, 'scales': tscale,
+                   'breaches': tbreachct, 'captures': tcapct}
         
     return (dpositions, dcrossed, autovectors, televectors)    
  
@@ -312,33 +396,62 @@ def autofun(autons, event, week, outfile=None):
     
     Take the lists of auton performance, clean up and append a parseable file.
     '''
-    import os.path
-    
-    
     
     if outfile != None:
         if not os.path.isfile(outfile):
             #print headers
             file = open(outfile, 'w')
-            file.write('Week,Event,Match,High,Low,Crossing,Reach\n')
+            file.write('Week,Event,Match,Type,High,Low,Crossing,Reach\n')
             file.close()
     
         file = open(outfile, 'a')
         for i in range(len(autons['keys'])):
             goals = [str(autons['high'][i]),str(autons['low'][i]),
                      str(autons['cross'][i]),str(autons['reach'][i])]
-            line = week + ',' + event + ',' + str(autons['keys'][i])
+            line = week + ',' + event + ',' 
+            line = line + autons['keys'][i] + ',' + autons['mt'][i]
             line = line + ',' + str(goals).strip('[]') +'\n'
+            line = line.replace('\'','')
             file.write(line)
         file.close
         
+def dumptele(teles, event, week, outfile=None):
+    '''(dict of lists of int, str, str)--> None
     
+    Take the lists of teleop performance, clean up and append a parseable file.
+    
+        televectors = {'keys': keys, 'mt': matchtype,
+                   'high': thigh, 'low': tlow,
+                   'challenges': tchallenge, 'scales': tscale,
+                   'breaches': tbreachct, 'captures': tcapct}
+    '''
+    if outfile != None:
+        if not os.path.isfile(outfile):
+            #print headers
+            file = open(outfile, 'w')
+            file.write('Week,Event,Match,Type,High,Low,Challenges,Scales,Breaches,Captures\n')
+            file.close()
+    
+        file = open(outfile, 'a')
+        for i in range(len(teles['keys'])):
+            goals = [str(teles['high'][i]),str(teles['low'][i]),
+                     str(teles['challenges'][i]),str(teles['scales'][i]),
+                     str(teles['breaches'][i]),str(teles['captures'][i])]
+            line = week + ',' + event + ','
+            line = line + teles['keys'][i] + ',' + teles['mt'][i]
+            line = line + ',' + str(goals).strip('[]') +'\n'
+            line = line.replace('\'','')
+            file.write(line)
+        file.close
     
 def weekanalysis(week):
-    writefile = fd.asksaveasfilename(title='Save defense usage')      
-    autofile = fd.asksaveasfilename(title='Save auton success')      
-    
     eventfilename = fd.askopenfilename(title='Event List')
+
+    writefile = fd.asksaveasfilename(title='Base Output Filename')  
+
+    deffile = writefile + '-def.csv'
+    autofile = writefile + '-auto.csv'
+    telefile = writefile + '-tele.csv'
     
     weekevents = []
     
@@ -350,9 +463,10 @@ def weekanalysis(week):
   
     for item in weekevents:
         positions, crossings, autons, teleops = analyze_matches(item)
-        defposit(positions, item, str(week), write=writefile)
-        defcrossings(crossings, positions, item, str(week), write=writefile)
+        defposit(positions, item, str(week), write=deffile)
+        defcrossings(crossings, positions, item, str(week), write=deffile)
         autofun(autons, item, str(week), autofile)
+        dumptele(teleops, item, str(week), telefile)
         
     print('\nAll Done Now\n')
         
