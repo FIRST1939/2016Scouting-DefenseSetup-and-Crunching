@@ -1,0 +1,43 @@
+---
+title: "2016 TBA Match Data Analysis"
+author: "Victoria Cook"
+date: "March 21, 2016"
+output: html_document
+---
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+This document is an analysis of the match result data available on thebluealliance.com for the 2016 FIRST Robotics Competition Game: Stronghold
+
+```{r, echo=FALSE}
+setwd("C:/Users/stat/Documents/GitHub/2016Scouting-DefenseSetup-and-Crunching/General Analysis")
+
+library(ggplot2)
+
+auton <- read.csv('data through week 3-auto.csv', header = T, 
+                     row.names = NULL, check.names = F)
+
+tele <- read.csv('data through week 3-tele.csv', header = T, 
+                     row.names = NULL, check.names = F)
+
+defense <- read.csv('data through week 3-def.csv', header = T, 
+                     row.names = NULL, check.names = F)
+```
+
+## Autonomous Mode
+
+Let's start by taking a look at the autonomous data
+
+```{r}
+names(auton)
+summary(auton)
+
+by(auton$Crossing, auton$Week, summary)
+
+qplot(x=Crossing, data=auton, binwidth=.5) +
+  facet_wrap(~Week)
+
+qplot(x=Crossing, data=auton, binwidth=.5) +
+  facet_wrap(~Type)
+```
+
