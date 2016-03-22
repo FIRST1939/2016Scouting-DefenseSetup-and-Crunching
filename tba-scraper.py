@@ -152,7 +152,7 @@ def analyze_matches(event, year=2016):
     #pprint(data[0])
     dcrossed={}
     dpositions={}
-    autokey = []
+    keys = []
     autohigh=[]
     autolow=[]
     autocross=[]
@@ -161,6 +161,7 @@ def analyze_matches(event, year=2016):
     if len(data) == 0:
         print('\nSomething is horribly wrong with', event, year)
         autovectors = {}
+        televectors = {}
     
     for match in data:
       
@@ -186,16 +187,20 @@ def analyze_matches(event, year=2016):
             
         # Do auton
         autons = getauto(match)
-        autokey.append(autons[0])
+        keys.append(autons[0])
         autohigh.append(autons[1])
         autolow.append(autons[2])
         autocross.append(autons[3])
         autoreach.append(autons[4])
         
-    autovectors = {'keys': autokey, 'high': autohigh, 'low': autolow,
-                   'cross': autocross, 'reach': autoreach}
+        # Do Teleop
         
-    return (dpositions, dcrossed, autovectors)    
+    autovectors = {'keys': keys, 'high': autohigh, 'low': autolow,
+                   'cross': autocross, 'reach': autoreach}
+    
+    televectors = {}
+        
+    return (dpositions, dcrossed, autovectors, televectors)    
  
 def defposit(positions, event, week, year=2016, write=None):
     '''
@@ -322,7 +327,7 @@ def autofun(autons, event, week, outfile=None):
         for i in range(len(autons['keys'])):
             goals = [str(autons['high'][i]),str(autons['low'][i]),
                      str(autons['cross'][i]),str(autons['reach'][i])]
-            line = event + ',' + week + ',' + str(autons['keys'][i])
+            line = week + ',' + event + ',' + str(autons['keys'][i])
             line = line + ',' + str(goals).strip('[]') +'\n'
             file.write(line)
         file.close
@@ -344,7 +349,7 @@ def weekanalysis(week):
                 weekevents.append(row[1])
   
     for item in weekevents:
-        positions, crossings, autons = analyze_matches(item)
+        positions, crossings, autons, teleops = analyze_matches(item)
         defposit(positions, item, str(week), write=writefile)
         defcrossings(crossings, positions, item, str(week), write=writefile)
         autofun(autons, item, str(week), autofile)
