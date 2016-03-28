@@ -540,6 +540,49 @@ def andy(event='mokc'):
     print('\n', event ,'2015 Awards')
     pprint(get_event_awards(event, 2015))
     
+def tba2016DefPosition(event):
+    '''(str) -> None
+    Makes a defense position file in the same format as the DefenseTracker
+    code using TBA data.
+    '''
+    matchlist = get_event_matches(event)
+    
+    outlist = []
+    
+    for match in matchlist:
+        #Match#,Zone3Shared,Blue2,Blue4,Blue5,Red2,Red4,Red5
+        if match['comp_level'] != 'qm':
+            print(match['comp_level'])
+        else:
+            
+            temp = []
+        
+            temp.append(match['match_number'])
+            
+            assert match['score_breakdown']['blue']['position3'] == match['score_breakdown']['red']['position3']
+            
+            temp.append(match['score_breakdown']['blue']['position3'])
+            temp.append(match['score_breakdown']['blue']['position2'])
+            temp.append(match['score_breakdown']['blue']['position4'])
+            temp.append(match['score_breakdown']['blue']['position5'])
+            temp.append(match['score_breakdown']['red']['position2'])
+            temp.append(match['score_breakdown']['red']['position4'])
+            temp.append(match['score_breakdown']['red']['position5'])
+            
+            print(str(temp))
+            outlist.append(temp)    
+    
+    writefile = fd.asksaveasfile(title='Base Output Filename',
+                                     initialfile='tba-'+event+'defenses.csv')  
+        
+    writefile.write('Match#,Zone3Shared,Blue2,Blue4,Blue5,Red2,Red4,Red5\n')
+    for line in outlist:
+        outstr = str(line)+'\n'
+            
+        outstr=outstr.replace('[','').replace(']','')
+        writefile.write(outstr)
+            
+    writefile.close()
     
     
     

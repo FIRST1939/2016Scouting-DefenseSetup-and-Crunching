@@ -13,6 +13,8 @@ This document is an analysis of the match result data available on theblueallian
 setwd("C:/Users/stat/Documents/GitHub/2016Scouting-DefenseSetup-and-Crunching/General Analysis")
 
 library(ggplot2)
+require(scales)
+library(plyr)
 
 auton <- read.csv('data through week 3-auto.csv', header = T, 
                      row.names = NULL, check.names = F)
@@ -34,10 +36,32 @@ summary(auton)
 
 by(auton$Crossing, auton$Week, summary)
 
-qplot(x=Crossing, data=auton, binwidth=.5) +
-  facet_wrap(~Week)
+by(auton$Crossing + auton$Reach, auton$Week, summary)
 
 qplot(x=Crossing, data=auton, binwidth=.5) +
-  facet_wrap(~Type)
+  facet_wrap(~Week, ncol=1) +
+  scale_y_continuous(label=percent)
+
+qplot(x=Crossing, data=auton, binwidth=.5) +
+  facet_wrap(~Type, ncol=1) +
+  scale_y_continuous(label=percent)
+
+ggplot(auton, aes(Crossing)) +
+  geom_histogram(binwidth=.5, color='Blue', fill='Blue') +
+  facet_grid(Type ~ Week, scales="free_y") +
+  scale_y_continuous(label=percent)
+
+automove <-ddply(auton, c("Week", "Event", "Type"), summarize,
+                 N = length(Crossing + Reach),
+                 min = min(Crossing + Reach),
+                 mean = mean(Crossing + Reach),
+                 median = median(Crossing + Reach),
+                 max = max(Crossing + Reach),
+                 sd = sd(Crossing + Reach))
+
+summary(automove)
+
+ggplot(automove, aes(Type, mean)) +
+  geom_boxplot(color="#099DD9")
 ```
 
