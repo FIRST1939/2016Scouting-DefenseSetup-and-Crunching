@@ -584,6 +584,57 @@ def tba2016DefPosition(event):
             
     writefile.close()
     
+def scoutMatchList(event):
+    '''(str) -> None
+    
+    Pulls the match list from TBA and formats it in a way that will be helpful
+    in analyzing the scout data
+    '''
+    outfilename='scoutmaster-matches-'+event+'.csv'
+    
+    prepfilename='system-matches'+event+'.csv'
+    
+    biglist = []
+    biglist.append(['Match','Alliance','Team'])
     
     
+    scoutlist = []
     
+    matchlist = get_event_matches(event)
+    
+    for match in matchlist:
+        if match['comp_level'] == 'qm':
+            temp = []
+        
+            matchnum = match['match_number']
+            blues = match['alliances']['blue']['teams']
+            reds = match['alliances']['red']['teams']
+                            
+            for team in reds:
+                entry = [matchnum, 'red', team[3:]]
+                biglist.append(entry)
+                temp.append(team[3:])
+                
+            for team in blues:
+                entry = [matchnum, 'blue', team[3:]]
+                biglist.append(entry)
+                temp.append(team[3:])
+                
+            scoutlist.append(temp)
+
+    
+    outfile = open(outfilename,mode='w')
+    
+    for line in biglist:
+        outstr = str(line).replace('\'','').replace(' ','').strip('[]') + '\n'
+        outfile.write(outstr)
+        
+    outfile.close()
+    
+    prepfile = open(prepfilename,mode='w')
+    
+    for line in scoutlist:
+        outstr = str(line).replace('\'','').replace(' ','').strip('[]') + ',\n'
+        prepfile.write(outstr)
+        
+    prepfile.close()
