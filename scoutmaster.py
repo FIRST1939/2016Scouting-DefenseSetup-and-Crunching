@@ -104,11 +104,69 @@ def getData():
     
 def calcValues(df):
     
+    # If any of the autonomous crossings have a positive value, score a crossing    
+    
+    
     df['AutoCross'] = np.logical_or(              np.logical_or(np.greater(df.AutoD1Cross, 0),
                                                                 np.greater(df.AutoD2Cross, 0)),
                                     np.logical_or(np.logical_or(np.greater(df.AutoD3Cross, 0),
                                                                 np.greater(df.AutoD4Cross, 0)),
                                                   np.greater(df.AutoD5Cross, 0)))
+
+    df['AutoReach'] = np.logical_or(              np.logical_or(np.greater(df.AutoD1Reach, 0),
+                                                                np.greater(df.AutoD2Reach, 0)),
+                                    np.logical_or(np.logical_or(np.greater(df.AutoD3Reach, 0),
+                                                                np.greater(df.AutoD4Reach, 0)),
+                                                  np.greater(df.AutoD5Reach, 0)))
+
+    # Multiply each scoring activity by its value and sum
+
+    autodf = pd.DataFrame({'AutoCross': df.AutoCross,
+                           'AutoReach': df.AutoReach,
+                           'AutoHighShotMade': df.AutoHighShotMade,
+                           'AutoLowShotMade': df.AutoLowShotMade})
+                          
+    autoscore = [10, 2, 10, 5]
+
+    df['AutoTotalPoints'] = np.dot(autodf, autoscore)
+    
+    # No more than two crossings per defense for scoring
+    
+    crosser = pd.DataFrame({'TeleOpD1Cross': np.clip(df.TeleOpD1Cross, 0, 2),
+                            'TeleOpD2Cross': np.clip(df.TeleOpD2Cross, 0, 2),
+                            'TeleOpD3Cross': np.clip(df.TeleOpD3Cross, 0, 2),
+                            'TeleOpD4Cross': np.clip(df.TeleOpD4Cross, 0, 2),
+                            'TeleOpD5Cross': np.clip(df.TeleOpD5Cross, 0, 2)})
+                            
+    df['TeleCross'] = np.dot(crosser,[1,1,1,1,1])
+    
+    df['TeleCrossRaw'] = np.add(np.add(np.add(np.add(df.TeleOpD1Cross, 
+                                                     df.TeleOpD2Cross), 
+                                                     df.TeleOpD3Cross), 
+                                                     df.TeleOpD4Cross), 
+                                                     df.TeleOpD5Cross)
+    
+    challenges = np.equal(df.ChallengeScale, 'Challlenged')
+    scales = np.equal(df.ChallengeScale, 'Scaled')
+    
+    teledf = pd.DataFrame({'Crossings': df.TeleCross,
+                           'HighShot': df.TeleOpHighShotMade,
+                           'LowShot': df.TeleOpLowShotMade,
+                           'Challenge': challenges,
+                           'Scale': scales})
+
+    telescore = [5, 5, 2, 5, 15]    
+
+    df['TeleOpTotalPoints'] = np.dot(teledf, telescore)
+    
+    
+    df['TotalPoints'] = np.add(df.AutoTotalPoints, df.TeleOpTotalPoints)
+    
+    print('\nMath Check\n')
+    
+    print(df.loc[:,['AutoTotalPoints', 'TeleOpTotalPoints', 'TotalPoints']].head())
+    print('\n')
+                        
 
     return df
 
