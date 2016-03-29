@@ -103,6 +103,11 @@ def getData():
     return(defenses, scoutdata, matchdata)
     
 def calcValues(df):
+    '''(pd.DataFrame) -> pd.DataFrame
+    
+    Takes the dataframe and calculates crossing and reach totals, then
+    recalculates auton and teleop scoring.
+    '''
     
     # If any of the autonomous crossings have a positive value, score a crossing    
     
@@ -125,10 +130,14 @@ def calcValues(df):
                            'AutoReach': df.AutoReach,
                            'AutoHighShotMade': df.AutoHighShotMade,
                            'AutoLowShotMade': df.AutoLowShotMade})
-                          
-    autoscore = [10, 2, 10, 5]
+                           
+    # This automatically alphabetizes to                            
+    # AutoCross  AutoHighShotMade  AutoLowShotMade AutoReach                           
+    autoscore = [10, 10, 5, 2]
 
     df['AutoTotalPoints'] = np.dot(autodf, autoscore)
+     
+    autodf['AutoTotalPoints'] = np.dot(autodf, autoscore)
     
     # No more than two crossings per defense for scoring
     
@@ -146,7 +155,7 @@ def calcValues(df):
                                                      df.TeleOpD4Cross), 
                                                      df.TeleOpD5Cross)
     
-    challenges = np.equal(df.ChallengeScale, 'Challlenged')
+    challenges = np.equal(df.ChallengeScale, 'Challenged')
     scales = np.equal(df.ChallengeScale, 'Scaled')
     
     teledf = pd.DataFrame({'Crossings': df.TeleCross,
@@ -155,16 +164,19 @@ def calcValues(df):
                            'Challenge': challenges,
                            'Scale': scales})
 
-    telescore = [5, 5, 2, 5, 15]    
+    #Challenge  Crossings  HighShot  LowShot  Scale
+    telescore = [5, 5, 5, 2, 15]    
 
     df['TeleOpTotalPoints'] = np.dot(teledf, telescore)
+    
+    teledf['TeleTotal'] = np.dot(teledf, telescore)
     
     
     df['TotalPoints'] = np.add(df.AutoTotalPoints, df.TeleOpTotalPoints)
     
     print('\nMath Check\n')
     
-    print(df.loc[:,['AutoTotalPoints', 'TeleOpTotalPoints', 'TotalPoints']].head())
+    print(teledf)
     print('\n')
                         
 
@@ -174,27 +186,7 @@ def calcValues(df):
 def comboResult(defenses, scoutdata, matchlist):
     '''(pd.DataFrame, pd.DataFrame) -> pd.DataFrame
     Combines match schedule, defense tracker, and match scouting data into a 
-    match result dictionary
-    
-    resultDict:
-        {team: [{match: lblmatch.Text,
-                 defense: {'A_Portcullis': [present?, autoCross, autoReach, teleCross, teleAtt],
-                           'A_ChevalDeFrise': [...],
-                      'B_Ramparts': [...],
-                      'B_Moat': [...],
-                      'C_Drawbridge': [...],
-                      'C_SallyPort': [...],
-                      'D_RoughTerrain': [...],
-                      'D_RockWall': [...],
-                      'E_LowBar': [...]},
-                 goals: {auto: [highMade, highAtt, lowMade, lowAtt],
-                    tele: [highMade, highAtt, lowMade, lowAtt]}
-                    endgame: [crossed?, scaled?],
-                 scoring:[auto, tele, total]},
-                {match...}],
-        team2: [{}]}
-        
-    Or does something like that in pandas
+    match result dataframe that is melted for easier analysis.
     '''
     print('Defenses:', defenses.columns, '\nData:', scoutdata.columns, '\nMatches:', matchlist.columns)
     
