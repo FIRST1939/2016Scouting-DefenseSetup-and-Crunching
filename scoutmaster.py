@@ -79,6 +79,7 @@ SCOUTHEADER = ['Team','AutoD1Cross','AutoD1Reach','AutoD2Cross','AutoD2Reach',
                
 from pprint import pprint
 import pandas as pd
+import numpy as np
 
             
 def getData():
@@ -101,6 +102,16 @@ def getData():
     
     return(defenses, scoutdata, matchdata)
     
+def calcValues(df):
+    
+    df['AutoCross'] = np.logical_or(              np.logical_or(np.greater(df.AutoD1Cross, 0),
+                                                                np.greater(df.AutoD2Cross, 0)),
+                                    np.logical_or(np.logical_or(np.greater(df.AutoD3Cross, 0),
+                                                                np.greater(df.AutoD4Cross, 0)),
+                                                  np.greater(df.AutoD5Cross, 0)))
+
+    return df
+
 
 def comboResult(defenses, scoutdata, matchlist):
     '''(pd.DataFrame, pd.DataFrame) -> pd.DataFrame
@@ -132,9 +143,13 @@ def comboResult(defenses, scoutdata, matchlist):
     bigdf = pd.merge(scoutdata, matchlist, on=('Match','Team'))
     
     print('\nJoined DataFrames:\n')
-    print(bigdf.head())
+
+    allcalc = calcValues(bigdf)
+
+                                       
+    print(allcalc.head())
     
-    flatterdf = pd.melt(bigdf, id_vars=['Match', 'Team', 'Alliance'], var_name='measurement')
+    flatterdf = pd.melt(allcalc, id_vars=['Match', 'Team', 'Alliance'], var_name='measurement')
     
     print('\nMelted DataFrames\n')
     print(flatterdf.head())
