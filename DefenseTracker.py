@@ -68,9 +68,9 @@ def saveCurrentMatch(matchData, filename):
     if len(validation) < 7:
         validSave.config(text='Incomplete config', fg='#ff1212')
         return
-    red = validation[0:4]
-    blue= [validation[0]]
-    blue.extend(validation[4:]) 
+    blue = validation[0:4]
+    red= [validation[0]]
+    red.extend(validation[4:]) 
     red.sort()
     blue.sort()
     
@@ -130,7 +130,7 @@ def setSaveFile(filename, matchnum, matchLabel):
     matchnum.set(1)                          
     matchLabel.config(text=matchnum.get())
     
-    file=open(savefile, mode='w')
+    file=open(savefile, mode='a')
     file.write('Match#,Zone3Shared,Blue2,Blue4,Blue5,Red2,Red4,Red5\n')
     file.close()
 
