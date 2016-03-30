@@ -87,7 +87,7 @@ def saveCurrentMatch(matchData, filename):
         return         
             
         
-    outstr = str(outlist).strip('[]')+'\n'
+    outstr = str(outlist).strip('[]').replace('\'','').replace(' ','')+'\n'
     
         
     #Increment match, save, and output message
@@ -131,7 +131,7 @@ def setSaveFile(filename, matchnum, matchLabel):
     matchLabel.config(text=matchnum.get())
     
     file=open(savefile, mode='a')
-    file.write('Match#,Zone3Shared,Blue2,Blue4,Blue5,Red2,Red4,Red5\n')
+    file.write('Match,Zone3Shared,Blue2,Blue4,Blue5,Red2,Red4,Red5\n')
     file.close()
 
 def RepresentsInt(s):
