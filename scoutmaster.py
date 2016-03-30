@@ -199,8 +199,8 @@ def patchDefenses(df, defenses):
     for item in df['measurement']:
         if item[0] == 'A' and item[5].isdigit():
             dloc.append(int(item[5]))
-        elif item[0] == 'T' and item[6].isdigit():
-            dloc.append(int(item[6]))
+        elif item[0] == 'T' and item[7].isdigit():
+            dloc.append(int(item[7]))
         else:
             dloc.append(None)
     
@@ -304,4 +304,4 @@ def quickrun():
     #comboResult(defenses, scoutdata, matchlist)
     crunchings = comboResult(df1, df2, df3)
     
-    crunchings.to_csv('kcmess')
+    crunchings.to_csv('kcmess.csv')
