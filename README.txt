@@ -2,9 +2,13 @@ This repo contains three major programs.
 
 DefenseTracker.py will have the code to track defenses throughout a regional for scouting.  
 
+	Requires: Python3
+
 Scoutmaster.py will have the code to combine the results file from DefenseTracker with the main Scouting system output file, and possibly results from pit scouting.
+	Requires: Python3, numpy, pandas
 
 TBA-scraper.py pulls data from TBA and does various things with it.
+	Requires: Python3
 
 Coding for Groups in all programs will match TBA's format:
 

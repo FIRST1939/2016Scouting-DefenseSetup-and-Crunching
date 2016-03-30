@@ -149,11 +149,7 @@ def calcValues(df):
                             
     df['TeleCross'] = np.dot(crosser,[1,1,1,1,1])
     
-    df['TeleCrossRaw'] = np.add(np.add(np.add(np.add(df.TeleOpD1Cross, 
-                                                     df.TeleOpD2Cross), 
-                                                     df.TeleOpD3Cross), 
-                                                     df.TeleOpD4Cross), 
-                                                     df.TeleOpD5Cross)
+    df['TeleCrossRaw'] = df['TeleOpD1Cross'] + df['TeleOpD2Cross'] + df['TeleOpD3Cross'] + df['TeleOpD4Cross'] + df['TeleOpD5Cross']
     
     challenges = np.equal(df.ChallengeScale, 'Challenged')
     scales = np.equal(df.ChallengeScale, 'Scaled')
@@ -182,6 +178,70 @@ def calcValues(df):
 
     return df
 
+def patchDefenses(df, defenses):
+    '''(pd.DataFrame, pd.DataFrame) -> pd.DataFrame
+    '''
+    redloc = ['E_LowBar', 'Red2', 'Zone3Shared', 'Red4', 'Red5']
+    blueloc = ['E_LowBar', 'Blue2', 'Zone3Shared', 'Blue4', 'Blue5']
+    
+    #'A_Portcullis','A_ChevalDeFrise','B_Ramparts','B_Moat',
+    #        'C_Drawbridge','C_SallyPort','D_RoughTerrain', 'D_RockWall',
+
+    
+    tgtmeas = ['AutoD1Cross', 'AutoD1Reach', 'AutoD2Cross', 'AutoD2Reach',
+               'AutoD3Cross', 'AutoD3Reach', 'AutoD4Cross', 'AutoD4Reach',
+               'AutoD5Cross', 'AutoD5Reach', 'TeleOpD1Cross', 'TeleOpD1Att',
+               'TeleOpD2Cross', 'TeleOpD2Att', 'TeleOpD3Cross', 'TeleOpD3Att',
+               'TeleOpD4Cross', 'TeleOpD4Att', 'TeleOpD5Cross', 'TeleOpD5Att']
+               
+    dloc = []
+    
+    for item in df['measurement']:
+        if item[0] == 'A' and item[5].isdigit():
+            dloc.append(int(item[5]))
+        elif item[0] == 'T' and item[6].isdigit():
+            dloc.append(int(item[6]))
+        else:
+            dloc.append(None)
+    
+    df['dloc'] = dloc
+
+
+    
+    bluedefs = defenses.loc[:, ('Match', 'Zone3Shared', 'Blue2', 'Blue4', 'Blue5')]
+    reddefs = defenses.loc[:, ('Match', 'Zone3Shared', 'Red2', 'Red4', 'Red5')]
+    
+    bluedefs['Alliance'] = 'blue'
+    
+    #print(bluedefs.columns, reddefs.columns)
+    
+    bluedefs.columns = ['Match', 3, 2, 4, 5, 'Alliance']
+    reddefs['Alliance'] = 'red'
+    
+    reddefs.columns = ['Match', 3, 2, 4, 5,'Alliance']
+    
+    glueme = [bluedefs, reddefs]
+    alldefs = pd.concat(glueme)
+    
+    alldefs[1] = 'E_LowBar'
+    
+    colordefs = pd.melt(alldefs, id_vars= ['Match', 'Alliance'], var_name = 'dloc')
+    
+    colordefs.columns = ['Match','Alliance','dloc','DefType']
+    
+    print('\n Applying Defenses to Matches \n')
+    
+    #print(colordefs.head(), '\n', colordefs.tail(), '\n')
+
+    #Make sure that the measurements that aren't for defenses have no location
+    
+    #df['DefType'] = None  
+    
+    #df.ix[df.dloc == 1, 'DefType'] = 'E_LowBar'
+    
+    outdf = pd.merge(df, colordefs, how='left', on=('Match', 'Alliance', 'dloc'))
+        
+    return outdf            
 
 def comboResult(defenses, scoutdata, matchlist):
     '''(pd.DataFrame, pd.DataFrame) -> pd.DataFrame
@@ -203,6 +263,10 @@ def comboResult(defenses, scoutdata, matchlist):
     
     print('\nMelted DataFrames\n')
     print(flatterdf.head())
+    
+    allstuff = patchDefenses(flatterdf, defenses)
+    
+    return allstuff
 
 def teamSummary():
     '''
