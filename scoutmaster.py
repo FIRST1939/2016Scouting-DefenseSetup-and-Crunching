@@ -302,5 +302,6 @@ def quickrun():
     df1, df2, df3 = getData()
     
     #comboResult(defenses, scoutdata, matchlist)
-    comboResult(df1, df2, df3)
+    crunchings = comboResult(df1, df2, df3)
     
+    crunchings.to_csv('kcmess')
