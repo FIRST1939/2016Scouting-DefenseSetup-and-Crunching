@@ -1,0 +1,137 @@
+name|event_code|start_date|end_date|event_type_string|week
+CHS District - Northern Virginia Event|vahay|2016-03-04|2016-03-06|District|1
+FIM District - Kettering University Event #1|miket|2016-03-03|2016-03-05|District|1
+FIM District - Southfield Event|misou|2016-03-03|2016-03-05|District|1
+FIM District - Standish-Sterling Event|mista|2016-03-03|2016-03-05|District|1
+FIM District - Waterford Event|miwat|2016-03-03|2016-03-05|District|1
+MAR District - Hatboro-Horsham Event|pahat|2016-03-04|2016-03-06|District|1
+MAR District - Mt. Olive Event|njfla|2016-03-04|2016-03-06|District|1
+NC District - Guilford County Event|ncmcl|2016-03-04|2016-03-06|District|1
+NE District - Granite State Event|nhgrs|2016-03-04|2016-03-06|District|1
+NE District - Waterbury Event|ctwat|2016-03-04|2016-03-06|District|1
+PNW District - Auburn Mountainview Event|waamv|2016-03-03|2016-03-05|District|1
+PNW District - West Valley Event|waspo|2016-03-03|2016-03-05|District|1
+Greater Toronto Central Regional|onto2|2016-03-02|2016-03-05|Regional|1
+Lake Superior Regional|mndu|2016-03-02|2016-03-05|Regional|1
+Northern Lights Regional|mndu2|2016-03-02|2016-03-05|Regional|1
+Palmetto Regional|scmb|2016-02-24|2016-02-27|Regional|1
+San Diego Regional|casd|2016-03-02|2016-03-05|Regional|1
+CHS District - Greater DC Event|mdbet|2016-03-11|2016-03-13|District|2
+CHS District - Southwest Virginia Event|vabla|2016-03-11|2016-03-13|District|2
+FIM District - Kettering University Event #2|mike2|2016-03-10|2016-03-12|District|2
+FIM District - Lakeview Event|milak|2016-03-10|2016-03-12|District|2
+FIM District - St. Joseph Event|misjo|2016-03-10|2016-03-12|District|2
+IN District - Tippecanoe Event|inwla|2016-03-11|2016-03-13|District|2
+NC District - Wake County Event|ncral|2016-03-11|2016-03-13|District|2
+NE District - North Shore Event|marea|2016-03-11|2016-03-13|District|2
+NE District - WPI Event|mawor|2016-03-11|2016-03-13|District|2
+PCH District - Columbus Event|gacol|2016-03-10|2016-03-12|District|2
+PNW District - Glacier Peak Event|wasno|2016-03-11|2016-03-13|District|2
+PNW District - Wilsonville Event|orwil|2016-03-10|2016-03-12|District|2
+Alamo Regional sponsored by Rackspace Hosting|txsa|2016-03-09|2016-03-12|Regional|2
+Arizona North Regional|azfl|2016-03-09|2016-03-12|Regional|2
+Arkansas Rock City Regional|arlr|2016-03-09|2016-03-12|Regional|2
+Central Valley Regional|cama|2016-03-10|2016-03-13|Regional|2
+Greater Kansas City Regional|mokc|2016-03-09|2016-03-12|Regional|2
+Greater Pittsburgh Regional|paca|2016-03-09|2016-03-12|Regional|2
+Greater Toronto East Regional |onto|2016-03-09|2016-03-12|Regional|2
+Israel Regional|ista|2016-03-08|2016-03-10|Regional|2
+Los Angeles Regional|calb|2016-03-09|2016-03-12|Regional|2
+Mexico City Regional |mxmc|2016-03-09|2016-03-12|Regional|2
+New York City Regional|nyny|2016-03-10|2016-03-13|Regional|2
+Orlando Regional|flor|2016-03-09|2016-03-12|Regional|2
+St. Louis Regional|mosl|2016-03-09|2016-03-12|Regional|2
+CHS District - Hampton Roads Event|vapor|2016-03-18|2016-03-20|District|3
+CHS District - Northern Maryland Event|mdblr|2016-03-18|2016-03-20|District|3
+FIM District - Center Line Event|micen|2016-03-17|2016-03-19|District|3
+FIM District - Escanaba Event|miesc|2016-03-17|2016-03-19|District|3
+FIM District - Gull Lake Event|migul|2016-03-17|2016-03-19|District|3
+FIM District - Midland Event|mimid|2016-03-17|2016-03-19|District|3
+IN District - Walker Warren Event|inwch|2016-03-18|2016-03-20|District|3
+MAR District - Seneca Event|njtab|2016-03-18|2016-03-20|District|3
+MAR District - Springside Chestnut Hill Event|paphi|2016-03-18|2016-03-20|District|3
+NC District - UNC Asheville Event|ncash|2016-03-18|2016-03-20|District|3
+NE District - UMass-Dartmouth Event|manda|2016-03-18|2016-03-20|District|3
+PCH District - Albany Event|gaalb|2016-03-17|2016-03-19|District|3
+PCH District - Dalton Event|gadal|2016-03-17|2016-03-19|District|3
+PNW District - Central Washington University Event|waell|2016-03-17|2016-03-19|District|3
+PNW District - Mount Vernon Event|wamou|2016-03-18|2016-03-20|District|3
+Australia Regional|ausy|2016-03-16|2016-03-19|Regional|3
+Bayou Regional|lake|2016-03-16|2016-03-19|Regional|3
+Buckeye Regional|ohcl|2016-03-16|2016-03-19|Regional|3
+Central Illinois Regional|ilpe|2016-03-16|2016-03-19|Regional|3
+New York Tech Valley Regional|nytr|2016-03-16|2016-03-19|Regional|3
+Utah Regional|utwv|2016-03-16|2016-03-19|Regional|3
+CHS District - Central Maryland Event|mdedg|2016-03-24|2016-03-26|District|4
+CHS District - Central Virginia Event|vados|2016-03-24|2016-03-26|District|4
+FIM District - Lansing Event|milan|2016-03-24|2016-03-26|District|4
+FIM District - Livonia Event|miliv|2016-03-24|2016-03-26|District|4
+FIM District - Marysville Event|mimar|2016-03-24|2016-03-26|District|4
+FIM District - West Michigan Event|miwmi|2016-03-24|2016-03-26|District|4
+IN District - Perry Meridian Event|inpmh|2016-03-24|2016-03-26|District|4
+NE District - Rhode Island Event|ripro|2016-03-24|2016-03-26|District|4
+NE District - UNH Event|nhdur|2016-03-24|2016-03-26|District|4
+PNW District - Philomath Event|orphi|2016-03-24|2016-03-26|District|4
+Colorado Regional|code|2016-03-23|2016-03-26|Regional|4
+Dallas Regional|txda|2016-03-23|2016-03-26|Regional|4
+Finger Lakes Regional |nyro|2016-03-23|2016-03-26|Regional|4
+Iowa Regional|iacf|2016-03-23|2016-03-26|Regional|4
+North Bay Regional|onnb|2016-03-23|2016-03-26|Regional|4
+Oklahoma Regional |okok|2016-03-23|2016-03-26|Regional|4
+Rocket City Regional|alhu|2016-03-23|2016-03-26|Regional|4
+Sacramento Regional|cada|2016-03-23|2016-03-26|Regional|4
+Ventura Regional|cave|2016-03-23|2016-03-26|Regional|4
+Wisconsin Regional|wimi|2016-03-23|2016-03-26|Regional|4
+FIM District - East Kentwood Event|miken|2016-03-31|2016-04-02|District|5
+FIM District - Howell Event|mihow|2016-03-31|2016-04-02|District|5
+FIM District - Lake Superior State University Event|milsu|2016-03-31|2016-04-02|District|5
+FIM District - Troy Event|mitry|2016-03-31|2016-04-02|District|5
+MAR District - Bridgewater-Raritan Event|njbri|2016-04-01|2016-04-03|District|5
+MAR District - Westtown Event|pawch|2016-04-01|2016-04-03|District|5
+NC District - Campbell University/Johnston Community College Event|ncbui|2016-04-01|2016-04-03|District|5
+NE District - Boston Event|mabos|2016-04-01|2016-04-03|District|5
+NE District - Hartford Event|cthar|2016-04-01|2016-04-03|District|5
+PNW District - Auburn Event|waahs|2016-04-01|2016-04-03|District|5
+PNW District - Clackamas Academy of Industrial Science Event|orore|2016-03-31|2016-04-02|District|5
+FRC Festival de Robotique - Montreal Regional|qcmo|2016-03-30|2016-04-02|Regional|5
+Hawaii Regional|hiho|2016-03-30|2016-04-02|Regional|5
+Hub City Regional|txlu|2016-03-31|2016-04-03|Regional|5
+Idaho Regional|idbo|2016-03-30|2016-04-02|Regional|5
+Las Vegas Regional|nvlv|2016-03-30|2016-04-02|Regional|5
+Midwest Regional|ilch|2016-03-30|2016-04-02|Regional|5
+Orange County Regional|capl|2016-03-30|2016-04-02|Regional|5
+Queen City Regional|ohci|2016-03-30|2016-04-02|Regional|5
+SBPLI Long Island Regional|nyli|2016-03-30|2016-04-02|Regional|5
+Smoky Mountains Regional|tnkn|2016-03-30|2016-04-02|Regional|5
+South Florida Regional |flwp|2016-03-30|2016-04-02|Regional|5
+Waterloo Regional |onwa|2016-03-30|2016-04-02|Regional|5
+Western Canada Regional|abca|2016-04-03|2016-04-06|Regional|5
+FIM District - Ann Arbor Skyline Event|miann|2016-04-07|2016-04-09|District|6
+FIM District - Traverse City Event|mitvc|2016-04-07|2016-04-09|District|6
+FIM District - Woodhaven Event|mibro|2016-04-07|2016-04-09|District|6
+MAR District - Montgomery Event|njski|2016-04-08|2016-04-10|District|6
+NE District - Pine Tree Event|melew|2016-04-07|2016-04-09|District|6
+PCH District - Kennesaw Event|gaken|2016-04-08|2016-04-10|District|6
+FIRST Chesapeake District Championship sponsored by Booz Allen Hamilton|chcmp|2016-04-06|2016-04-09|District Championship|6
+NC FIRST Robotics State Championship|nccmp|2016-04-08|2016-04-10|District Championship|6
+Pacific Northwest District Championship sponsored by Autodesk|pncmp|2016-04-06|2016-04-09|District Championship|6
+Arizona West Regional|azpx|2016-04-06|2016-04-09|Regional|6
+Lone Star Regional|txho|2016-04-06|2016-04-09|Regional|6
+Minnesota 10000 Lakes Regional|mnmi|2016-04-06|2016-04-09|Regional|6
+Minnesota North Star Regional|mnmi2|2016-04-06|2016-04-09|Regional|6
+Silicon Valley Regional presented by Google.org|casj|2016-04-06|2016-04-09|Regional|6
+Windsor Essex Great Lakes Regional|onwi|2016-04-06|2016-04-09|Regional|6
+Indiana State Championship|incmp|2016-04-14|2016-04-16|District Championship|7
+Michigan State Championship|micmp|2016-04-13|2016-04-16|District Championship|7
+Mid-Atlantic Robotics District Championship|mrcmp|2016-04-13|2016-04-16|District Championship|7
+New England District Championship|necmp|2016-04-13|2016-04-16|District Championship|7
+Peachtree District State Championship|gacmp|2016-04-13|2016-04-16|District Championship|7
+Archimedes Division|arc|2016-04-27|2016-04-30|Championship Division|8
+Carson Division|cars|2016-04-27|2016-04-30|Championship Division|8
+Carver Division|carv|2016-04-27|2016-04-30|Championship Division|8
+Curie Division|cur|2016-04-27|2016-04-30|Championship Division|8
+Galileo Division|gal|2016-04-27|2016-04-30|Championship Division|8
+Hopper Division|hop|2016-04-27|2016-04-30|Championship Division|8
+Newton Division|new|2016-04-27|2016-04-30|Championship Division|8
+Tesla Division|tes|2016-04-27|2016-04-30|Championship Division|8
+Einstein Field|cmp|2016-04-30|2016-04-30|Championship Finals|8

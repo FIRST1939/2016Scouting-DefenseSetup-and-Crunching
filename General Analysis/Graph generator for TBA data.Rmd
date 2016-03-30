@@ -1,0 +1,67 @@
+---
+title: "2016 TBA Match Data Analysis"
+author: "Victoria Cook"
+date: "March 21, 2016"
+output: html_document
+---
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+This document is an analysis of the match result data available on thebluealliance.com for the 2016 FIRST Robotics Competition Game: Stronghold
+
+```{r, echo=FALSE}
+setwd("C:/Users/stat/Documents/GitHub/2016Scouting-DefenseSetup-and-Crunching/General Analysis")
+
+library(ggplot2)
+require(scales)
+library(plyr)
+
+auton <- read.csv('data through week 3-auto.csv', header = T, 
+                     row.names = NULL, check.names = F)
+
+tele <- read.csv('data through week 3-tele.csv', header = T, 
+                     row.names = NULL, check.names = F)
+
+defense <- read.csv('data through week 3-def.csv', header = T, 
+                     row.names = NULL, check.names = F)
+```
+
+## Autonomous Mode
+
+Let's start by taking a look at the autonomous data
+
+```{r}
+names(auton)
+summary(auton)
+
+by(auton$Crossing, auton$Week, summary)
+
+by(auton$Crossing + auton$Reach, auton$Week, summary)
+
+qplot(x=Crossing, data=auton, binwidth=.5) +
+  facet_wrap(~Week, ncol=1) +
+  scale_y_continuous(label=percent)
+
+qplot(x=Crossing, data=auton, binwidth=.5) +
+  facet_wrap(~Type, ncol=1) +
+  scale_y_continuous(label=percent)
+
+ggplot(auton, aes(Crossing)) +
+  geom_histogram(binwidth=.5, color='Blue', fill='Blue') +
+  facet_grid(Type ~ Week, scales="free_y") +
+  scale_y_continuous(label=percent)
+
+automove <-ddply(auton, c("Week", "Event", "Type"), summarize,
+                 N = length(Crossing + Reach),
+                 min = min(Crossing + Reach),
+                 mean = mean(Crossing + Reach),
+                 median = median(Crossing + Reach),
+                 max = max(Crossing + Reach),
+                 sd = sd(Crossing + Reach))
+
+summary(automove)
+
+ggplot(automove, aes(Type, mean)) +
+  geom_boxplot(color="#099DD9")
+```
+
