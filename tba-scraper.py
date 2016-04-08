@@ -559,7 +559,7 @@ def tba2016DefPosition(event):
         
             temp.append(match['match_number'])
             
-            assert match['score_breakdown']['blue']['position3'] == match['score_breakdown']['red']['position3']
+            #assert match['score_breakdown']['blue']['position3'] == match['score_breakdown']['red']['position3']
             
             temp.append(match['score_breakdown']['blue']['position3'])
             temp.append(match['score_breakdown']['blue']['position2'])

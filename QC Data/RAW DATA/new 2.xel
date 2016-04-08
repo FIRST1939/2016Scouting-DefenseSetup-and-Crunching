@@ -1,0 +1,15 @@
+Your Name,Team Number,Match Number,Alliance,Spy Bot,Reached Defense,Crossed Defense,High Goals,Low Goals,Low Bar
+,Cheval de Frise,Portcullis,Moat,Ramparts,Drawbridge,Sally Port,Rock Wall,Rough Terrain,High Goals,High Goal Misses,
+Low Goals,Low Goal Misses,Played Defense,Defensive Rating 1-10,Fouls Commited,Challenged,Scaled,Got Stuck,Yellow Card,Red Card,Notes
+
+Paul Case,3172,49,Red,False,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,0,0,False,False,False,False,False,
+
+Paul Case,3172,58,Blue,False,Portcullis,,0,0,0,0,2,0,0,0,0,0,1,0,0,0,0,False,0,0,True,False,False,False,False,
+
+Saketh Dendi,3172,6,Red,False,Rock Wall,,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,False,0,0,False,False,False,False,False,
+
+Tommy max,3172,12,Red,False,Portcullis,,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,False,0,0,False,False,False,False,False,
+
+Alexey,3172,24,Red,False,,Rough Terrain,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,False,0,0,True,False,False,False,False,
+
+,3172,36,Blue,False,Rock Wall,Rock Wall,0,0,0,3,0,0,1,0,0,1,0,0,0,0,0,False,0,0,True,False,False,False,False,

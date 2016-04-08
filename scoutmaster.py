@@ -151,8 +151,8 @@ def calcValues(df):
     
     df['TeleCrossRaw'] = df['TeleOpD1Cross'] + df['TeleOpD2Cross'] + df['TeleOpD3Cross'] + df['TeleOpD4Cross'] + df['TeleOpD5Cross']
     
-    challenges = np.equal(df.ChallengeScale, 'Challenged')
-    scales = np.equal(df.ChallengeScale, 'Scaled')
+    challenges = np.equal(df.ChallengeScale, 1)
+    scales = np.equal(df.ChallengeScale, 2)
     
     teledf = pd.DataFrame({'Crossings': df.TeleCross,
                            'HighShot': df.TeleOpHighShotMade,
@@ -231,7 +231,7 @@ def patchDefenses(df, defenses):
     
     print('\n Applying Defenses to Matches \n')
     
-    #print(colordefs.head(), '\n', colordefs.tail(), '\n')
+    print(colordefs.head(), '\n', colordefs.tail(), '\n')
 
     #Make sure that the measurements that aren't for defenses have no location
     
@@ -240,6 +240,8 @@ def patchDefenses(df, defenses):
     #df.ix[df.dloc == 1, 'DefType'] = 'E_LowBar'
     
     outdf = pd.merge(df, colordefs, how='left', on=('Match', 'Alliance', 'dloc'))
+    
+    print(outdf.head())
         
     return outdf            
 
@@ -263,6 +265,8 @@ def comboResult(defenses, scoutdata, matchlist):
     
     print('\nMelted DataFrames\n')
     print(flatterdf.head())
+    
+    print('\nPatching Defenses\n')
     
     allstuff = patchDefenses(flatterdf, defenses)
     
@@ -304,4 +308,4 @@ def quickrun():
     #comboResult(defenses, scoutdata, matchlist)
     crunchings = comboResult(df1, df2, df3)
     
-    crunchings.to_csv('kcmess.csv')
+    crunchings.to_csv('C://Users//stat//Documents//GitHub//2016Scouting-DefenseSetup-and-Crunching//QC Data//qcfriday.csv')
