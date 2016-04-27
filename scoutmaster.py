@@ -118,11 +118,12 @@ def calcValues(df):
                                                                 np.greater(df.AutoD4Cross, 0)),
                                                   np.greater(df.AutoD5Cross, 0)))
 
-    df['AutoReach'] = np.logical_or(              np.logical_or(np.greater(df.AutoD1Reach, 0),
-                                                                np.greater(df.AutoD2Reach, 0)),
-                                    np.logical_or(np.logical_or(np.greater(df.AutoD3Reach, 0),
-                                                                np.greater(df.AutoD4Reach, 0)),
-                                                  np.greater(df.AutoD5Reach, 0)))
+    df['AutoReach'] = np.logical_and(np.logical_not(df.AutoCross),
+                                     np.logical_or(np.logical_or(np.greater(df.AutoD1Reach, 0),
+                                                                 np.greater(df.AutoD2Reach, 0)),
+                                                   np.logical_or(np.logical_or(np.greater(df.AutoD3Reach, 0),
+                                                                 np.greater(df.AutoD4Reach, 0)),
+                                                   np.greater(df.AutoD5Reach, 0))))
 
     # Multiply each scoring activity by its value and sum
 
@@ -252,7 +253,7 @@ def comboResult(defenses, scoutdata, matchlist):
     '''
     print('Defenses:', defenses.columns, '\nData:', scoutdata.columns, '\nMatches:', matchlist.columns)
     
-    bigdf = pd.merge(scoutdata, matchlist, on=('Match','Team'))
+    bigdf = pd.merge(scoutdata, matchlist, on=('Match','Team'), how='left')
     
     print('\nJoined DataFrames:\n')
 
@@ -270,26 +271,48 @@ def comboResult(defenses, scoutdata, matchlist):
     
     allstuff = patchDefenses(flatterdf, defenses)
     
-    return allstuff
+    return allstuff, allcalc
 
-def teamSummary():
+def teamSummary(flatdf):
     '''
-    Takes resultDict and creates a team summary
-    teamSummary:
-        {team: {matchesPlayed: value,
-                matchScores[m1, m2, m3, ...],
-                defense: {'A_Portcullis': [faced, autoCrosses, autoReaches, teleCross, teleAtt],
-                          ...}
-                goals: {highMade: total,
-                        highAtt: total,
-                        highAcc: highMade / highAtt,
-                        lowMade: total, 
-                        lowAtt: total, 
-                        lowAcc: lowMade / lowAtt}
-                endgame: [challenges, scales]},
-        }
+    Takes the wide-format scouting data and pivots it to get the means.
+    
+    Calculates accuracy for high and low goals
     '''
-    pass
+
+    print('\nSummarizing team performance\n')
+    
+    print(list(flatdf.columns.values))
+    
+    subdf = flatdf[['Team', 'Match', 'Alliance',
+                    'AutoHighShotMade', 'AutoHighShotAtt',
+                    'AutoLowShotMade', 'AutoLowShotAtt', 'AutoTotalPoints',
+                    'ChallengeScale', 'TeleOpHighShotMade', 'TeleOpHighShotAtt',
+                    'TeleOpLowShotMade', 'TeleOpLowShotAtt', 'TeleOpTotalPoints',
+                    'TotalPoints', 'Defense', 'TeleCross', 'TeleCrossRaw']]
+    
+    print('\n')
+    print(subdf.head(), '\n\n', subdf.describe())
+    
+    print('\n')
+    
+    meltsubdf = pd.melt(subdf, id_vars=['Match', 'Team', 'Alliance'], var_name='Measurement')
+    
+    print(meltsubdf.head())
+    print('\n')
+    
+    print('\nGeneral mean stats\n')
+    
+    genstats = pd.pivot_table(meltsubdf, index='Team', columns='Measurement', values='value')
+    
+    mp = pd.pivot_table(subdf, index='Team', values='Match', aggfunc=np.count_nonzero)
+       
+    print(genstats.head(), '\n', genstats.describe())
+    
+    print('\nCount\n')
+    
+    print(mp.head(), mp.describe())
+    
 
 def preMatchSummary():
     '''(matchList, resultDict)
@@ -302,10 +325,23 @@ def pickList():
     pass
 
 
-def quickrun():
+def preprocess():
     df1, df2, df3 = getData()
     
     #comboResult(defenses, scoutdata, matchlist)
-    crunchings = comboResult(df1, df2, df3)
+    crunchings, munchings = comboResult(df1, df2, df3)
     
-    crunchings.to_csv('C://Users//stat//Documents//GitHub//2016Scouting-DefenseSetup-and-Crunching//QC Data//qcfriday.csv')
+    filestub='C://Users//stat//Documents//GitHub//2016Scouting-DefenseSetup-and-Crunching//QC Data//qcfri.csv'
+    file2stub='C://Users//stat//Documents//GitHub//2016Scouting-DefenseSetup-and-Crunching//QC Data//qcfri-wide.csv'
+    
+    crunchings.to_csv(filestub, index=False)
+    
+    munchings.to_csv(file2stub, index=False)
+    
+def postprocess():
+    
+    filename = 'C://Users//stat//Documents//GitHub//2016Scouting-DefenseSetup-and-Crunching//QC Data//qcfri-wide.csv'
+    
+    df = pd.read_csv(filename)
+    
+    teamSummary(df)

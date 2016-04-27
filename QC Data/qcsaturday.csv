@@ -1,0 +1,2665 @@
+Match,Team,Alliance,measurement,value,dloc,DefType
+77,5667,red,AutoD1Cross,0,1.0,E_LowBar
+77,451,red,AutoD1Cross,0,1.0,E_LowBar
+77,3484,red,AutoD1Cross,1,1.0,E_LowBar
+77,4256,blue,AutoD1Cross,0,1.0,E_LowBar
+77,1939,blue,AutoD1Cross,1,1.0,E_LowBar
+77,2040,blue,AutoD1Cross,0,1.0,E_LowBar
+78,3324,red,AutoD1Cross,0,1.0,E_LowBar
+78,48,red,AutoD1Cross,1,1.0,E_LowBar
+78,279,red,AutoD1Cross,0,1.0,E_LowBar
+78,4521,blue,AutoD1Cross,0,1.0,E_LowBar
+78,3201,blue,AutoD1Cross,0,1.0,E_LowBar
+78,2016,blue,AutoD1Cross,0,1.0,E_LowBar
+79,4920,red,AutoD1Cross,0,1.0,E_LowBar
+79,5811,red,AutoD1Cross,1,1.0,E_LowBar
+79,3814,red,AutoD1Cross,1,1.0,E_LowBar
+79,5809,blue,AutoD1Cross,0,1.0,E_LowBar
+79,1038,blue,AutoD1Cross,0,1.0,E_LowBar
+79,4284,blue,AutoD1Cross,0,1.0,E_LowBar
+80,2051,red,AutoD1Cross,1,1.0,E_LowBar
+80,3138,red,AutoD1Cross,0,1.0,E_LowBar
+80,1014,red,AutoD1Cross,0,1.0,E_LowBar
+80,4085,blue,AutoD1Cross,0,1.0,E_LowBar
+80,120,blue,AutoD1Cross,1,1.0,E_LowBar
+80,3266,blue,AutoD1Cross,0,1.0,E_LowBar
+81,6181,red,AutoD1Cross,1,1.0,E_LowBar
+81,1708,red,AutoD1Cross,0,1.0,E_LowBar
+81,3504,red,AutoD1Cross,0,1.0,E_LowBar
+81,337,blue,AutoD1Cross,0,1.0,E_LowBar
+81,5749,blue,AutoD1Cross,1,1.0,E_LowBar
+81,3000,blue,AutoD1Cross,0,1.0,E_LowBar
+82,4115,red,AutoD1Cross,0,1.0,E_LowBar
+82,144,red,AutoD1Cross,1,1.0,E_LowBar
+82,5492,red,AutoD1Cross,0,1.0,E_LowBar
+82,3492,blue,AutoD1Cross,0,1.0,E_LowBar
+82,6185,blue,AutoD1Cross,1,1.0,E_LowBar
+82,3260,blue,AutoD1Cross,0,1.0,E_LowBar
+83,554,red,AutoD1Cross,0,1.0,E_LowBar
+83,1308,red,AutoD1Cross,1,1.0,E_LowBar
+83,128,red,AutoD1Cross,0,1.0,E_LowBar
+83,3777,blue,AutoD1Cross,0,1.0,E_LowBar
+83,3821,blue,AutoD1Cross,0,1.0,E_LowBar
+83,4213,blue,AutoD1Cross,0,1.0,E_LowBar
+84,2603,red,AutoD1Cross,1,1.0,E_LowBar
+84,245,red,AutoD1Cross,0,1.0,E_LowBar
+84,868,red,AutoD1Cross,0,1.0,E_LowBar
+84,1985,blue,AutoD1Cross,1,1.0,E_LowBar
+84,1249,blue,AutoD1Cross,0,1.0,E_LowBar
+84,5413,blue,AutoD1Cross,0,1.0,E_LowBar
+85,3484,red,AutoD1Cross,0,1.0,E_LowBar
+85,48,red,AutoD1Cross,0,1.0,E_LowBar
+85,6084,red,AutoD1Cross,0,1.0,E_LowBar
+85,3814,blue,AutoD1Cross,0,1.0,E_LowBar
+85,4085,blue,AutoD1Cross,1,1.0,E_LowBar
+85,451,blue,AutoD1Cross,0,1.0,E_LowBar
+86,120,blue,AutoD1Cross,0,1.0,E_LowBar
+86,3324,,AutoD1Cross,0,1.0,
+86,868,,AutoD1Cross,1,1.0,
+86,451,,AutoD1Cross,0,1.0,
+86,5492,,AutoD1Cross,0,1.0,
+86,5811,blue,AutoD1Cross,0,1.0,E_LowBar
+87,2051,red,AutoD1Cross,0,1.0,E_LowBar
+87,1708,red,AutoD1Cross,0,1.0,E_LowBar
+87,4145,red,AutoD1Cross,1,1.0,E_LowBar
+87,5492,blue,AutoD1Cross,0,1.0,E_LowBar
+87,4284,blue,AutoD1Cross,0,1.0,E_LowBar
+87,5667,blue,AutoD1Cross,0,1.0,E_LowBar
+88,2016,red,AutoD1Cross,1,1.0,E_LowBar
+88,1014,red,AutoD1Cross,0,1.0,E_LowBar
+88,4256,red,AutoD1Cross,0,1.0,E_LowBar
+88,3000,blue,AutoD1Cross,0,1.0,E_LowBar
+88,4028,blue,AutoD1Cross,0,1.0,E_LowBar
+88,6185,blue,AutoD1Cross,0,1.0,E_LowBar
+77,5667,red,AutoD1Reach,0,1.0,E_LowBar
+77,451,red,AutoD1Reach,0,1.0,E_LowBar
+77,3484,red,AutoD1Reach,1,1.0,E_LowBar
+77,4256,blue,AutoD1Reach,0,1.0,E_LowBar
+77,1939,blue,AutoD1Reach,1,1.0,E_LowBar
+77,2040,blue,AutoD1Reach,0,1.0,E_LowBar
+78,3324,red,AutoD1Reach,0,1.0,E_LowBar
+78,48,red,AutoD1Reach,1,1.0,E_LowBar
+78,279,red,AutoD1Reach,0,1.0,E_LowBar
+78,4521,blue,AutoD1Reach,0,1.0,E_LowBar
+78,3201,blue,AutoD1Reach,0,1.0,E_LowBar
+78,2016,blue,AutoD1Reach,0,1.0,E_LowBar
+79,4920,red,AutoD1Reach,0,1.0,E_LowBar
+79,5811,red,AutoD1Reach,1,1.0,E_LowBar
+79,3814,red,AutoD1Reach,1,1.0,E_LowBar
+79,5809,blue,AutoD1Reach,0,1.0,E_LowBar
+79,1038,blue,AutoD1Reach,0,1.0,E_LowBar
+79,4284,blue,AutoD1Reach,0,1.0,E_LowBar
+80,2051,red,AutoD1Reach,1,1.0,E_LowBar
+80,3138,red,AutoD1Reach,0,1.0,E_LowBar
+80,1014,red,AutoD1Reach,0,1.0,E_LowBar
+80,4085,blue,AutoD1Reach,0,1.0,E_LowBar
+80,120,blue,AutoD1Reach,1,1.0,E_LowBar
+80,3266,blue,AutoD1Reach,0,1.0,E_LowBar
+81,6181,red,AutoD1Reach,1,1.0,E_LowBar
+81,1708,red,AutoD1Reach,0,1.0,E_LowBar
+81,3504,red,AutoD1Reach,0,1.0,E_LowBar
+81,337,blue,AutoD1Reach,0,1.0,E_LowBar
+81,5749,blue,AutoD1Reach,1,1.0,E_LowBar
+81,3000,blue,AutoD1Reach,0,1.0,E_LowBar
+82,4115,red,AutoD1Reach,0,1.0,E_LowBar
+82,144,red,AutoD1Reach,1,1.0,E_LowBar
+82,5492,red,AutoD1Reach,0,1.0,E_LowBar
+82,3492,blue,AutoD1Reach,0,1.0,E_LowBar
+82,6185,blue,AutoD1Reach,1,1.0,E_LowBar
+82,3260,blue,AutoD1Reach,0,1.0,E_LowBar
+83,554,red,AutoD1Reach,0,1.0,E_LowBar
+83,1308,red,AutoD1Reach,1,1.0,E_LowBar
+83,128,red,AutoD1Reach,0,1.0,E_LowBar
+83,3777,blue,AutoD1Reach,1,1.0,E_LowBar
+83,3821,blue,AutoD1Reach,0,1.0,E_LowBar
+83,4213,blue,AutoD1Reach,0,1.0,E_LowBar
+84,2603,red,AutoD1Reach,1,1.0,E_LowBar
+84,245,red,AutoD1Reach,0,1.0,E_LowBar
+84,868,red,AutoD1Reach,0,1.0,E_LowBar
+84,1985,blue,AutoD1Reach,1,1.0,E_LowBar
+84,1249,blue,AutoD1Reach,0,1.0,E_LowBar
+84,5413,blue,AutoD1Reach,0,1.0,E_LowBar
+85,3484,red,AutoD1Reach,0,1.0,E_LowBar
+85,48,red,AutoD1Reach,0,1.0,E_LowBar
+85,6084,red,AutoD1Reach,0,1.0,E_LowBar
+85,3814,blue,AutoD1Reach,0,1.0,E_LowBar
+85,4085,blue,AutoD1Reach,1,1.0,E_LowBar
+85,451,blue,AutoD1Reach,0,1.0,E_LowBar
+86,120,blue,AutoD1Reach,0,1.0,E_LowBar
+86,3324,,AutoD1Reach,0,1.0,
+86,868,,AutoD1Reach,1,1.0,
+86,451,,AutoD1Reach,0,1.0,
+86,5492,,AutoD1Reach,0,1.0,
+86,5811,blue,AutoD1Reach,0,1.0,E_LowBar
+87,2051,red,AutoD1Reach,0,1.0,E_LowBar
+87,1708,red,AutoD1Reach,0,1.0,E_LowBar
+87,4145,red,AutoD1Reach,1,1.0,E_LowBar
+87,5492,blue,AutoD1Reach,0,1.0,E_LowBar
+87,4284,blue,AutoD1Reach,0,1.0,E_LowBar
+87,5667,blue,AutoD1Reach,0,1.0,E_LowBar
+88,2016,red,AutoD1Reach,1,1.0,E_LowBar
+88,1014,red,AutoD1Reach,0,1.0,E_LowBar
+88,4256,red,AutoD1Reach,0,1.0,E_LowBar
+88,3000,blue,AutoD1Reach,0,1.0,E_LowBar
+88,4028,blue,AutoD1Reach,0,1.0,E_LowBar
+88,6185,blue,AutoD1Reach,0,1.0,E_LowBar
+77,5667,red,AutoD2Cross,0,2.0, 'C_SallyPort'
+77,451,red,AutoD2Cross,0,2.0, 'C_SallyPort'
+77,3484,red,AutoD2Cross,0,2.0, 'C_SallyPort'
+77,4256,blue,AutoD2Cross,0,2.0, 'D_RockWall'
+77,1939,blue,AutoD2Cross,0,2.0, 'D_RockWall'
+77,2040,blue,AutoD2Cross,0,2.0, 'D_RockWall'
+78,3324,red,AutoD2Cross,0,2.0, 'C_SallyPort'
+78,48,red,AutoD2Cross,0,2.0, 'C_SallyPort'
+78,279,red,AutoD2Cross,0,2.0, 'C_SallyPort'
+78,4521,blue,AutoD2Cross,0,2.0, 'C_Drawbridge'
+78,3201,blue,AutoD2Cross,0,2.0, 'C_Drawbridge'
+78,2016,blue,AutoD2Cross,0,2.0, 'C_Drawbridge'
+79,4920,red,AutoD2Cross,0,2.0, 'C_SallyPort'
+79,5811,red,AutoD2Cross,0,2.0, 'C_SallyPort'
+79,3814,red,AutoD2Cross,0,2.0, 'C_SallyPort'
+79,5809,blue,AutoD2Cross,0,2.0, 'C_SallyPort'
+79,1038,blue,AutoD2Cross,0,2.0, 'C_SallyPort'
+79,4284,blue,AutoD2Cross,0,2.0, 'C_SallyPort'
+80,2051,red,AutoD2Cross,0,2.0, 'C_Drawbridge'
+80,3138,red,AutoD2Cross,1,2.0, 'C_Drawbridge'
+80,1014,red,AutoD2Cross,0,2.0, 'C_Drawbridge'
+80,4085,blue,AutoD2Cross,0,2.0, 'B_Moat'
+80,120,blue,AutoD2Cross,0,2.0, 'B_Moat'
+80,3266,blue,AutoD2Cross,0,2.0, 'B_Moat'
+81,6181,red,AutoD2Cross,0,2.0, 'B_Moat'
+81,1708,red,AutoD2Cross,1,2.0, 'B_Moat'
+81,3504,red,AutoD2Cross,0,2.0, 'B_Moat'
+81,337,blue,AutoD2Cross,0,2.0, 'B_Ramparts'
+81,5749,blue,AutoD2Cross,0,2.0, 'B_Ramparts'
+81,3000,blue,AutoD2Cross,0,2.0, 'B_Ramparts'
+82,4115,red,AutoD2Cross,0,2.0, 'A_ChevalDeFrise'
+82,144,red,AutoD2Cross,0,2.0, 'A_ChevalDeFrise'
+82,5492,red,AutoD2Cross,0,2.0, 'A_ChevalDeFrise'
+82,3492,blue,AutoD2Cross,1,2.0, 'D_RockWall'
+82,6185,blue,AutoD2Cross,0,2.0, 'D_RockWall'
+82,3260,blue,AutoD2Cross,0,2.0, 'D_RockWall'
+83,554,red,AutoD2Cross,0,2.0, 'C_SallyPort'
+83,1308,red,AutoD2Cross,0,2.0, 'C_SallyPort'
+83,128,red,AutoD2Cross,0,2.0, 'C_SallyPort'
+83,3777,blue,AutoD2Cross,0,2.0, 'C_SallyPort'
+83,3821,blue,AutoD2Cross,0,2.0, 'C_SallyPort'
+83,4213,blue,AutoD2Cross,0,2.0, 'C_SallyPort'
+84,2603,red,AutoD2Cross,0,2.0, 'D_RockWall'
+84,245,red,AutoD2Cross,1,2.0, 'D_RockWall'
+84,868,red,AutoD2Cross,0,2.0, 'D_RockWall'
+84,1985,blue,AutoD2Cross,0,2.0, 'A_ChevalDeFrise'
+84,1249,blue,AutoD2Cross,0,2.0, 'A_ChevalDeFrise'
+84,5413,blue,AutoD2Cross,0,2.0, 'A_ChevalDeFrise'
+85,3484,red,AutoD2Cross,0,2.0, 'A_Portcullis'
+85,48,red,AutoD2Cross,1,2.0, 'A_Portcullis'
+85,6084,red,AutoD2Cross,0,2.0, 'A_Portcullis'
+85,3814,blue,AutoD2Cross,0,2.0, 'D_RoughTerrain'
+85,4085,blue,AutoD2Cross,0,2.0, 'D_RoughTerrain'
+85,451,blue,AutoD2Cross,0,2.0, 'D_RoughTerrain'
+86,120,blue,AutoD2Cross,0,2.0, 'C_SallyPort'
+86,3324,,AutoD2Cross,0,2.0,
+86,868,,AutoD2Cross,0,2.0,
+86,451,,AutoD2Cross,0,2.0,
+86,5492,,AutoD2Cross,0,2.0,
+86,5811,blue,AutoD2Cross,0,2.0, 'C_SallyPort'
+87,2051,red,AutoD2Cross,0,2.0, 'A_ChevalDeFrise'
+87,1708,red,AutoD2Cross,0,2.0, 'A_ChevalDeFrise'
+87,4145,red,AutoD2Cross,0,2.0, 'A_ChevalDeFrise'
+87,5492,blue,AutoD2Cross,1,2.0, 'D_RockWall'
+87,4284,blue,AutoD2Cross,0,2.0, 'D_RockWall'
+87,5667,blue,AutoD2Cross,0,2.0, 'D_RockWall'
+88,2016,red,AutoD2Cross,0,2.0, 'D_RockWall'
+88,1014,red,AutoD2Cross,0,2.0, 'D_RockWall'
+88,4256,red,AutoD2Cross,0,2.0, 'D_RockWall'
+88,3000,blue,AutoD2Cross,0,2.0, 'C_SallyPort'
+88,4028,blue,AutoD2Cross,0,2.0, 'C_SallyPort'
+88,6185,blue,AutoD2Cross,0,2.0, 'C_SallyPort'
+77,5667,red,AutoD2Reach,0,2.0, 'C_SallyPort'
+77,451,red,AutoD2Reach,0,2.0, 'C_SallyPort'
+77,3484,red,AutoD2Reach,0,2.0, 'C_SallyPort'
+77,4256,blue,AutoD2Reach,0,2.0, 'D_RockWall'
+77,1939,blue,AutoD2Reach,0,2.0, 'D_RockWall'
+77,2040,blue,AutoD2Reach,0,2.0, 'D_RockWall'
+78,3324,red,AutoD2Reach,0,2.0, 'C_SallyPort'
+78,48,red,AutoD2Reach,0,2.0, 'C_SallyPort'
+78,279,red,AutoD2Reach,0,2.0, 'C_SallyPort'
+78,4521,blue,AutoD2Reach,0,2.0, 'C_Drawbridge'
+78,3201,blue,AutoD2Reach,0,2.0, 'C_Drawbridge'
+78,2016,blue,AutoD2Reach,0,2.0, 'C_Drawbridge'
+79,4920,red,AutoD2Reach,0,2.0, 'C_SallyPort'
+79,5811,red,AutoD2Reach,0,2.0, 'C_SallyPort'
+79,3814,red,AutoD2Reach,0,2.0, 'C_SallyPort'
+79,5809,blue,AutoD2Reach,0,2.0, 'C_SallyPort'
+79,1038,blue,AutoD2Reach,0,2.0, 'C_SallyPort'
+79,4284,blue,AutoD2Reach,0,2.0, 'C_SallyPort'
+80,2051,red,AutoD2Reach,0,2.0, 'C_Drawbridge'
+80,3138,red,AutoD2Reach,1,2.0, 'C_Drawbridge'
+80,1014,red,AutoD2Reach,0,2.0, 'C_Drawbridge'
+80,4085,blue,AutoD2Reach,0,2.0, 'B_Moat'
+80,120,blue,AutoD2Reach,0,2.0, 'B_Moat'
+80,3266,blue,AutoD2Reach,0,2.0, 'B_Moat'
+81,6181,red,AutoD2Reach,0,2.0, 'B_Moat'
+81,1708,red,AutoD2Reach,1,2.0, 'B_Moat'
+81,3504,red,AutoD2Reach,0,2.0, 'B_Moat'
+81,337,blue,AutoD2Reach,0,2.0, 'B_Ramparts'
+81,5749,blue,AutoD2Reach,0,2.0, 'B_Ramparts'
+81,3000,blue,AutoD2Reach,0,2.0, 'B_Ramparts'
+82,4115,red,AutoD2Reach,0,2.0, 'A_ChevalDeFrise'
+82,144,red,AutoD2Reach,0,2.0, 'A_ChevalDeFrise'
+82,5492,red,AutoD2Reach,0,2.0, 'A_ChevalDeFrise'
+82,3492,blue,AutoD2Reach,1,2.0, 'D_RockWall'
+82,6185,blue,AutoD2Reach,0,2.0, 'D_RockWall'
+82,3260,blue,AutoD2Reach,0,2.0, 'D_RockWall'
+83,554,red,AutoD2Reach,0,2.0, 'C_SallyPort'
+83,1308,red,AutoD2Reach,0,2.0, 'C_SallyPort'
+83,128,red,AutoD2Reach,1,2.0, 'C_SallyPort'
+83,3777,blue,AutoD2Reach,0,2.0, 'C_SallyPort'
+83,3821,blue,AutoD2Reach,0,2.0, 'C_SallyPort'
+83,4213,blue,AutoD2Reach,0,2.0, 'C_SallyPort'
+84,2603,red,AutoD2Reach,0,2.0, 'D_RockWall'
+84,245,red,AutoD2Reach,1,2.0, 'D_RockWall'
+84,868,red,AutoD2Reach,0,2.0, 'D_RockWall'
+84,1985,blue,AutoD2Reach,0,2.0, 'A_ChevalDeFrise'
+84,1249,blue,AutoD2Reach,0,2.0, 'A_ChevalDeFrise'
+84,5413,blue,AutoD2Reach,0,2.0, 'A_ChevalDeFrise'
+85,3484,red,AutoD2Reach,0,2.0, 'A_Portcullis'
+85,48,red,AutoD2Reach,1,2.0, 'A_Portcullis'
+85,6084,red,AutoD2Reach,0,2.0, 'A_Portcullis'
+85,3814,blue,AutoD2Reach,1,2.0, 'D_RoughTerrain'
+85,4085,blue,AutoD2Reach,0,2.0, 'D_RoughTerrain'
+85,451,blue,AutoD2Reach,0,2.0, 'D_RoughTerrain'
+86,120,blue,AutoD2Reach,0,2.0, 'C_SallyPort'
+86,3324,,AutoD2Reach,0,2.0,
+86,868,,AutoD2Reach,0,2.0,
+86,451,,AutoD2Reach,0,2.0,
+86,5492,,AutoD2Reach,0,2.0,
+86,5811,blue,AutoD2Reach,0,2.0, 'C_SallyPort'
+87,2051,red,AutoD2Reach,0,2.0, 'A_ChevalDeFrise'
+87,1708,red,AutoD2Reach,0,2.0, 'A_ChevalDeFrise'
+87,4145,red,AutoD2Reach,0,2.0, 'A_ChevalDeFrise'
+87,5492,blue,AutoD2Reach,1,2.0, 'D_RockWall'
+87,4284,blue,AutoD2Reach,0,2.0, 'D_RockWall'
+87,5667,blue,AutoD2Reach,0,2.0, 'D_RockWall'
+88,2016,red,AutoD2Reach,0,2.0, 'D_RockWall'
+88,1014,red,AutoD2Reach,0,2.0, 'D_RockWall'
+88,4256,red,AutoD2Reach,0,2.0, 'D_RockWall'
+88,3000,blue,AutoD2Reach,0,2.0, 'C_SallyPort'
+88,4028,blue,AutoD2Reach,0,2.0, 'C_SallyPort'
+88,6185,blue,AutoD2Reach,0,2.0, 'C_SallyPort'
+77,5667,red,AutoD3Cross,0,3.0, 'A_ChevalDeFrise'
+77,451,red,AutoD3Cross,1,3.0, 'A_ChevalDeFrise'
+77,3484,red,AutoD3Cross,0,3.0, 'A_ChevalDeFrise'
+77,4256,blue,AutoD3Cross,0,3.0, 'A_ChevalDeFrise'
+77,1939,blue,AutoD3Cross,0,3.0, 'A_ChevalDeFrise'
+77,2040,blue,AutoD3Cross,0,3.0, 'A_ChevalDeFrise'
+78,3324,red,AutoD3Cross,0,3.0, 'A_ChevalDeFrise'
+78,48,red,AutoD3Cross,0,3.0, 'A_ChevalDeFrise'
+78,279,red,AutoD3Cross,0,3.0, 'A_ChevalDeFrise'
+78,4521,blue,AutoD3Cross,0,3.0, 'A_ChevalDeFrise'
+78,3201,blue,AutoD3Cross,0,3.0, 'A_ChevalDeFrise'
+78,2016,blue,AutoD3Cross,0,3.0, 'A_ChevalDeFrise'
+79,4920,red,AutoD3Cross,0,3.0, 'A_ChevalDeFrise'
+79,5811,red,AutoD3Cross,0,3.0, 'A_ChevalDeFrise'
+79,3814,red,AutoD3Cross,0,3.0, 'A_ChevalDeFrise'
+79,5809,blue,AutoD3Cross,1,3.0, 'A_ChevalDeFrise'
+79,1038,blue,AutoD3Cross,0,3.0, 'A_ChevalDeFrise'
+79,4284,blue,AutoD3Cross,0,3.0, 'A_ChevalDeFrise'
+80,2051,red,AutoD3Cross,0,3.0, 'A_ChevalDeFrise'
+80,3138,red,AutoD3Cross,0,3.0, 'A_ChevalDeFrise'
+80,1014,red,AutoD3Cross,1,3.0, 'A_ChevalDeFrise'
+80,4085,blue,AutoD3Cross,1,3.0, 'A_ChevalDeFrise'
+80,120,blue,AutoD3Cross,0,3.0, 'A_ChevalDeFrise'
+80,3266,blue,AutoD3Cross,0,3.0, 'A_ChevalDeFrise'
+81,6181,red,AutoD3Cross,0,3.0, 'A_ChevalDeFrise'
+81,1708,red,AutoD3Cross,0,3.0, 'A_ChevalDeFrise'
+81,3504,red,AutoD3Cross,0,3.0, 'A_ChevalDeFrise'
+81,337,blue,AutoD3Cross,0,3.0, 'A_ChevalDeFrise'
+81,5749,blue,AutoD3Cross,0,3.0, 'A_ChevalDeFrise'
+81,3000,blue,AutoD3Cross,0,3.0, 'A_ChevalDeFrise'
+82,4115,red,AutoD3Cross,1,3.0, 'B_Moat'
+82,144,red,AutoD3Cross,0,3.0, 'B_Moat'
+82,5492,red,AutoD3Cross,0,3.0, 'B_Moat'
+82,3492,blue,AutoD3Cross,0,3.0, 'B_Moat'
+82,6185,blue,AutoD3Cross,0,3.0, 'B_Moat'
+82,3260,blue,AutoD3Cross,0,3.0, 'B_Moat'
+83,554,red,AutoD3Cross,0,3.0, 'B_Moat'
+83,1308,red,AutoD3Cross,0,3.0, 'B_Moat'
+83,128,red,AutoD3Cross,0,3.0, 'B_Moat'
+83,3777,blue,AutoD3Cross,0,3.0, 'B_Moat'
+83,3821,blue,AutoD3Cross,0,3.0, 'B_Moat'
+83,4213,blue,AutoD3Cross,0,3.0, 'B_Moat'
+84,2603,red,AutoD3Cross,0,3.0, 'B_Moat'
+84,245,red,AutoD3Cross,0,3.0, 'B_Moat'
+84,868,red,AutoD3Cross,1,3.0, 'B_Moat'
+84,1985,blue,AutoD3Cross,0,3.0, 'B_Moat'
+84,1249,blue,AutoD3Cross,0,3.0, 'B_Moat'
+84,5413,blue,AutoD3Cross,0,3.0, 'B_Moat'
+85,3484,red,AutoD3Cross,0,3.0, 'B_Moat'
+85,48,red,AutoD3Cross,0,3.0, 'B_Moat'
+85,6084,red,AutoD3Cross,0,3.0, 'B_Moat'
+85,3814,blue,AutoD3Cross,0,3.0, 'B_Moat'
+85,4085,blue,AutoD3Cross,0,3.0, 'B_Moat'
+85,451,blue,AutoD3Cross,0,3.0, 'B_Moat'
+86,120,blue,AutoD3Cross,0,3.0, 'B_Moat'
+86,3324,,AutoD3Cross,1,3.0,
+86,868,,AutoD3Cross,0,3.0,
+86,451,,AutoD3Cross,0,3.0,
+86,5492,,AutoD3Cross,1,3.0,
+86,5811,blue,AutoD3Cross,0,3.0, 'B_Moat'
+87,2051,red,AutoD3Cross,0,3.0, 'B_Moat'
+87,1708,red,AutoD3Cross,0,3.0, 'B_Moat'
+87,4145,red,AutoD3Cross,0,3.0, 'B_Moat'
+87,5492,blue,AutoD3Cross,0,3.0, 'B_Moat'
+87,4284,blue,AutoD3Cross,1,3.0, 'B_Moat'
+87,5667,blue,AutoD3Cross,0,3.0, 'B_Moat'
+88,2016,red,AutoD3Cross,0,3.0, 'B_Moat'
+88,1014,red,AutoD3Cross,0,3.0, 'B_Moat'
+88,4256,red,AutoD3Cross,0,3.0, 'B_Moat'
+88,3000,blue,AutoD3Cross,0,3.0, 'B_Moat'
+88,4028,blue,AutoD3Cross,1,3.0, 'B_Moat'
+88,6185,blue,AutoD3Cross,0,3.0, 'B_Moat'
+77,5667,red,AutoD3Reach,0,3.0, 'A_ChevalDeFrise'
+77,451,red,AutoD3Reach,1,3.0, 'A_ChevalDeFrise'
+77,3484,red,AutoD3Reach,0,3.0, 'A_ChevalDeFrise'
+77,4256,blue,AutoD3Reach,1,3.0, 'A_ChevalDeFrise'
+77,1939,blue,AutoD3Reach,0,3.0, 'A_ChevalDeFrise'
+77,2040,blue,AutoD3Reach,0,3.0, 'A_ChevalDeFrise'
+78,3324,red,AutoD3Reach,0,3.0, 'A_ChevalDeFrise'
+78,48,red,AutoD3Reach,0,3.0, 'A_ChevalDeFrise'
+78,279,red,AutoD3Reach,0,3.0, 'A_ChevalDeFrise'
+78,4521,blue,AutoD3Reach,0,3.0, 'A_ChevalDeFrise'
+78,3201,blue,AutoD3Reach,0,3.0, 'A_ChevalDeFrise'
+78,2016,blue,AutoD3Reach,0,3.0, 'A_ChevalDeFrise'
+79,4920,red,AutoD3Reach,0,3.0, 'A_ChevalDeFrise'
+79,5811,red,AutoD3Reach,0,3.0, 'A_ChevalDeFrise'
+79,3814,red,AutoD3Reach,0,3.0, 'A_ChevalDeFrise'
+79,5809,blue,AutoD3Reach,1,3.0, 'A_ChevalDeFrise'
+79,1038,blue,AutoD3Reach,0,3.0, 'A_ChevalDeFrise'
+79,4284,blue,AutoD3Reach,0,3.0, 'A_ChevalDeFrise'
+80,2051,red,AutoD3Reach,0,3.0, 'A_ChevalDeFrise'
+80,3138,red,AutoD3Reach,0,3.0, 'A_ChevalDeFrise'
+80,1014,red,AutoD3Reach,1,3.0, 'A_ChevalDeFrise'
+80,4085,blue,AutoD3Reach,1,3.0, 'A_ChevalDeFrise'
+80,120,blue,AutoD3Reach,0,3.0, 'A_ChevalDeFrise'
+80,3266,blue,AutoD3Reach,0,3.0, 'A_ChevalDeFrise'
+81,6181,red,AutoD3Reach,0,3.0, 'A_ChevalDeFrise'
+81,1708,red,AutoD3Reach,0,3.0, 'A_ChevalDeFrise'
+81,3504,red,AutoD3Reach,0,3.0, 'A_ChevalDeFrise'
+81,337,blue,AutoD3Reach,0,3.0, 'A_ChevalDeFrise'
+81,5749,blue,AutoD3Reach,0,3.0, 'A_ChevalDeFrise'
+81,3000,blue,AutoD3Reach,0,3.0, 'A_ChevalDeFrise'
+82,4115,red,AutoD3Reach,1,3.0, 'B_Moat'
+82,144,red,AutoD3Reach,0,3.0, 'B_Moat'
+82,5492,red,AutoD3Reach,0,3.0, 'B_Moat'
+82,3492,blue,AutoD3Reach,0,3.0, 'B_Moat'
+82,6185,blue,AutoD3Reach,0,3.0, 'B_Moat'
+82,3260,blue,AutoD3Reach,0,3.0, 'B_Moat'
+83,554,red,AutoD3Reach,0,3.0, 'B_Moat'
+83,1308,red,AutoD3Reach,0,3.0, 'B_Moat'
+83,128,red,AutoD3Reach,0,3.0, 'B_Moat'
+83,3777,blue,AutoD3Reach,0,3.0, 'B_Moat'
+83,3821,blue,AutoD3Reach,0,3.0, 'B_Moat'
+83,4213,blue,AutoD3Reach,0,3.0, 'B_Moat'
+84,2603,red,AutoD3Reach,0,3.0, 'B_Moat'
+84,245,red,AutoD3Reach,0,3.0, 'B_Moat'
+84,868,red,AutoD3Reach,1,3.0, 'B_Moat'
+84,1985,blue,AutoD3Reach,0,3.0, 'B_Moat'
+84,1249,blue,AutoD3Reach,0,3.0, 'B_Moat'
+84,5413,blue,AutoD3Reach,0,3.0, 'B_Moat'
+85,3484,red,AutoD3Reach,0,3.0, 'B_Moat'
+85,48,red,AutoD3Reach,0,3.0, 'B_Moat'
+85,6084,red,AutoD3Reach,0,3.0, 'B_Moat'
+85,3814,blue,AutoD3Reach,0,3.0, 'B_Moat'
+85,4085,blue,AutoD3Reach,0,3.0, 'B_Moat'
+85,451,blue,AutoD3Reach,0,3.0, 'B_Moat'
+86,120,blue,AutoD3Reach,0,3.0, 'B_Moat'
+86,3324,,AutoD3Reach,1,3.0,
+86,868,,AutoD3Reach,0,3.0,
+86,451,,AutoD3Reach,0,3.0,
+86,5492,,AutoD3Reach,1,3.0,
+86,5811,blue,AutoD3Reach,0,3.0, 'B_Moat'
+87,2051,red,AutoD3Reach,0,3.0, 'B_Moat'
+87,1708,red,AutoD3Reach,1,3.0, 'B_Moat'
+87,4145,red,AutoD3Reach,0,3.0, 'B_Moat'
+87,5492,blue,AutoD3Reach,0,3.0, 'B_Moat'
+87,4284,blue,AutoD3Reach,1,3.0, 'B_Moat'
+87,5667,blue,AutoD3Reach,0,3.0, 'B_Moat'
+88,2016,red,AutoD3Reach,0,3.0, 'B_Moat'
+88,1014,red,AutoD3Reach,0,3.0, 'B_Moat'
+88,4256,red,AutoD3Reach,0,3.0, 'B_Moat'
+88,3000,blue,AutoD3Reach,0,3.0, 'B_Moat'
+88,4028,blue,AutoD3Reach,1,3.0, 'B_Moat'
+88,6185,blue,AutoD3Reach,0,3.0, 'B_Moat'
+77,5667,red,AutoD4Cross,0,4.0, 'B_Ramparts'
+77,451,red,AutoD4Cross,0,4.0, 'B_Ramparts'
+77,3484,red,AutoD4Cross,0,4.0, 'B_Ramparts'
+77,4256,blue,AutoD4Cross,0,4.0, 'C_SallyPort'
+77,1939,blue,AutoD4Cross,0,4.0, 'C_SallyPort'
+77,2040,blue,AutoD4Cross,0,4.0, 'C_SallyPort'
+78,3324,red,AutoD4Cross,0,4.0, 'B_Ramparts'
+78,48,red,AutoD4Cross,0,4.0, 'B_Ramparts'
+78,279,red,AutoD4Cross,0,4.0, 'B_Ramparts'
+78,4521,blue,AutoD4Cross,1,4.0, 'D_RockWall'
+78,3201,blue,AutoD4Cross,1,4.0, 'D_RockWall'
+78,2016,blue,AutoD4Cross,0,4.0, 'D_RockWall'
+79,4920,red,AutoD4Cross,0,4.0, 'B_Moat'
+79,5811,red,AutoD4Cross,0,4.0, 'B_Moat'
+79,3814,red,AutoD4Cross,1,4.0, 'B_Moat'
+79,5809,blue,AutoD4Cross,0,4.0, 'B_Moat'
+79,1038,blue,AutoD4Cross,0,4.0, 'B_Moat'
+79,4284,blue,AutoD4Cross,0,4.0, 'B_Moat'
+80,2051,red,AutoD4Cross,0,4.0, 'D_RockWall'
+80,3138,red,AutoD4Cross,0,4.0, 'D_RockWall'
+80,1014,red,AutoD4Cross,0,4.0, 'D_RockWall'
+80,4085,blue,AutoD4Cross,0,4.0, 'D_RockWall'
+80,120,blue,AutoD4Cross,0,4.0, 'D_RockWall'
+80,3266,blue,AutoD4Cross,0,4.0, 'D_RockWall'
+81,6181,red,AutoD4Cross,0,4.0, 'D_RockWall'
+81,1708,red,AutoD4Cross,0,4.0, 'D_RockWall'
+81,3504,red,AutoD4Cross,1,4.0, 'D_RockWall'
+81,337,blue,AutoD4Cross,0,4.0, 'D_RockWall'
+81,5749,blue,AutoD4Cross,0,4.0, 'D_RockWall'
+81,3000,blue,AutoD4Cross,0,4.0, 'D_RockWall'
+82,4115,red,AutoD4Cross,0,4.0, 'D_RockWall'
+82,144,red,AutoD4Cross,0,4.0, 'D_RockWall'
+82,5492,red,AutoD4Cross,1,4.0, 'D_RockWall'
+82,3492,blue,AutoD4Cross,0,4.0, 'C_SallyPort'
+82,6185,blue,AutoD4Cross,0,4.0, 'C_SallyPort'
+82,3260,blue,AutoD4Cross,0,4.0, 'C_SallyPort'
+83,554,red,AutoD4Cross,1,4.0, 'A_ChevalDeFrise'
+83,1308,red,AutoD4Cross,0,4.0, 'A_ChevalDeFrise'
+83,128,red,AutoD4Cross,0,4.0, 'A_ChevalDeFrise'
+83,3777,blue,AutoD4Cross,0,4.0, 'D_RockWall'
+83,3821,blue,AutoD4Cross,0,4.0, 'D_RockWall'
+83,4213,blue,AutoD4Cross,0,4.0, 'D_RockWall'
+84,2603,red,AutoD4Cross,0,4.0, 'C_SallyPort'
+84,245,red,AutoD4Cross,0,4.0, 'C_SallyPort'
+84,868,red,AutoD4Cross,0,4.0, 'C_SallyPort'
+84,1985,blue,AutoD4Cross,0,4.0, 'C_SallyPort'
+84,1249,blue,AutoD4Cross,0,4.0, 'C_SallyPort'
+84,5413,blue,AutoD4Cross,0,4.0, 'C_SallyPort'
+85,3484,red,AutoD4Cross,0,4.0, 'D_RockWall'
+85,48,red,AutoD4Cross,0,4.0, 'D_RockWall'
+85,6084,red,AutoD4Cross,0,4.0, 'D_RockWall'
+85,3814,blue,AutoD4Cross,0,4.0, 'A_Portcullis'
+85,4085,blue,AutoD4Cross,0,4.0, 'A_Portcullis'
+85,451,blue,AutoD4Cross,0,4.0, 'A_Portcullis'
+86,120,blue,AutoD4Cross,0,4.0, 'D_RockWall'
+86,3324,,AutoD4Cross,0,4.0,
+86,868,,AutoD4Cross,0,4.0,
+86,451,,AutoD4Cross,1,4.0,
+86,5492,,AutoD4Cross,0,4.0,
+86,5811,blue,AutoD4Cross,0,4.0, 'D_RockWall'
+87,2051,red,AutoD4Cross,0,4.0, 'C_SallyPort'
+87,1708,red,AutoD4Cross,0,4.0, 'C_SallyPort'
+87,4145,red,AutoD4Cross,0,4.0, 'C_SallyPort'
+87,5492,blue,AutoD4Cross,0,4.0, 'A_ChevalDeFrise'
+87,4284,blue,AutoD4Cross,0,4.0, 'A_ChevalDeFrise'
+87,5667,blue,AutoD4Cross,0,4.0, 'A_ChevalDeFrise'
+88,2016,red,AutoD4Cross,0,4.0, 'A_ChevalDeFrise'
+88,1014,red,AutoD4Cross,0,4.0, 'A_ChevalDeFrise'
+88,4256,red,AutoD4Cross,1,4.0, 'A_ChevalDeFrise'
+88,3000,blue,AutoD4Cross,0,4.0, 'A_Portcullis'
+88,4028,blue,AutoD4Cross,0,4.0, 'A_Portcullis'
+88,6185,blue,AutoD4Cross,0,4.0, 'A_Portcullis'
+77,5667,red,AutoD4Reach,0,4.0, 'B_Ramparts'
+77,451,red,AutoD4Reach,0,4.0, 'B_Ramparts'
+77,3484,red,AutoD4Reach,0,4.0, 'B_Ramparts'
+77,4256,blue,AutoD4Reach,0,4.0, 'C_SallyPort'
+77,1939,blue,AutoD4Reach,0,4.0, 'C_SallyPort'
+77,2040,blue,AutoD4Reach,0,4.0, 'C_SallyPort'
+78,3324,red,AutoD4Reach,0,4.0, 'B_Ramparts'
+78,48,red,AutoD4Reach,0,4.0, 'B_Ramparts'
+78,279,red,AutoD4Reach,1,4.0, 'B_Ramparts'
+78,4521,blue,AutoD4Reach,1,4.0, 'D_RockWall'
+78,3201,blue,AutoD4Reach,1,4.0, 'D_RockWall'
+78,2016,blue,AutoD4Reach,0,4.0, 'D_RockWall'
+79,4920,red,AutoD4Reach,0,4.0, 'B_Moat'
+79,5811,red,AutoD4Reach,0,4.0, 'B_Moat'
+79,3814,red,AutoD4Reach,1,4.0, 'B_Moat'
+79,5809,blue,AutoD4Reach,0,4.0, 'B_Moat'
+79,1038,blue,AutoD4Reach,0,4.0, 'B_Moat'
+79,4284,blue,AutoD4Reach,0,4.0, 'B_Moat'
+80,2051,red,AutoD4Reach,0,4.0, 'D_RockWall'
+80,3138,red,AutoD4Reach,0,4.0, 'D_RockWall'
+80,1014,red,AutoD4Reach,0,4.0, 'D_RockWall'
+80,4085,blue,AutoD4Reach,0,4.0, 'D_RockWall'
+80,120,blue,AutoD4Reach,0,4.0, 'D_RockWall'
+80,3266,blue,AutoD4Reach,0,4.0, 'D_RockWall'
+81,6181,red,AutoD4Reach,0,4.0, 'D_RockWall'
+81,1708,red,AutoD4Reach,0,4.0, 'D_RockWall'
+81,3504,red,AutoD4Reach,1,4.0, 'D_RockWall'
+81,337,blue,AutoD4Reach,0,4.0, 'D_RockWall'
+81,5749,blue,AutoD4Reach,0,4.0, 'D_RockWall'
+81,3000,blue,AutoD4Reach,0,4.0, 'D_RockWall'
+82,4115,red,AutoD4Reach,0,4.0, 'D_RockWall'
+82,144,red,AutoD4Reach,0,4.0, 'D_RockWall'
+82,5492,red,AutoD4Reach,1,4.0, 'D_RockWall'
+82,3492,blue,AutoD4Reach,0,4.0, 'C_SallyPort'
+82,6185,blue,AutoD4Reach,0,4.0, 'C_SallyPort'
+82,3260,blue,AutoD4Reach,0,4.0, 'C_SallyPort'
+83,554,red,AutoD4Reach,1,4.0, 'A_ChevalDeFrise'
+83,1308,red,AutoD4Reach,0,4.0, 'A_ChevalDeFrise'
+83,128,red,AutoD4Reach,0,4.0, 'A_ChevalDeFrise'
+83,3777,blue,AutoD4Reach,0,4.0, 'D_RockWall'
+83,3821,blue,AutoD4Reach,0,4.0, 'D_RockWall'
+83,4213,blue,AutoD4Reach,0,4.0, 'D_RockWall'
+84,2603,red,AutoD4Reach,0,4.0, 'C_SallyPort'
+84,245,red,AutoD4Reach,0,4.0, 'C_SallyPort'
+84,868,red,AutoD4Reach,0,4.0, 'C_SallyPort'
+84,1985,blue,AutoD4Reach,0,4.0, 'C_SallyPort'
+84,1249,blue,AutoD4Reach,0,4.0, 'C_SallyPort'
+84,5413,blue,AutoD4Reach,0,4.0, 'C_SallyPort'
+85,3484,red,AutoD4Reach,0,4.0, 'D_RockWall'
+85,48,red,AutoD4Reach,0,4.0, 'D_RockWall'
+85,6084,red,AutoD4Reach,0,4.0, 'D_RockWall'
+85,3814,blue,AutoD4Reach,0,4.0, 'A_Portcullis'
+85,4085,blue,AutoD4Reach,0,4.0, 'A_Portcullis'
+85,451,blue,AutoD4Reach,0,4.0, 'A_Portcullis'
+86,120,blue,AutoD4Reach,0,4.0, 'D_RockWall'
+86,3324,,AutoD4Reach,0,4.0,
+86,868,,AutoD4Reach,0,4.0,
+86,451,,AutoD4Reach,1,4.0,
+86,5492,,AutoD4Reach,0,4.0,
+86,5811,blue,AutoD4Reach,0,4.0, 'D_RockWall'
+87,2051,red,AutoD4Reach,0,4.0, 'C_SallyPort'
+87,1708,red,AutoD4Reach,0,4.0, 'C_SallyPort'
+87,4145,red,AutoD4Reach,0,4.0, 'C_SallyPort'
+87,5492,blue,AutoD4Reach,0,4.0, 'A_ChevalDeFrise'
+87,4284,blue,AutoD4Reach,0,4.0, 'A_ChevalDeFrise'
+87,5667,blue,AutoD4Reach,0,4.0, 'A_ChevalDeFrise'
+88,2016,red,AutoD4Reach,0,4.0, 'A_ChevalDeFrise'
+88,1014,red,AutoD4Reach,0,4.0, 'A_ChevalDeFrise'
+88,4256,red,AutoD4Reach,1,4.0, 'A_ChevalDeFrise'
+88,3000,blue,AutoD4Reach,0,4.0, 'A_Portcullis'
+88,4028,blue,AutoD4Reach,0,4.0, 'A_Portcullis'
+88,6185,blue,AutoD4Reach,0,4.0, 'A_Portcullis'
+77,5667,red,AutoD5Cross,1,5.0, 'D_RockWall'
+77,451,red,AutoD5Cross,0,5.0, 'D_RockWall'
+77,3484,red,AutoD5Cross,0,5.0, 'D_RockWall'
+77,4256,blue,AutoD5Cross,0,5.0, 'B_Ramparts'
+77,1939,blue,AutoD5Cross,0,5.0, 'B_Ramparts'
+77,2040,blue,AutoD5Cross,0,5.0, 'B_Ramparts'
+78,3324,red,AutoD5Cross,1,5.0, 'D_RockWall'
+78,48,red,AutoD5Cross,0,5.0, 'D_RockWall'
+78,279,red,AutoD5Cross,0,5.0, 'D_RockWall'
+78,4521,blue,AutoD5Cross,0,5.0, 'B_Ramparts'
+78,3201,blue,AutoD5Cross,0,5.0, 'B_Ramparts'
+78,2016,blue,AutoD5Cross,0,5.0, 'B_Ramparts'
+79,4920,red,AutoD5Cross,0,5.0, 'D_RockWall'
+79,5811,red,AutoD5Cross,0,5.0, 'D_RockWall'
+79,3814,red,AutoD5Cross,0,5.0, 'D_RockWall'
+79,5809,blue,AutoD5Cross,0,5.0, 'D_RockWall'
+79,1038,blue,AutoD5Cross,1,5.0, 'D_RockWall'
+79,4284,blue,AutoD5Cross,0,5.0, 'D_RockWall'
+80,2051,red,AutoD5Cross,0,5.0, 'B_Ramparts'
+80,3138,red,AutoD5Cross,0,5.0, 'B_Ramparts'
+80,1014,red,AutoD5Cross,0,5.0, 'B_Ramparts'
+80,4085,blue,AutoD5Cross,0,5.0, 'C_Drawbridge'
+80,120,blue,AutoD5Cross,0,5.0, 'C_Drawbridge'
+80,3266,blue,AutoD5Cross,0,5.0, 'C_Drawbridge'
+81,6181,red,AutoD5Cross,0,5.0, 'C_Drawbridge'
+81,1708,red,AutoD5Cross,0,5.0, 'C_Drawbridge'
+81,3504,red,AutoD5Cross,0,5.0, 'C_Drawbridge'
+81,337,blue,AutoD5Cross,0,5.0, 'C_Drawbridge'
+81,5749,blue,AutoD5Cross,0,5.0, 'C_Drawbridge'
+81,3000,blue,AutoD5Cross,0,5.0, 'C_Drawbridge'
+82,4115,red,AutoD5Cross,0,5.0, 'C_SallyPort'
+82,144,red,AutoD5Cross,0,5.0, 'C_SallyPort'
+82,5492,red,AutoD5Cross,0,5.0, 'C_SallyPort'
+82,3492,blue,AutoD5Cross,0,5.0, 'A_ChevalDeFrise'
+82,6185,blue,AutoD5Cross,0,5.0, 'A_ChevalDeFrise'
+82,3260,blue,AutoD5Cross,0,5.0, 'A_ChevalDeFrise'
+83,554,red,AutoD5Cross,0,5.0, 'D_RockWall'
+83,1308,red,AutoD5Cross,0,5.0, 'D_RockWall'
+83,128,red,AutoD5Cross,0,5.0, 'D_RockWall'
+83,3777,blue,AutoD5Cross,0,5.0, 'A_ChevalDeFrise'
+83,3821,blue,AutoD5Cross,0,5.0, 'A_ChevalDeFrise'
+83,4213,blue,AutoD5Cross,0,5.0, 'A_ChevalDeFrise'
+84,2603,red,AutoD5Cross,0,5.0, 'A_Portcullis'
+84,245,red,AutoD5Cross,0,5.0, 'A_Portcullis'
+84,868,red,AutoD5Cross,0,5.0, 'A_Portcullis'
+84,1985,blue,AutoD5Cross,0,5.0, 'D_RockWall'
+84,1249,blue,AutoD5Cross,0,5.0, 'D_RockWall'
+84,5413,blue,AutoD5Cross,0,5.0, 'D_RockWall'
+85,3484,red,AutoD5Cross,0,5.0, 'C_SallyPort'
+85,48,red,AutoD5Cross,0,5.0, 'C_SallyPort'
+85,6084,red,AutoD5Cross,0,5.0, 'C_SallyPort'
+85,3814,blue,AutoD5Cross,0,5.0, 'C_SallyPort'
+85,4085,blue,AutoD5Cross,0,5.0, 'C_SallyPort'
+85,451,blue,AutoD5Cross,0,5.0, 'C_SallyPort'
+86,120,blue,AutoD5Cross,1,5.0, 'A_ChevalDeFrise'
+86,3324,,AutoD5Cross,0,5.0,
+86,868,,AutoD5Cross,0,5.0,
+86,451,,AutoD5Cross,0,5.0,
+86,5492,,AutoD5Cross,0,5.0,
+86,5811,blue,AutoD5Cross,0,5.0, 'A_ChevalDeFrise'
+87,2051,red,AutoD5Cross,1,5.0, 'D_RockWall'
+87,1708,red,AutoD5Cross,0,5.0, 'D_RockWall'
+87,4145,red,AutoD5Cross,0,5.0, 'D_RockWall'
+87,5492,blue,AutoD5Cross,0,5.0, 'C_SallyPort'
+87,4284,blue,AutoD5Cross,0,5.0, 'C_SallyPort'
+87,5667,blue,AutoD5Cross,0,5.0, 'C_SallyPort'
+88,2016,red,AutoD5Cross,0,5.0, 'C_Drawbridge'
+88,1014,red,AutoD5Cross,0,5.0, 'C_Drawbridge'
+88,4256,red,AutoD5Cross,0,5.0, 'C_Drawbridge'
+88,3000,blue,AutoD5Cross,0,5.0, 'D_RockWall'
+88,4028,blue,AutoD5Cross,0,5.0, 'D_RockWall'
+88,6185,blue,AutoD5Cross,0,5.0, 'D_RockWall'
+77,5667,red,AutoD5Reach,1,5.0, 'D_RockWall'
+77,451,red,AutoD5Reach,0,5.0, 'D_RockWall'
+77,3484,red,AutoD5Reach,0,5.0, 'D_RockWall'
+77,4256,blue,AutoD5Reach,0,5.0, 'B_Ramparts'
+77,1939,blue,AutoD5Reach,0,5.0, 'B_Ramparts'
+77,2040,blue,AutoD5Reach,0,5.0, 'B_Ramparts'
+78,3324,red,AutoD5Reach,1,5.0, 'D_RockWall'
+78,48,red,AutoD5Reach,0,5.0, 'D_RockWall'
+78,279,red,AutoD5Reach,0,5.0, 'D_RockWall'
+78,4521,blue,AutoD5Reach,0,5.0, 'B_Ramparts'
+78,3201,blue,AutoD5Reach,0,5.0, 'B_Ramparts'
+78,2016,blue,AutoD5Reach,0,5.0, 'B_Ramparts'
+79,4920,red,AutoD5Reach,0,5.0, 'D_RockWall'
+79,5811,red,AutoD5Reach,0,5.0, 'D_RockWall'
+79,3814,red,AutoD5Reach,0,5.0, 'D_RockWall'
+79,5809,blue,AutoD5Reach,0,5.0, 'D_RockWall'
+79,1038,blue,AutoD5Reach,1,5.0, 'D_RockWall'
+79,4284,blue,AutoD5Reach,0,5.0, 'D_RockWall'
+80,2051,red,AutoD5Reach,0,5.0, 'B_Ramparts'
+80,3138,red,AutoD5Reach,0,5.0, 'B_Ramparts'
+80,1014,red,AutoD5Reach,0,5.0, 'B_Ramparts'
+80,4085,blue,AutoD5Reach,0,5.0, 'C_Drawbridge'
+80,120,blue,AutoD5Reach,0,5.0, 'C_Drawbridge'
+80,3266,blue,AutoD5Reach,0,5.0, 'C_Drawbridge'
+81,6181,red,AutoD5Reach,0,5.0, 'C_Drawbridge'
+81,1708,red,AutoD5Reach,0,5.0, 'C_Drawbridge'
+81,3504,red,AutoD5Reach,0,5.0, 'C_Drawbridge'
+81,337,blue,AutoD5Reach,0,5.0, 'C_Drawbridge'
+81,5749,blue,AutoD5Reach,0,5.0, 'C_Drawbridge'
+81,3000,blue,AutoD5Reach,0,5.0, 'C_Drawbridge'
+82,4115,red,AutoD5Reach,0,5.0, 'C_SallyPort'
+82,144,red,AutoD5Reach,0,5.0, 'C_SallyPort'
+82,5492,red,AutoD5Reach,0,5.0, 'C_SallyPort'
+82,3492,blue,AutoD5Reach,0,5.0, 'A_ChevalDeFrise'
+82,6185,blue,AutoD5Reach,0,5.0, 'A_ChevalDeFrise'
+82,3260,blue,AutoD5Reach,0,5.0, 'A_ChevalDeFrise'
+83,554,red,AutoD5Reach,0,5.0, 'D_RockWall'
+83,1308,red,AutoD5Reach,0,5.0, 'D_RockWall'
+83,128,red,AutoD5Reach,0,5.0, 'D_RockWall'
+83,3777,blue,AutoD5Reach,0,5.0, 'A_ChevalDeFrise'
+83,3821,blue,AutoD5Reach,0,5.0, 'A_ChevalDeFrise'
+83,4213,blue,AutoD5Reach,0,5.0, 'A_ChevalDeFrise'
+84,2603,red,AutoD5Reach,1,5.0, 'A_Portcullis'
+84,245,red,AutoD5Reach,0,5.0, 'A_Portcullis'
+84,868,red,AutoD5Reach,0,5.0, 'A_Portcullis'
+84,1985,blue,AutoD5Reach,0,5.0, 'D_RockWall'
+84,1249,blue,AutoD5Reach,0,5.0, 'D_RockWall'
+84,5413,blue,AutoD5Reach,0,5.0, 'D_RockWall'
+85,3484,red,AutoD5Reach,0,5.0, 'C_SallyPort'
+85,48,red,AutoD5Reach,0,5.0, 'C_SallyPort'
+85,6084,red,AutoD5Reach,0,5.0, 'C_SallyPort'
+85,3814,blue,AutoD5Reach,0,5.0, 'C_SallyPort'
+85,4085,blue,AutoD5Reach,0,5.0, 'C_SallyPort'
+85,451,blue,AutoD5Reach,0,5.0, 'C_SallyPort'
+86,120,blue,AutoD5Reach,1,5.0, 'A_ChevalDeFrise'
+86,3324,,AutoD5Reach,0,5.0,
+86,868,,AutoD5Reach,0,5.0,
+86,451,,AutoD5Reach,0,5.0,
+86,5492,,AutoD5Reach,0,5.0,
+86,5811,blue,AutoD5Reach,0,5.0, 'A_ChevalDeFrise'
+87,2051,red,AutoD5Reach,1,5.0, 'D_RockWall'
+87,1708,red,AutoD5Reach,0,5.0, 'D_RockWall'
+87,4145,red,AutoD5Reach,0,5.0, 'D_RockWall'
+87,5492,blue,AutoD5Reach,0,5.0, 'C_SallyPort'
+87,4284,blue,AutoD5Reach,0,5.0, 'C_SallyPort'
+87,5667,blue,AutoD5Reach,0,5.0, 'C_SallyPort'
+88,2016,red,AutoD5Reach,0,5.0, 'C_Drawbridge'
+88,1014,red,AutoD5Reach,0,5.0, 'C_Drawbridge'
+88,4256,red,AutoD5Reach,0,5.0, 'C_Drawbridge'
+88,3000,blue,AutoD5Reach,0,5.0, 'D_RockWall'
+88,4028,blue,AutoD5Reach,0,5.0, 'D_RockWall'
+88,6185,blue,AutoD5Reach,0,5.0, 'D_RockWall'
+77,5667,red,AutoHighShotMade,0,,
+77,451,red,AutoHighShotMade,0,,
+77,3484,red,AutoHighShotMade,0,,
+77,4256,blue,AutoHighShotMade,0,,
+77,1939,blue,AutoHighShotMade,0,,
+77,2040,blue,AutoHighShotMade,0,,
+78,3324,red,AutoHighShotMade,0,,
+78,48,red,AutoHighShotMade,0,,
+78,279,red,AutoHighShotMade,0,,
+78,4521,blue,AutoHighShotMade,0,,
+78,3201,blue,AutoHighShotMade,0,,
+78,2016,blue,AutoHighShotMade,0,,
+79,4920,red,AutoHighShotMade,0,,
+79,5811,red,AutoHighShotMade,0,,
+79,3814,red,AutoHighShotMade,0,,
+79,5809,blue,AutoHighShotMade,0,,
+79,1038,blue,AutoHighShotMade,0,,
+79,4284,blue,AutoHighShotMade,0,,
+80,2051,red,AutoHighShotMade,0,,
+80,3138,red,AutoHighShotMade,1,,
+80,1014,red,AutoHighShotMade,0,,
+80,4085,blue,AutoHighShotMade,2,,
+80,120,blue,AutoHighShotMade,0,,
+80,3266,blue,AutoHighShotMade,0,,
+81,6181,red,AutoHighShotMade,0,,
+81,1708,red,AutoHighShotMade,0,,
+81,3504,red,AutoHighShotMade,0,,
+81,337,blue,AutoHighShotMade,0,,
+81,5749,blue,AutoHighShotMade,0,,
+81,3000,blue,AutoHighShotMade,0,,
+82,4115,red,AutoHighShotMade,0,,
+82,144,red,AutoHighShotMade,0,,
+82,5492,red,AutoHighShotMade,0,,
+82,3492,blue,AutoHighShotMade,0,,
+82,6185,blue,AutoHighShotMade,0,,
+82,3260,blue,AutoHighShotMade,0,,
+83,554,red,AutoHighShotMade,0,,
+83,1308,red,AutoHighShotMade,0,,
+83,128,red,AutoHighShotMade,0,,
+83,3777,blue,AutoHighShotMade,0,,
+83,3821,blue,AutoHighShotMade,0,,
+83,4213,blue,AutoHighShotMade,0,,
+84,2603,red,AutoHighShotMade,0,,
+84,245,red,AutoHighShotMade,0,,
+84,868,red,AutoHighShotMade,0,,
+84,1985,blue,AutoHighShotMade,0,,
+84,1249,blue,AutoHighShotMade,0,,
+84,5413,blue,AutoHighShotMade,0,,
+85,3484,red,AutoHighShotMade,0,,
+85,48,red,AutoHighShotMade,0,,
+85,6084,red,AutoHighShotMade,0,,
+85,3814,blue,AutoHighShotMade,0,,
+85,4085,blue,AutoHighShotMade,0,,
+85,451,blue,AutoHighShotMade,0,,
+86,120,blue,AutoHighShotMade,0,,
+86,3324,,AutoHighShotMade,0,,
+86,868,,AutoHighShotMade,0,,
+86,451,,AutoHighShotMade,0,,
+86,5492,,AutoHighShotMade,0,,
+86,5811,blue,AutoHighShotMade,0,,
+87,2051,red,AutoHighShotMade,0,,
+87,1708,red,AutoHighShotMade,0,,
+87,4145,red,AutoHighShotMade,0,,
+87,5492,blue,AutoHighShotMade,0,,
+87,4284,blue,AutoHighShotMade,0,,
+87,5667,blue,AutoHighShotMade,0,,
+88,2016,red,AutoHighShotMade,0,,
+88,1014,red,AutoHighShotMade,0,,
+88,4256,red,AutoHighShotMade,1,,
+88,3000,blue,AutoHighShotMade,0,,
+88,4028,blue,AutoHighShotMade,0,,
+88,6185,blue,AutoHighShotMade,0,,
+77,5667,red,AutoHighShotAtt,0,,
+77,451,red,AutoHighShotAtt,0,,
+77,3484,red,AutoHighShotAtt,0,,
+77,4256,blue,AutoHighShotAtt,0,,
+77,1939,blue,AutoHighShotAtt,0,,
+77,2040,blue,AutoHighShotAtt,0,,
+78,3324,red,AutoHighShotAtt,0,,
+78,48,red,AutoHighShotAtt,1,,
+78,279,red,AutoHighShotAtt,0,,
+78,4521,blue,AutoHighShotAtt,0,,
+78,3201,blue,AutoHighShotAtt,0,,
+78,2016,blue,AutoHighShotAtt,0,,
+79,4920,red,AutoHighShotAtt,0,,
+79,5811,red,AutoHighShotAtt,0,,
+79,3814,red,AutoHighShotAtt,0,,
+79,5809,blue,AutoHighShotAtt,0,,
+79,1038,blue,AutoHighShotAtt,0,,
+79,4284,blue,AutoHighShotAtt,0,,
+80,2051,red,AutoHighShotAtt,0,,
+80,3138,red,AutoHighShotAtt,1,,
+80,1014,red,AutoHighShotAtt,0,,
+80,4085,blue,AutoHighShotAtt,2,,
+80,120,blue,AutoHighShotAtt,0,,
+80,3266,blue,AutoHighShotAtt,0,,
+81,6181,red,AutoHighShotAtt,0,,
+81,1708,red,AutoHighShotAtt,0,,
+81,3504,red,AutoHighShotAtt,0,,
+81,337,blue,AutoHighShotAtt,0,,
+81,5749,blue,AutoHighShotAtt,0,,
+81,3000,blue,AutoHighShotAtt,0,,
+82,4115,red,AutoHighShotAtt,0,,
+82,144,red,AutoHighShotAtt,0,,
+82,5492,red,AutoHighShotAtt,0,,
+82,3492,blue,AutoHighShotAtt,0,,
+82,6185,blue,AutoHighShotAtt,0,,
+82,3260,blue,AutoHighShotAtt,0,,
+83,554,red,AutoHighShotAtt,0,,
+83,1308,red,AutoHighShotAtt,0,,
+83,128,red,AutoHighShotAtt,0,,
+83,3777,blue,AutoHighShotAtt,0,,
+83,3821,blue,AutoHighShotAtt,1,,
+83,4213,blue,AutoHighShotAtt,0,,
+84,2603,red,AutoHighShotAtt,0,,
+84,245,red,AutoHighShotAtt,0,,
+84,868,red,AutoHighShotAtt,0,,
+84,1985,blue,AutoHighShotAtt,0,,
+84,1249,blue,AutoHighShotAtt,0,,
+84,5413,blue,AutoHighShotAtt,0,,
+85,3484,red,AutoHighShotAtt,0,,
+85,48,red,AutoHighShotAtt,0,,
+85,6084,red,AutoHighShotAtt,0,,
+85,3814,blue,AutoHighShotAtt,0,,
+85,4085,blue,AutoHighShotAtt,0,,
+85,451,blue,AutoHighShotAtt,0,,
+86,120,blue,AutoHighShotAtt,0,,
+86,3324,,AutoHighShotAtt,0,,
+86,868,,AutoHighShotAtt,0,,
+86,451,,AutoHighShotAtt,0,,
+86,5492,,AutoHighShotAtt,0,,
+86,5811,blue,AutoHighShotAtt,0,,
+87,2051,red,AutoHighShotAtt,0,,
+87,1708,red,AutoHighShotAtt,0,,
+87,4145,red,AutoHighShotAtt,0,,
+87,5492,blue,AutoHighShotAtt,0,,
+87,4284,blue,AutoHighShotAtt,0,,
+87,5667,blue,AutoHighShotAtt,0,,
+88,2016,red,AutoHighShotAtt,0,,
+88,1014,red,AutoHighShotAtt,0,,
+88,4256,red,AutoHighShotAtt,1,,
+88,3000,blue,AutoHighShotAtt,0,,
+88,4028,blue,AutoHighShotAtt,0,,
+88,6185,blue,AutoHighShotAtt,0,,
+77,5667,red,AutoLowShotMade,0,,
+77,451,red,AutoLowShotMade,0,,
+77,3484,red,AutoLowShotMade,0,,
+77,4256,blue,AutoLowShotMade,0,,
+77,1939,blue,AutoLowShotMade,0,,
+77,2040,blue,AutoLowShotMade,0,,
+78,3324,red,AutoLowShotMade,0,,
+78,48,red,AutoLowShotMade,0,,
+78,279,red,AutoLowShotMade,0,,
+78,4521,blue,AutoLowShotMade,0,,
+78,3201,blue,AutoLowShotMade,0,,
+78,2016,blue,AutoLowShotMade,0,,
+79,4920,red,AutoLowShotMade,0,,
+79,5811,red,AutoLowShotMade,0,,
+79,3814,red,AutoLowShotMade,0,,
+79,5809,blue,AutoLowShotMade,0,,
+79,1038,blue,AutoLowShotMade,0,,
+79,4284,blue,AutoLowShotMade,0,,
+80,2051,red,AutoLowShotMade,0,,
+80,3138,red,AutoLowShotMade,0,,
+80,1014,red,AutoLowShotMade,0,,
+80,4085,blue,AutoLowShotMade,0,,
+80,120,blue,AutoLowShotMade,0,,
+80,3266,blue,AutoLowShotMade,0,,
+81,6181,red,AutoLowShotMade,0,,
+81,1708,red,AutoLowShotMade,0,,
+81,3504,red,AutoLowShotMade,0,,
+81,337,blue,AutoLowShotMade,0,,
+81,5749,blue,AutoLowShotMade,0,,
+81,3000,blue,AutoLowShotMade,0,,
+82,4115,red,AutoLowShotMade,0,,
+82,144,red,AutoLowShotMade,0,,
+82,5492,red,AutoLowShotMade,0,,
+82,3492,blue,AutoLowShotMade,0,,
+82,6185,blue,AutoLowShotMade,0,,
+82,3260,blue,AutoLowShotMade,0,,
+83,554,red,AutoLowShotMade,0,,
+83,1308,red,AutoLowShotMade,0,,
+83,128,red,AutoLowShotMade,0,,
+83,3777,blue,AutoLowShotMade,0,,
+83,3821,blue,AutoLowShotMade,0,,
+83,4213,blue,AutoLowShotMade,0,,
+84,2603,red,AutoLowShotMade,0,,
+84,245,red,AutoLowShotMade,0,,
+84,868,red,AutoLowShotMade,0,,
+84,1985,blue,AutoLowShotMade,0,,
+84,1249,blue,AutoLowShotMade,0,,
+84,5413,blue,AutoLowShotMade,0,,
+85,3484,red,AutoLowShotMade,0,,
+85,48,red,AutoLowShotMade,0,,
+85,6084,red,AutoLowShotMade,0,,
+85,3814,blue,AutoLowShotMade,0,,
+85,4085,blue,AutoLowShotMade,0,,
+85,451,blue,AutoLowShotMade,0,,
+86,120,blue,AutoLowShotMade,0,,
+86,3324,,AutoLowShotMade,0,,
+86,868,,AutoLowShotMade,0,,
+86,451,,AutoLowShotMade,0,,
+86,5492,,AutoLowShotMade,0,,
+86,5811,blue,AutoLowShotMade,0,,
+87,2051,red,AutoLowShotMade,0,,
+87,1708,red,AutoLowShotMade,0,,
+87,4145,red,AutoLowShotMade,1,,
+87,5492,blue,AutoLowShotMade,0,,
+87,4284,blue,AutoLowShotMade,0,,
+87,5667,blue,AutoLowShotMade,0,,
+88,2016,red,AutoLowShotMade,0,,
+88,1014,red,AutoLowShotMade,1,,
+88,4256,red,AutoLowShotMade,0,,
+88,3000,blue,AutoLowShotMade,0,,
+88,4028,blue,AutoLowShotMade,0,,
+88,6185,blue,AutoLowShotMade,0,,
+77,5667,red,AutoLowShotAtt,0,,
+77,451,red,AutoLowShotAtt,0,,
+77,3484,red,AutoLowShotAtt,0,,
+77,4256,blue,AutoLowShotAtt,0,,
+77,1939,blue,AutoLowShotAtt,0,,
+77,2040,blue,AutoLowShotAtt,0,,
+78,3324,red,AutoLowShotAtt,0,,
+78,48,red,AutoLowShotAtt,0,,
+78,279,red,AutoLowShotAtt,0,,
+78,4521,blue,AutoLowShotAtt,0,,
+78,3201,blue,AutoLowShotAtt,0,,
+78,2016,blue,AutoLowShotAtt,0,,
+79,4920,red,AutoLowShotAtt,0,,
+79,5811,red,AutoLowShotAtt,0,,
+79,3814,red,AutoLowShotAtt,0,,
+79,5809,blue,AutoLowShotAtt,0,,
+79,1038,blue,AutoLowShotAtt,0,,
+79,4284,blue,AutoLowShotAtt,0,,
+80,2051,red,AutoLowShotAtt,0,,
+80,3138,red,AutoLowShotAtt,0,,
+80,1014,red,AutoLowShotAtt,0,,
+80,4085,blue,AutoLowShotAtt,0,,
+80,120,blue,AutoLowShotAtt,0,,
+80,3266,blue,AutoLowShotAtt,0,,
+81,6181,red,AutoLowShotAtt,0,,
+81,1708,red,AutoLowShotAtt,0,,
+81,3504,red,AutoLowShotAtt,0,,
+81,337,blue,AutoLowShotAtt,0,,
+81,5749,blue,AutoLowShotAtt,0,,
+81,3000,blue,AutoLowShotAtt,0,,
+82,4115,red,AutoLowShotAtt,0,,
+82,144,red,AutoLowShotAtt,0,,
+82,5492,red,AutoLowShotAtt,0,,
+82,3492,blue,AutoLowShotAtt,0,,
+82,6185,blue,AutoLowShotAtt,0,,
+82,3260,blue,AutoLowShotAtt,0,,
+83,554,red,AutoLowShotAtt,0,,
+83,1308,red,AutoLowShotAtt,0,,
+83,128,red,AutoLowShotAtt,0,,
+83,3777,blue,AutoLowShotAtt,0,,
+83,3821,blue,AutoLowShotAtt,0,,
+83,4213,blue,AutoLowShotAtt,0,,
+84,2603,red,AutoLowShotAtt,0,,
+84,245,red,AutoLowShotAtt,0,,
+84,868,red,AutoLowShotAtt,0,,
+84,1985,blue,AutoLowShotAtt,0,,
+84,1249,blue,AutoLowShotAtt,0,,
+84,5413,blue,AutoLowShotAtt,0,,
+85,3484,red,AutoLowShotAtt,0,,
+85,48,red,AutoLowShotAtt,0,,
+85,6084,red,AutoLowShotAtt,0,,
+85,3814,blue,AutoLowShotAtt,0,,
+85,4085,blue,AutoLowShotAtt,0,,
+85,451,blue,AutoLowShotAtt,0,,
+86,120,blue,AutoLowShotAtt,0,,
+86,3324,,AutoLowShotAtt,0,,
+86,868,,AutoLowShotAtt,0,,
+86,451,,AutoLowShotAtt,0,,
+86,5492,,AutoLowShotAtt,0,,
+86,5811,blue,AutoLowShotAtt,0,,
+87,2051,red,AutoLowShotAtt,0,,
+87,1708,red,AutoLowShotAtt,0,,
+87,4145,red,AutoLowShotAtt,1,,
+87,5492,blue,AutoLowShotAtt,0,,
+87,4284,blue,AutoLowShotAtt,0,,
+87,5667,blue,AutoLowShotAtt,0,,
+88,2016,red,AutoLowShotAtt,0,,
+88,1014,red,AutoLowShotAtt,1,,
+88,4256,red,AutoLowShotAtt,0,,
+88,3000,blue,AutoLowShotAtt,0,,
+88,4028,blue,AutoLowShotAtt,0,,
+88,6185,blue,AutoLowShotAtt,0,,
+77,5667,red,AutoTotalPoints,10,,
+77,451,red,AutoTotalPoints,10,,
+77,3484,red,AutoTotalPoints,10,,
+77,4256,blue,AutoTotalPoints,2,,
+77,1939,blue,AutoTotalPoints,10,,
+77,2040,blue,AutoTotalPoints,0,,
+78,3324,red,AutoTotalPoints,10,,
+78,48,red,AutoTotalPoints,10,,
+78,279,red,AutoTotalPoints,2,,
+78,4521,blue,AutoTotalPoints,10,,
+78,3201,blue,AutoTotalPoints,10,,
+78,2016,blue,AutoTotalPoints,0,,
+79,4920,red,AutoTotalPoints,0,,
+79,5811,red,AutoTotalPoints,10,,
+79,3814,red,AutoTotalPoints,10,,
+79,5809,blue,AutoTotalPoints,10,,
+79,1038,blue,AutoTotalPoints,10,,
+79,4284,blue,AutoTotalPoints,0,,
+80,2051,red,AutoTotalPoints,10,,
+80,3138,red,AutoTotalPoints,20,,
+80,1014,red,AutoTotalPoints,10,,
+80,4085,blue,AutoTotalPoints,30,,
+80,120,blue,AutoTotalPoints,10,,
+80,3266,blue,AutoTotalPoints,0,,
+81,6181,red,AutoTotalPoints,10,,
+81,1708,red,AutoTotalPoints,10,,
+81,3504,red,AutoTotalPoints,10,,
+81,337,blue,AutoTotalPoints,0,,
+81,5749,blue,AutoTotalPoints,10,,
+81,3000,blue,AutoTotalPoints,0,,
+82,4115,red,AutoTotalPoints,10,,
+82,144,red,AutoTotalPoints,10,,
+82,5492,red,AutoTotalPoints,10,,
+82,3492,blue,AutoTotalPoints,10,,
+82,6185,blue,AutoTotalPoints,10,,
+82,3260,blue,AutoTotalPoints,0,,
+83,554,red,AutoTotalPoints,10,,
+83,1308,red,AutoTotalPoints,10,,
+83,128,red,AutoTotalPoints,2,,
+83,3777,blue,AutoTotalPoints,2,,
+83,3821,blue,AutoTotalPoints,0,,
+83,4213,blue,AutoTotalPoints,0,,
+84,2603,red,AutoTotalPoints,10,,
+84,245,red,AutoTotalPoints,10,,
+84,868,red,AutoTotalPoints,10,,
+84,1985,blue,AutoTotalPoints,10,,
+84,1249,blue,AutoTotalPoints,0,,
+84,5413,blue,AutoTotalPoints,0,,
+85,3484,red,AutoTotalPoints,0,,
+85,48,red,AutoTotalPoints,10,,
+85,6084,red,AutoTotalPoints,0,,
+85,3814,blue,AutoTotalPoints,2,,
+85,4085,blue,AutoTotalPoints,10,,
+85,451,blue,AutoTotalPoints,0,,
+86,120,blue,AutoTotalPoints,10,,
+86,3324,,AutoTotalPoints,10,,
+86,868,,AutoTotalPoints,10,,
+86,451,,AutoTotalPoints,10,,
+86,5492,,AutoTotalPoints,10,,
+86,5811,blue,AutoTotalPoints,0,,
+87,2051,red,AutoTotalPoints,10,,
+87,1708,red,AutoTotalPoints,2,,
+87,4145,red,AutoTotalPoints,15,,
+87,5492,blue,AutoTotalPoints,10,,
+87,4284,blue,AutoTotalPoints,10,,
+87,5667,blue,AutoTotalPoints,0,,
+88,2016,red,AutoTotalPoints,10,,
+88,1014,red,AutoTotalPoints,5,,
+88,4256,red,AutoTotalPoints,20,,
+88,3000,blue,AutoTotalPoints,0,,
+88,4028,blue,AutoTotalPoints,10,,
+88,6185,blue,AutoTotalPoints,0,,
+77,5667,red,TeleOpD1Cross,0,1.0,E_LowBar
+77,451,red,TeleOpD1Cross,0,1.0,E_LowBar
+77,3484,red,TeleOpD1Cross,1,1.0,E_LowBar
+77,4256,blue,TeleOpD1Cross,1,1.0,E_LowBar
+77,1939,blue,TeleOpD1Cross,0,1.0,E_LowBar
+77,2040,blue,TeleOpD1Cross,0,1.0,E_LowBar
+78,3324,red,TeleOpD1Cross,0,1.0,E_LowBar
+78,48,red,TeleOpD1Cross,4,1.0,E_LowBar
+78,279,red,TeleOpD1Cross,0,1.0,E_LowBar
+78,4521,blue,TeleOpD1Cross,0,1.0,E_LowBar
+78,3201,blue,TeleOpD1Cross,0,1.0,E_LowBar
+78,2016,blue,TeleOpD1Cross,0,1.0,E_LowBar
+79,4920,red,TeleOpD1Cross,0,1.0,E_LowBar
+79,5811,red,TeleOpD1Cross,1,1.0,E_LowBar
+79,3814,red,TeleOpD1Cross,0,1.0,E_LowBar
+79,5809,blue,TeleOpD1Cross,1,1.0,E_LowBar
+79,1038,blue,TeleOpD1Cross,1,1.0,E_LowBar
+79,4284,blue,TeleOpD1Cross,0,1.0,E_LowBar
+80,2051,red,TeleOpD1Cross,0,1.0,E_LowBar
+80,3138,red,TeleOpD1Cross,0,1.0,E_LowBar
+80,1014,red,TeleOpD1Cross,0,1.0,E_LowBar
+80,4085,blue,TeleOpD1Cross,0,1.0,E_LowBar
+80,120,blue,TeleOpD1Cross,2,1.0,E_LowBar
+80,3266,blue,TeleOpD1Cross,0,1.0,E_LowBar
+81,6181,red,TeleOpD1Cross,0,1.0,E_LowBar
+81,1708,red,TeleOpD1Cross,4,1.0,E_LowBar
+81,3504,red,TeleOpD1Cross,0,1.0,E_LowBar
+81,337,blue,TeleOpD1Cross,0,1.0,E_LowBar
+81,5749,blue,TeleOpD1Cross,1,1.0,E_LowBar
+81,3000,blue,TeleOpD1Cross,0,1.0,E_LowBar
+82,4115,red,TeleOpD1Cross,0,1.0,E_LowBar
+82,144,red,TeleOpD1Cross,1,1.0,E_LowBar
+82,5492,red,TeleOpD1Cross,2,1.0,E_LowBar
+82,3492,blue,TeleOpD1Cross,1,1.0,E_LowBar
+82,6185,blue,TeleOpD1Cross,1,1.0,E_LowBar
+82,3260,blue,TeleOpD1Cross,0,1.0,E_LowBar
+83,554,red,TeleOpD1Cross,0,1.0,E_LowBar
+83,1308,red,TeleOpD1Cross,1,1.0,E_LowBar
+83,128,red,TeleOpD1Cross,0,1.0,E_LowBar
+83,3777,blue,TeleOpD1Cross,2,1.0,E_LowBar
+83,3821,blue,TeleOpD1Cross,0,1.0,E_LowBar
+83,4213,blue,TeleOpD1Cross,0,1.0,E_LowBar
+84,2603,red,TeleOpD1Cross,1,1.0,E_LowBar
+84,245,red,TeleOpD1Cross,0,1.0,E_LowBar
+84,868,red,TeleOpD1Cross,0,1.0,E_LowBar
+84,1985,blue,TeleOpD1Cross,1,1.0,E_LowBar
+84,1249,blue,TeleOpD1Cross,0,1.0,E_LowBar
+84,5413,blue,TeleOpD1Cross,0,1.0,E_LowBar
+85,3484,red,TeleOpD1Cross,3,1.0,E_LowBar
+85,48,red,TeleOpD1Cross,0,1.0,E_LowBar
+85,6084,red,TeleOpD1Cross,1,1.0,E_LowBar
+85,3814,blue,TeleOpD1Cross,0,1.0,E_LowBar
+85,4085,blue,TeleOpD1Cross,1,1.0,E_LowBar
+85,451,blue,TeleOpD1Cross,0,1.0,E_LowBar
+86,120,blue,TeleOpD1Cross,0,1.0,E_LowBar
+86,3324,,TeleOpD1Cross,0,1.0,
+86,868,,TeleOpD1Cross,2,1.0,
+86,451,,TeleOpD1Cross,0,1.0,
+86,5492,,TeleOpD1Cross,1,1.0,
+86,5811,blue,TeleOpD1Cross,0,1.0,E_LowBar
+87,2051,red,TeleOpD1Cross,0,1.0,E_LowBar
+87,1708,red,TeleOpD1Cross,2,1.0,E_LowBar
+87,4145,red,TeleOpD1Cross,0,1.0,E_LowBar
+87,5492,blue,TeleOpD1Cross,2,1.0,E_LowBar
+87,4284,blue,TeleOpD1Cross,0,1.0,E_LowBar
+87,5667,blue,TeleOpD1Cross,0,1.0,E_LowBar
+88,2016,red,TeleOpD1Cross,0,1.0,E_LowBar
+88,1014,red,TeleOpD1Cross,1,1.0,E_LowBar
+88,4256,red,TeleOpD1Cross,1,1.0,E_LowBar
+88,3000,blue,TeleOpD1Cross,0,1.0,E_LowBar
+88,4028,blue,TeleOpD1Cross,0,1.0,E_LowBar
+88,6185,blue,TeleOpD1Cross,0,1.0,E_LowBar
+77,5667,red,TeleOpD1Att,0,1.0,E_LowBar
+77,451,red,TeleOpD1Att,0,1.0,E_LowBar
+77,3484,red,TeleOpD1Att,1,1.0,E_LowBar
+77,4256,blue,TeleOpD1Att,1,1.0,E_LowBar
+77,1939,blue,TeleOpD1Att,0,1.0,E_LowBar
+77,2040,blue,TeleOpD1Att,0,1.0,E_LowBar
+78,3324,red,TeleOpD1Att,0,1.0,E_LowBar
+78,48,red,TeleOpD1Att,4,1.0,E_LowBar
+78,279,red,TeleOpD1Att,0,1.0,E_LowBar
+78,4521,blue,TeleOpD1Att,0,1.0,E_LowBar
+78,3201,blue,TeleOpD1Att,0,1.0,E_LowBar
+78,2016,blue,TeleOpD1Att,0,1.0,E_LowBar
+79,4920,red,TeleOpD1Att,0,1.0,E_LowBar
+79,5811,red,TeleOpD1Att,1,1.0,E_LowBar
+79,3814,red,TeleOpD1Att,0,1.0,E_LowBar
+79,5809,blue,TeleOpD1Att,1,1.0,E_LowBar
+79,1038,blue,TeleOpD1Att,1,1.0,E_LowBar
+79,4284,blue,TeleOpD1Att,0,1.0,E_LowBar
+80,2051,red,TeleOpD1Att,0,1.0,E_LowBar
+80,3138,red,TeleOpD1Att,0,1.0,E_LowBar
+80,1014,red,TeleOpD1Att,0,1.0,E_LowBar
+80,4085,blue,TeleOpD1Att,0,1.0,E_LowBar
+80,120,blue,TeleOpD1Att,2,1.0,E_LowBar
+80,3266,blue,TeleOpD1Att,0,1.0,E_LowBar
+81,6181,red,TeleOpD1Att,0,1.0,E_LowBar
+81,1708,red,TeleOpD1Att,4,1.0,E_LowBar
+81,3504,red,TeleOpD1Att,0,1.0,E_LowBar
+81,337,blue,TeleOpD1Att,0,1.0,E_LowBar
+81,5749,blue,TeleOpD1Att,1,1.0,E_LowBar
+81,3000,blue,TeleOpD1Att,0,1.0,E_LowBar
+82,4115,red,TeleOpD1Att,1,1.0,E_LowBar
+82,144,red,TeleOpD1Att,1,1.0,E_LowBar
+82,5492,red,TeleOpD1Att,2,1.0,E_LowBar
+82,3492,blue,TeleOpD1Att,1,1.0,E_LowBar
+82,6185,blue,TeleOpD1Att,1,1.0,E_LowBar
+82,3260,blue,TeleOpD1Att,0,1.0,E_LowBar
+83,554,red,TeleOpD1Att,0,1.0,E_LowBar
+83,1308,red,TeleOpD1Att,2,1.0,E_LowBar
+83,128,red,TeleOpD1Att,0,1.0,E_LowBar
+83,3777,blue,TeleOpD1Att,2,1.0,E_LowBar
+83,3821,blue,TeleOpD1Att,0,1.0,E_LowBar
+83,4213,blue,TeleOpD1Att,0,1.0,E_LowBar
+84,2603,red,TeleOpD1Att,1,1.0,E_LowBar
+84,245,red,TeleOpD1Att,0,1.0,E_LowBar
+84,868,red,TeleOpD1Att,0,1.0,E_LowBar
+84,1985,blue,TeleOpD1Att,1,1.0,E_LowBar
+84,1249,blue,TeleOpD1Att,0,1.0,E_LowBar
+84,5413,blue,TeleOpD1Att,0,1.0,E_LowBar
+85,3484,red,TeleOpD1Att,3,1.0,E_LowBar
+85,48,red,TeleOpD1Att,0,1.0,E_LowBar
+85,6084,red,TeleOpD1Att,1,1.0,E_LowBar
+85,3814,blue,TeleOpD1Att,0,1.0,E_LowBar
+85,4085,blue,TeleOpD1Att,1,1.0,E_LowBar
+85,451,blue,TeleOpD1Att,0,1.0,E_LowBar
+86,120,blue,TeleOpD1Att,0,1.0,E_LowBar
+86,3324,,TeleOpD1Att,0,1.0,
+86,868,,TeleOpD1Att,2,1.0,
+86,451,,TeleOpD1Att,0,1.0,
+86,5492,,TeleOpD1Att,1,1.0,
+86,5811,blue,TeleOpD1Att,0,1.0,E_LowBar
+87,2051,red,TeleOpD1Att,0,1.0,E_LowBar
+87,1708,red,TeleOpD1Att,2,1.0,E_LowBar
+87,4145,red,TeleOpD1Att,0,1.0,E_LowBar
+87,5492,blue,TeleOpD1Att,2,1.0,E_LowBar
+87,4284,blue,TeleOpD1Att,0,1.0,E_LowBar
+87,5667,blue,TeleOpD1Att,0,1.0,E_LowBar
+88,2016,red,TeleOpD1Att,0,1.0,E_LowBar
+88,1014,red,TeleOpD1Att,1,1.0,E_LowBar
+88,4256,red,TeleOpD1Att,1,1.0,E_LowBar
+88,3000,blue,TeleOpD1Att,0,1.0,E_LowBar
+88,4028,blue,TeleOpD1Att,0,1.0,E_LowBar
+88,6185,blue,TeleOpD1Att,0,1.0,E_LowBar
+77,5667,red,TeleOpD2Cross,1,2.0, 'C_SallyPort'
+77,451,red,TeleOpD2Cross,1,2.0, 'C_SallyPort'
+77,3484,red,TeleOpD2Cross,0,2.0, 'C_SallyPort'
+77,4256,blue,TeleOpD2Cross,0,2.0, 'D_RockWall'
+77,1939,blue,TeleOpD2Cross,0,2.0, 'D_RockWall'
+77,2040,blue,TeleOpD2Cross,0,2.0, 'D_RockWall'
+78,3324,red,TeleOpD2Cross,0,2.0, 'C_SallyPort'
+78,48,red,TeleOpD2Cross,0,2.0, 'C_SallyPort'
+78,279,red,TeleOpD2Cross,2,2.0, 'C_SallyPort'
+78,4521,blue,TeleOpD2Cross,0,2.0, 'C_Drawbridge'
+78,3201,blue,TeleOpD2Cross,0,2.0, 'C_Drawbridge'
+78,2016,blue,TeleOpD2Cross,0,2.0, 'C_Drawbridge'
+79,4920,red,TeleOpD2Cross,0,2.0, 'C_SallyPort'
+79,5811,red,TeleOpD2Cross,0,2.0, 'C_SallyPort'
+79,3814,red,TeleOpD2Cross,0,2.0, 'C_SallyPort'
+79,5809,blue,TeleOpD2Cross,0,2.0, 'C_SallyPort'
+79,1038,blue,TeleOpD2Cross,1,2.0, 'C_SallyPort'
+79,4284,blue,TeleOpD2Cross,0,2.0, 'C_SallyPort'
+80,2051,red,TeleOpD2Cross,0,2.0, 'C_Drawbridge'
+80,3138,red,TeleOpD2Cross,1,2.0, 'C_Drawbridge'
+80,1014,red,TeleOpD2Cross,0,2.0, 'C_Drawbridge'
+80,4085,blue,TeleOpD2Cross,0,2.0, 'B_Moat'
+80,120,blue,TeleOpD2Cross,0,2.0, 'B_Moat'
+80,3266,blue,TeleOpD2Cross,0,2.0, 'B_Moat'
+81,6181,red,TeleOpD2Cross,1,2.0, 'B_Moat'
+81,1708,red,TeleOpD2Cross,0,2.0, 'B_Moat'
+81,3504,red,TeleOpD2Cross,0,2.0, 'B_Moat'
+81,337,blue,TeleOpD2Cross,2,2.0, 'B_Ramparts'
+81,5749,blue,TeleOpD2Cross,0,2.0, 'B_Ramparts'
+81,3000,blue,TeleOpD2Cross,0,2.0, 'B_Ramparts'
+82,4115,red,TeleOpD2Cross,0,2.0, 'A_ChevalDeFrise'
+82,144,red,TeleOpD2Cross,0,2.0, 'A_ChevalDeFrise'
+82,5492,red,TeleOpD2Cross,0,2.0, 'A_ChevalDeFrise'
+82,3492,blue,TeleOpD2Cross,0,2.0, 'D_RockWall'
+82,6185,blue,TeleOpD2Cross,0,2.0, 'D_RockWall'
+82,3260,blue,TeleOpD2Cross,0,2.0, 'D_RockWall'
+83,554,red,TeleOpD2Cross,0,2.0, 'C_SallyPort'
+83,1308,red,TeleOpD2Cross,2,2.0, 'C_SallyPort'
+83,128,red,TeleOpD2Cross,2,2.0, 'C_SallyPort'
+83,3777,blue,TeleOpD2Cross,0,2.0, 'C_SallyPort'
+83,3821,blue,TeleOpD2Cross,0,2.0, 'C_SallyPort'
+83,4213,blue,TeleOpD2Cross,0,2.0, 'C_SallyPort'
+84,2603,red,TeleOpD2Cross,0,2.0, 'D_RockWall'
+84,245,red,TeleOpD2Cross,2,2.0, 'D_RockWall'
+84,868,red,TeleOpD2Cross,1,2.0, 'D_RockWall'
+84,1985,blue,TeleOpD2Cross,2,2.0, 'A_ChevalDeFrise'
+84,1249,blue,TeleOpD2Cross,0,2.0, 'A_ChevalDeFrise'
+84,5413,blue,TeleOpD2Cross,0,2.0, 'A_ChevalDeFrise'
+85,3484,red,TeleOpD2Cross,1,2.0, 'A_Portcullis'
+85,48,red,TeleOpD2Cross,0,2.0, 'A_Portcullis'
+85,6084,red,TeleOpD2Cross,0,2.0, 'A_Portcullis'
+85,3814,blue,TeleOpD2Cross,2,2.0, 'D_RoughTerrain'
+85,4085,blue,TeleOpD2Cross,0,2.0, 'D_RoughTerrain'
+85,451,blue,TeleOpD2Cross,0,2.0, 'D_RoughTerrain'
+86,120,blue,TeleOpD2Cross,0,2.0, 'C_SallyPort'
+86,3324,,TeleOpD2Cross,2,2.0,
+86,868,,TeleOpD2Cross,2,2.0,
+86,451,,TeleOpD2Cross,0,2.0,
+86,5492,,TeleOpD2Cross,2,2.0,
+86,5811,blue,TeleOpD2Cross,0,2.0, 'C_SallyPort'
+87,2051,red,TeleOpD2Cross,1,2.0, 'A_ChevalDeFrise'
+87,1708,red,TeleOpD2Cross,0,2.0, 'A_ChevalDeFrise'
+87,4145,red,TeleOpD2Cross,2,2.0, 'A_ChevalDeFrise'
+87,5492,blue,TeleOpD2Cross,0,2.0, 'D_RockWall'
+87,4284,blue,TeleOpD2Cross,0,2.0, 'D_RockWall'
+87,5667,blue,TeleOpD2Cross,0,2.0, 'D_RockWall'
+88,2016,red,TeleOpD2Cross,0,2.0, 'D_RockWall'
+88,1014,red,TeleOpD2Cross,0,2.0, 'D_RockWall'
+88,4256,red,TeleOpD2Cross,0,2.0, 'D_RockWall'
+88,3000,blue,TeleOpD2Cross,0,2.0, 'C_SallyPort'
+88,4028,blue,TeleOpD2Cross,1,2.0, 'C_SallyPort'
+88,6185,blue,TeleOpD2Cross,0,2.0, 'C_SallyPort'
+77,5667,red,TeleOpD2Att,1,2.0, 'C_SallyPort'
+77,451,red,TeleOpD2Att,1,2.0, 'C_SallyPort'
+77,3484,red,TeleOpD2Att,0,2.0, 'C_SallyPort'
+77,4256,blue,TeleOpD2Att,0,2.0, 'D_RockWall'
+77,1939,blue,TeleOpD2Att,0,2.0, 'D_RockWall'
+77,2040,blue,TeleOpD2Att,0,2.0, 'D_RockWall'
+78,3324,red,TeleOpD2Att,0,2.0, 'C_SallyPort'
+78,48,red,TeleOpD2Att,0,2.0, 'C_SallyPort'
+78,279,red,TeleOpD2Att,2,2.0, 'C_SallyPort'
+78,4521,blue,TeleOpD2Att,0,2.0, 'C_Drawbridge'
+78,3201,blue,TeleOpD2Att,0,2.0, 'C_Drawbridge'
+78,2016,blue,TeleOpD2Att,0,2.0, 'C_Drawbridge'
+79,4920,red,TeleOpD2Att,0,2.0, 'C_SallyPort'
+79,5811,red,TeleOpD2Att,0,2.0, 'C_SallyPort'
+79,3814,red,TeleOpD2Att,0,2.0, 'C_SallyPort'
+79,5809,blue,TeleOpD2Att,0,2.0, 'C_SallyPort'
+79,1038,blue,TeleOpD2Att,1,2.0, 'C_SallyPort'
+79,4284,blue,TeleOpD2Att,0,2.0, 'C_SallyPort'
+80,2051,red,TeleOpD2Att,0,2.0, 'C_Drawbridge'
+80,3138,red,TeleOpD2Att,1,2.0, 'C_Drawbridge'
+80,1014,red,TeleOpD2Att,0,2.0, 'C_Drawbridge'
+80,4085,blue,TeleOpD2Att,0,2.0, 'B_Moat'
+80,120,blue,TeleOpD2Att,0,2.0, 'B_Moat'
+80,3266,blue,TeleOpD2Att,0,2.0, 'B_Moat'
+81,6181,red,TeleOpD2Att,1,2.0, 'B_Moat'
+81,1708,red,TeleOpD2Att,0,2.0, 'B_Moat'
+81,3504,red,TeleOpD2Att,0,2.0, 'B_Moat'
+81,337,blue,TeleOpD2Att,2,2.0, 'B_Ramparts'
+81,5749,blue,TeleOpD2Att,0,2.0, 'B_Ramparts'
+81,3000,blue,TeleOpD2Att,0,2.0, 'B_Ramparts'
+82,4115,red,TeleOpD2Att,0,2.0, 'A_ChevalDeFrise'
+82,144,red,TeleOpD2Att,0,2.0, 'A_ChevalDeFrise'
+82,5492,red,TeleOpD2Att,0,2.0, 'A_ChevalDeFrise'
+82,3492,blue,TeleOpD2Att,0,2.0, 'D_RockWall'
+82,6185,blue,TeleOpD2Att,0,2.0, 'D_RockWall'
+82,3260,blue,TeleOpD2Att,0,2.0, 'D_RockWall'
+83,554,red,TeleOpD2Att,0,2.0, 'C_SallyPort'
+83,1308,red,TeleOpD2Att,2,2.0, 'C_SallyPort'
+83,128,red,TeleOpD2Att,2,2.0, 'C_SallyPort'
+83,3777,blue,TeleOpD2Att,0,2.0, 'C_SallyPort'
+83,3821,blue,TeleOpD2Att,0,2.0, 'C_SallyPort'
+83,4213,blue,TeleOpD2Att,0,2.0, 'C_SallyPort'
+84,2603,red,TeleOpD2Att,0,2.0, 'D_RockWall'
+84,245,red,TeleOpD2Att,3,2.0, 'D_RockWall'
+84,868,red,TeleOpD2Att,1,2.0, 'D_RockWall'
+84,1985,blue,TeleOpD2Att,2,2.0, 'A_ChevalDeFrise'
+84,1249,blue,TeleOpD2Att,0,2.0, 'A_ChevalDeFrise'
+84,5413,blue,TeleOpD2Att,0,2.0, 'A_ChevalDeFrise'
+85,3484,red,TeleOpD2Att,1,2.0, 'A_Portcullis'
+85,48,red,TeleOpD2Att,0,2.0, 'A_Portcullis'
+85,6084,red,TeleOpD2Att,0,2.0, 'A_Portcullis'
+85,3814,blue,TeleOpD2Att,2,2.0, 'D_RoughTerrain'
+85,4085,blue,TeleOpD2Att,0,2.0, 'D_RoughTerrain'
+85,451,blue,TeleOpD2Att,0,2.0, 'D_RoughTerrain'
+86,120,blue,TeleOpD2Att,0,2.0, 'C_SallyPort'
+86,3324,,TeleOpD2Att,3,2.0,
+86,868,,TeleOpD2Att,2,2.0,
+86,451,,TeleOpD2Att,0,2.0,
+86,5492,,TeleOpD2Att,2,2.0,
+86,5811,blue,TeleOpD2Att,0,2.0, 'C_SallyPort'
+87,2051,red,TeleOpD2Att,1,2.0, 'A_ChevalDeFrise'
+87,1708,red,TeleOpD2Att,0,2.0, 'A_ChevalDeFrise'
+87,4145,red,TeleOpD2Att,2,2.0, 'A_ChevalDeFrise'
+87,5492,blue,TeleOpD2Att,0,2.0, 'D_RockWall'
+87,4284,blue,TeleOpD2Att,0,2.0, 'D_RockWall'
+87,5667,blue,TeleOpD2Att,0,2.0, 'D_RockWall'
+88,2016,red,TeleOpD2Att,0,2.0, 'D_RockWall'
+88,1014,red,TeleOpD2Att,0,2.0, 'D_RockWall'
+88,4256,red,TeleOpD2Att,0,2.0, 'D_RockWall'
+88,3000,blue,TeleOpD2Att,0,2.0, 'C_SallyPort'
+88,4028,blue,TeleOpD2Att,1,2.0, 'C_SallyPort'
+88,6185,blue,TeleOpD2Att,0,2.0, 'C_SallyPort'
+77,5667,red,TeleOpD3Cross,0,3.0, 'A_ChevalDeFrise'
+77,451,red,TeleOpD3Cross,1,3.0, 'A_ChevalDeFrise'
+77,3484,red,TeleOpD3Cross,0,3.0, 'A_ChevalDeFrise'
+77,4256,blue,TeleOpD3Cross,3,3.0, 'A_ChevalDeFrise'
+77,1939,blue,TeleOpD3Cross,0,3.0, 'A_ChevalDeFrise'
+77,2040,blue,TeleOpD3Cross,0,3.0, 'A_ChevalDeFrise'
+78,3324,red,TeleOpD3Cross,0,3.0, 'A_ChevalDeFrise'
+78,48,red,TeleOpD3Cross,0,3.0, 'A_ChevalDeFrise'
+78,279,red,TeleOpD3Cross,1,3.0, 'A_ChevalDeFrise'
+78,4521,blue,TeleOpD3Cross,0,3.0, 'A_ChevalDeFrise'
+78,3201,blue,TeleOpD3Cross,0,3.0, 'A_ChevalDeFrise'
+78,2016,blue,TeleOpD3Cross,0,3.0, 'A_ChevalDeFrise'
+79,4920,red,TeleOpD3Cross,0,3.0, 'A_ChevalDeFrise'
+79,5811,red,TeleOpD3Cross,1,3.0, 'A_ChevalDeFrise'
+79,3814,red,TeleOpD3Cross,0,3.0, 'A_ChevalDeFrise'
+79,5809,blue,TeleOpD3Cross,1,3.0, 'A_ChevalDeFrise'
+79,1038,blue,TeleOpD3Cross,0,3.0, 'A_ChevalDeFrise'
+79,4284,blue,TeleOpD3Cross,0,3.0, 'A_ChevalDeFrise'
+80,2051,red,TeleOpD3Cross,0,3.0, 'A_ChevalDeFrise'
+80,3138,red,TeleOpD3Cross,3,3.0, 'A_ChevalDeFrise'
+80,1014,red,TeleOpD3Cross,1,3.0, 'A_ChevalDeFrise'
+80,4085,blue,TeleOpD3Cross,2,3.0, 'A_ChevalDeFrise'
+80,120,blue,TeleOpD3Cross,0,3.0, 'A_ChevalDeFrise'
+80,3266,blue,TeleOpD3Cross,0,3.0, 'A_ChevalDeFrise'
+81,6181,red,TeleOpD3Cross,0,3.0, 'A_ChevalDeFrise'
+81,1708,red,TeleOpD3Cross,0,3.0, 'A_ChevalDeFrise'
+81,3504,red,TeleOpD3Cross,1,3.0, 'A_ChevalDeFrise'
+81,337,blue,TeleOpD3Cross,2,3.0, 'A_ChevalDeFrise'
+81,5749,blue,TeleOpD3Cross,0,3.0, 'A_ChevalDeFrise'
+81,3000,blue,TeleOpD3Cross,0,3.0, 'A_ChevalDeFrise'
+82,4115,red,TeleOpD3Cross,0,3.0, 'B_Moat'
+82,144,red,TeleOpD3Cross,0,3.0, 'B_Moat'
+82,5492,red,TeleOpD3Cross,1,3.0, 'B_Moat'
+82,3492,blue,TeleOpD3Cross,1,3.0, 'B_Moat'
+82,6185,blue,TeleOpD3Cross,0,3.0, 'B_Moat'
+82,3260,blue,TeleOpD3Cross,0,3.0, 'B_Moat'
+83,554,red,TeleOpD3Cross,1,3.0, 'B_Moat'
+83,1308,red,TeleOpD3Cross,0,3.0, 'B_Moat'
+83,128,red,TeleOpD3Cross,0,3.0, 'B_Moat'
+83,3777,blue,TeleOpD3Cross,0,3.0, 'B_Moat'
+83,3821,blue,TeleOpD3Cross,0,3.0, 'B_Moat'
+83,4213,blue,TeleOpD3Cross,0,3.0, 'B_Moat'
+84,2603,red,TeleOpD3Cross,0,3.0, 'B_Moat'
+84,245,red,TeleOpD3Cross,0,3.0, 'B_Moat'
+84,868,red,TeleOpD3Cross,1,3.0, 'B_Moat'
+84,1985,blue,TeleOpD3Cross,1,3.0, 'B_Moat'
+84,1249,blue,TeleOpD3Cross,0,3.0, 'B_Moat'
+84,5413,blue,TeleOpD3Cross,0,3.0, 'B_Moat'
+85,3484,red,TeleOpD3Cross,0,3.0, 'B_Moat'
+85,48,red,TeleOpD3Cross,0,3.0, 'B_Moat'
+85,6084,red,TeleOpD3Cross,2,3.0, 'B_Moat'
+85,3814,blue,TeleOpD3Cross,0,3.0, 'B_Moat'
+85,4085,blue,TeleOpD3Cross,0,3.0, 'B_Moat'
+85,451,blue,TeleOpD3Cross,0,3.0, 'B_Moat'
+86,120,blue,TeleOpD3Cross,0,3.0, 'B_Moat'
+86,3324,,TeleOpD3Cross,1,3.0,
+86,868,,TeleOpD3Cross,1,3.0,
+86,451,,TeleOpD3Cross,0,3.0,
+86,5492,,TeleOpD3Cross,5,3.0,
+86,5811,blue,TeleOpD3Cross,0,3.0, 'B_Moat'
+87,2051,red,TeleOpD3Cross,1,3.0, 'B_Moat'
+87,1708,red,TeleOpD3Cross,1,3.0, 'B_Moat'
+87,4145,red,TeleOpD3Cross,1,3.0, 'B_Moat'
+87,5492,blue,TeleOpD3Cross,0,3.0, 'B_Moat'
+87,4284,blue,TeleOpD3Cross,0,3.0, 'B_Moat'
+87,5667,blue,TeleOpD3Cross,0,3.0, 'B_Moat'
+88,2016,red,TeleOpD3Cross,2,3.0, 'B_Moat'
+88,1014,red,TeleOpD3Cross,2,3.0, 'B_Moat'
+88,4256,red,TeleOpD3Cross,1,3.0, 'B_Moat'
+88,3000,blue,TeleOpD3Cross,0,3.0, 'B_Moat'
+88,4028,blue,TeleOpD3Cross,1,3.0, 'B_Moat'
+88,6185,blue,TeleOpD3Cross,0,3.0, 'B_Moat'
+77,5667,red,TeleOpD3Att,0,3.0, 'A_ChevalDeFrise'
+77,451,red,TeleOpD3Att,1,3.0, 'A_ChevalDeFrise'
+77,3484,red,TeleOpD3Att,0,3.0, 'A_ChevalDeFrise'
+77,4256,blue,TeleOpD3Att,3,3.0, 'A_ChevalDeFrise'
+77,1939,blue,TeleOpD3Att,0,3.0, 'A_ChevalDeFrise'
+77,2040,blue,TeleOpD3Att,0,3.0, 'A_ChevalDeFrise'
+78,3324,red,TeleOpD3Att,0,3.0, 'A_ChevalDeFrise'
+78,48,red,TeleOpD3Att,0,3.0, 'A_ChevalDeFrise'
+78,279,red,TeleOpD3Att,1,3.0, 'A_ChevalDeFrise'
+78,4521,blue,TeleOpD3Att,0,3.0, 'A_ChevalDeFrise'
+78,3201,blue,TeleOpD3Att,0,3.0, 'A_ChevalDeFrise'
+78,2016,blue,TeleOpD3Att,0,3.0, 'A_ChevalDeFrise'
+79,4920,red,TeleOpD3Att,0,3.0, 'A_ChevalDeFrise'
+79,5811,red,TeleOpD3Att,1,3.0, 'A_ChevalDeFrise'
+79,3814,red,TeleOpD3Att,0,3.0, 'A_ChevalDeFrise'
+79,5809,blue,TeleOpD3Att,1,3.0, 'A_ChevalDeFrise'
+79,1038,blue,TeleOpD3Att,0,3.0, 'A_ChevalDeFrise'
+79,4284,blue,TeleOpD3Att,0,3.0, 'A_ChevalDeFrise'
+80,2051,red,TeleOpD3Att,0,3.0, 'A_ChevalDeFrise'
+80,3138,red,TeleOpD3Att,3,3.0, 'A_ChevalDeFrise'
+80,1014,red,TeleOpD3Att,1,3.0, 'A_ChevalDeFrise'
+80,4085,blue,TeleOpD3Att,2,3.0, 'A_ChevalDeFrise'
+80,120,blue,TeleOpD3Att,0,3.0, 'A_ChevalDeFrise'
+80,3266,blue,TeleOpD3Att,0,3.0, 'A_ChevalDeFrise'
+81,6181,red,TeleOpD3Att,0,3.0, 'A_ChevalDeFrise'
+81,1708,red,TeleOpD3Att,0,3.0, 'A_ChevalDeFrise'
+81,3504,red,TeleOpD3Att,2,3.0, 'A_ChevalDeFrise'
+81,337,blue,TeleOpD3Att,3,3.0, 'A_ChevalDeFrise'
+81,5749,blue,TeleOpD3Att,0,3.0, 'A_ChevalDeFrise'
+81,3000,blue,TeleOpD3Att,0,3.0, 'A_ChevalDeFrise'
+82,4115,red,TeleOpD3Att,1,3.0, 'B_Moat'
+82,144,red,TeleOpD3Att,0,3.0, 'B_Moat'
+82,5492,red,TeleOpD3Att,1,3.0, 'B_Moat'
+82,3492,blue,TeleOpD3Att,1,3.0, 'B_Moat'
+82,6185,blue,TeleOpD3Att,0,3.0, 'B_Moat'
+82,3260,blue,TeleOpD3Att,0,3.0, 'B_Moat'
+83,554,red,TeleOpD3Att,1,3.0, 'B_Moat'
+83,1308,red,TeleOpD3Att,0,3.0, 'B_Moat'
+83,128,red,TeleOpD3Att,0,3.0, 'B_Moat'
+83,3777,blue,TeleOpD3Att,0,3.0, 'B_Moat'
+83,3821,blue,TeleOpD3Att,0,3.0, 'B_Moat'
+83,4213,blue,TeleOpD3Att,0,3.0, 'B_Moat'
+84,2603,red,TeleOpD3Att,0,3.0, 'B_Moat'
+84,245,red,TeleOpD3Att,0,3.0, 'B_Moat'
+84,868,red,TeleOpD3Att,1,3.0, 'B_Moat'
+84,1985,blue,TeleOpD3Att,1,3.0, 'B_Moat'
+84,1249,blue,TeleOpD3Att,0,3.0, 'B_Moat'
+84,5413,blue,TeleOpD3Att,0,3.0, 'B_Moat'
+85,3484,red,TeleOpD3Att,0,3.0, 'B_Moat'
+85,48,red,TeleOpD3Att,0,3.0, 'B_Moat'
+85,6084,red,TeleOpD3Att,3,3.0, 'B_Moat'
+85,3814,blue,TeleOpD3Att,0,3.0, 'B_Moat'
+85,4085,blue,TeleOpD3Att,0,3.0, 'B_Moat'
+85,451,blue,TeleOpD3Att,0,3.0, 'B_Moat'
+86,120,blue,TeleOpD3Att,0,3.0, 'B_Moat'
+86,3324,,TeleOpD3Att,1,3.0,
+86,868,,TeleOpD3Att,1,3.0,
+86,451,,TeleOpD3Att,0,3.0,
+86,5492,,TeleOpD3Att,5,3.0,
+86,5811,blue,TeleOpD3Att,0,3.0, 'B_Moat'
+87,2051,red,TeleOpD3Att,1,3.0, 'B_Moat'
+87,1708,red,TeleOpD3Att,1,3.0, 'B_Moat'
+87,4145,red,TeleOpD3Att,1,3.0, 'B_Moat'
+87,5492,blue,TeleOpD3Att,0,3.0, 'B_Moat'
+87,4284,blue,TeleOpD3Att,1,3.0, 'B_Moat'
+87,5667,blue,TeleOpD3Att,0,3.0, 'B_Moat'
+88,2016,red,TeleOpD3Att,2,3.0, 'B_Moat'
+88,1014,red,TeleOpD3Att,2,3.0, 'B_Moat'
+88,4256,red,TeleOpD3Att,1,3.0, 'B_Moat'
+88,3000,blue,TeleOpD3Att,0,3.0, 'B_Moat'
+88,4028,blue,TeleOpD3Att,1,3.0, 'B_Moat'
+88,6185,blue,TeleOpD3Att,0,3.0, 'B_Moat'
+77,5667,red,TeleOpD4Cross,0,4.0, 'B_Ramparts'
+77,451,red,TeleOpD4Cross,1,4.0, 'B_Ramparts'
+77,3484,red,TeleOpD4Cross,0,4.0, 'B_Ramparts'
+77,4256,blue,TeleOpD4Cross,0,4.0, 'C_SallyPort'
+77,1939,blue,TeleOpD4Cross,0,4.0, 'C_SallyPort'
+77,2040,blue,TeleOpD4Cross,0,4.0, 'C_SallyPort'
+78,3324,red,TeleOpD4Cross,0,4.0, 'B_Ramparts'
+78,48,red,TeleOpD4Cross,0,4.0, 'B_Ramparts'
+78,279,red,TeleOpD4Cross,2,4.0, 'B_Ramparts'
+78,4521,blue,TeleOpD4Cross,0,4.0, 'D_RockWall'
+78,3201,blue,TeleOpD4Cross,0,4.0, 'D_RockWall'
+78,2016,blue,TeleOpD4Cross,0,4.0, 'D_RockWall'
+79,4920,red,TeleOpD4Cross,0,4.0, 'B_Moat'
+79,5811,red,TeleOpD4Cross,1,4.0, 'B_Moat'
+79,3814,red,TeleOpD4Cross,1,4.0, 'B_Moat'
+79,5809,blue,TeleOpD4Cross,0,4.0, 'B_Moat'
+79,1038,blue,TeleOpD4Cross,1,4.0, 'B_Moat'
+79,4284,blue,TeleOpD4Cross,0,4.0, 'B_Moat'
+80,2051,red,TeleOpD4Cross,0,4.0, 'D_RockWall'
+80,3138,red,TeleOpD4Cross,0,4.0, 'D_RockWall'
+80,1014,red,TeleOpD4Cross,2,4.0, 'D_RockWall'
+80,4085,blue,TeleOpD4Cross,2,4.0, 'D_RockWall'
+80,120,blue,TeleOpD4Cross,0,4.0, 'D_RockWall'
+80,3266,blue,TeleOpD4Cross,0,4.0, 'D_RockWall'
+81,6181,red,TeleOpD4Cross,1,4.0, 'D_RockWall'
+81,1708,red,TeleOpD4Cross,0,4.0, 'D_RockWall'
+81,3504,red,TeleOpD4Cross,1,4.0, 'D_RockWall'
+81,337,blue,TeleOpD4Cross,1,4.0, 'D_RockWall'
+81,5749,blue,TeleOpD4Cross,0,4.0, 'D_RockWall'
+81,3000,blue,TeleOpD4Cross,0,4.0, 'D_RockWall'
+82,4115,red,TeleOpD4Cross,0,4.0, 'D_RockWall'
+82,144,red,TeleOpD4Cross,0,4.0, 'D_RockWall'
+82,5492,red,TeleOpD4Cross,1,4.0, 'D_RockWall'
+82,3492,blue,TeleOpD4Cross,1,4.0, 'C_SallyPort'
+82,6185,blue,TeleOpD4Cross,1,4.0, 'C_SallyPort'
+82,3260,blue,TeleOpD4Cross,0,4.0, 'C_SallyPort'
+83,554,red,TeleOpD4Cross,0,4.0, 'A_ChevalDeFrise'
+83,1308,red,TeleOpD4Cross,0,4.0, 'A_ChevalDeFrise'
+83,128,red,TeleOpD4Cross,1,4.0, 'A_ChevalDeFrise'
+83,3777,blue,TeleOpD4Cross,0,4.0, 'D_RockWall'
+83,3821,blue,TeleOpD4Cross,0,4.0, 'D_RockWall'
+83,4213,blue,TeleOpD4Cross,0,4.0, 'D_RockWall'
+84,2603,red,TeleOpD4Cross,0,4.0, 'C_SallyPort'
+84,245,red,TeleOpD4Cross,0,4.0, 'C_SallyPort'
+84,868,red,TeleOpD4Cross,2,4.0, 'C_SallyPort'
+84,1985,blue,TeleOpD4Cross,0,4.0, 'C_SallyPort'
+84,1249,blue,TeleOpD4Cross,0,4.0, 'C_SallyPort'
+84,5413,blue,TeleOpD4Cross,0,4.0, 'C_SallyPort'
+85,3484,red,TeleOpD4Cross,0,4.0, 'D_RockWall'
+85,48,red,TeleOpD4Cross,0,4.0, 'D_RockWall'
+85,6084,red,TeleOpD4Cross,1,4.0, 'D_RockWall'
+85,3814,blue,TeleOpD4Cross,0,4.0, 'A_Portcullis'
+85,4085,blue,TeleOpD4Cross,0,4.0, 'A_Portcullis'
+85,451,blue,TeleOpD4Cross,0,4.0, 'A_Portcullis'
+86,120,blue,TeleOpD4Cross,0,4.0, 'D_RockWall'
+86,3324,,TeleOpD4Cross,2,4.0,
+86,868,,TeleOpD4Cross,0,4.0,
+86,451,,TeleOpD4Cross,1,4.0,
+86,5492,,TeleOpD4Cross,0,4.0,
+86,5811,blue,TeleOpD4Cross,0,4.0, 'D_RockWall'
+87,2051,red,TeleOpD4Cross,1,4.0, 'C_SallyPort'
+87,1708,red,TeleOpD4Cross,0,4.0, 'C_SallyPort'
+87,4145,red,TeleOpD4Cross,0,4.0, 'C_SallyPort'
+87,5492,blue,TeleOpD4Cross,0,4.0, 'A_ChevalDeFrise'
+87,4284,blue,TeleOpD4Cross,0,4.0, 'A_ChevalDeFrise'
+87,5667,blue,TeleOpD4Cross,0,4.0, 'A_ChevalDeFrise'
+88,2016,red,TeleOpD4Cross,0,4.0, 'A_ChevalDeFrise'
+88,1014,red,TeleOpD4Cross,0,4.0, 'A_ChevalDeFrise'
+88,4256,red,TeleOpD4Cross,1,4.0, 'A_ChevalDeFrise'
+88,3000,blue,TeleOpD4Cross,0,4.0, 'A_Portcullis'
+88,4028,blue,TeleOpD4Cross,0,4.0, 'A_Portcullis'
+88,6185,blue,TeleOpD4Cross,0,4.0, 'A_Portcullis'
+77,5667,red,TeleOpD4Att,0,4.0, 'B_Ramparts'
+77,451,red,TeleOpD4Att,1,4.0, 'B_Ramparts'
+77,3484,red,TeleOpD4Att,0,4.0, 'B_Ramparts'
+77,4256,blue,TeleOpD4Att,0,4.0, 'C_SallyPort'
+77,1939,blue,TeleOpD4Att,0,4.0, 'C_SallyPort'
+77,2040,blue,TeleOpD4Att,0,4.0, 'C_SallyPort'
+78,3324,red,TeleOpD4Att,0,4.0, 'B_Ramparts'
+78,48,red,TeleOpD4Att,0,4.0, 'B_Ramparts'
+78,279,red,TeleOpD4Att,2,4.0, 'B_Ramparts'
+78,4521,blue,TeleOpD4Att,0,4.0, 'D_RockWall'
+78,3201,blue,TeleOpD4Att,0,4.0, 'D_RockWall'
+78,2016,blue,TeleOpD4Att,0,4.0, 'D_RockWall'
+79,4920,red,TeleOpD4Att,0,4.0, 'B_Moat'
+79,5811,red,TeleOpD4Att,1,4.0, 'B_Moat'
+79,3814,red,TeleOpD4Att,1,4.0, 'B_Moat'
+79,5809,blue,TeleOpD4Att,0,4.0, 'B_Moat'
+79,1038,blue,TeleOpD4Att,1,4.0, 'B_Moat'
+79,4284,blue,TeleOpD4Att,0,4.0, 'B_Moat'
+80,2051,red,TeleOpD4Att,0,4.0, 'D_RockWall'
+80,3138,red,TeleOpD4Att,0,4.0, 'D_RockWall'
+80,1014,red,TeleOpD4Att,2,4.0, 'D_RockWall'
+80,4085,blue,TeleOpD4Att,2,4.0, 'D_RockWall'
+80,120,blue,TeleOpD4Att,0,4.0, 'D_RockWall'
+80,3266,blue,TeleOpD4Att,0,4.0, 'D_RockWall'
+81,6181,red,TeleOpD4Att,1,4.0, 'D_RockWall'
+81,1708,red,TeleOpD4Att,0,4.0, 'D_RockWall'
+81,3504,red,TeleOpD4Att,1,4.0, 'D_RockWall'
+81,337,blue,TeleOpD4Att,1,4.0, 'D_RockWall'
+81,5749,blue,TeleOpD4Att,0,4.0, 'D_RockWall'
+81,3000,blue,TeleOpD4Att,0,4.0, 'D_RockWall'
+82,4115,red,TeleOpD4Att,0,4.0, 'D_RockWall'
+82,144,red,TeleOpD4Att,0,4.0, 'D_RockWall'
+82,5492,red,TeleOpD4Att,1,4.0, 'D_RockWall'
+82,3492,blue,TeleOpD4Att,1,4.0, 'C_SallyPort'
+82,6185,blue,TeleOpD4Att,1,4.0, 'C_SallyPort'
+82,3260,blue,TeleOpD4Att,0,4.0, 'C_SallyPort'
+83,554,red,TeleOpD4Att,0,4.0, 'A_ChevalDeFrise'
+83,1308,red,TeleOpD4Att,0,4.0, 'A_ChevalDeFrise'
+83,128,red,TeleOpD4Att,1,4.0, 'A_ChevalDeFrise'
+83,3777,blue,TeleOpD4Att,0,4.0, 'D_RockWall'
+83,3821,blue,TeleOpD4Att,0,4.0, 'D_RockWall'
+83,4213,blue,TeleOpD4Att,0,4.0, 'D_RockWall'
+84,2603,red,TeleOpD4Att,0,4.0, 'C_SallyPort'
+84,245,red,TeleOpD4Att,0,4.0, 'C_SallyPort'
+84,868,red,TeleOpD4Att,2,4.0, 'C_SallyPort'
+84,1985,blue,TeleOpD4Att,0,4.0, 'C_SallyPort'
+84,1249,blue,TeleOpD4Att,0,4.0, 'C_SallyPort'
+84,5413,blue,TeleOpD4Att,0,4.0, 'C_SallyPort'
+85,3484,red,TeleOpD4Att,0,4.0, 'D_RockWall'
+85,48,red,TeleOpD4Att,0,4.0, 'D_RockWall'
+85,6084,red,TeleOpD4Att,1,4.0, 'D_RockWall'
+85,3814,blue,TeleOpD4Att,0,4.0, 'A_Portcullis'
+85,4085,blue,TeleOpD4Att,0,4.0, 'A_Portcullis'
+85,451,blue,TeleOpD4Att,0,4.0, 'A_Portcullis'
+86,120,blue,TeleOpD4Att,0,4.0, 'D_RockWall'
+86,3324,,TeleOpD4Att,3,4.0,
+86,868,,TeleOpD4Att,0,4.0,
+86,451,,TeleOpD4Att,1,4.0,
+86,5492,,TeleOpD4Att,0,4.0,
+86,5811,blue,TeleOpD4Att,0,4.0, 'D_RockWall'
+87,2051,red,TeleOpD4Att,1,4.0, 'C_SallyPort'
+87,1708,red,TeleOpD4Att,0,4.0, 'C_SallyPort'
+87,4145,red,TeleOpD4Att,0,4.0, 'C_SallyPort'
+87,5492,blue,TeleOpD4Att,0,4.0, 'A_ChevalDeFrise'
+87,4284,blue,TeleOpD4Att,0,4.0, 'A_ChevalDeFrise'
+87,5667,blue,TeleOpD4Att,0,4.0, 'A_ChevalDeFrise'
+88,2016,red,TeleOpD4Att,0,4.0, 'A_ChevalDeFrise'
+88,1014,red,TeleOpD4Att,0,4.0, 'A_ChevalDeFrise'
+88,4256,red,TeleOpD4Att,1,4.0, 'A_ChevalDeFrise'
+88,3000,blue,TeleOpD4Att,0,4.0, 'A_Portcullis'
+88,4028,blue,TeleOpD4Att,0,4.0, 'A_Portcullis'
+88,6185,blue,TeleOpD4Att,0,4.0, 'A_Portcullis'
+77,5667,red,TeleOpD5Cross,1,5.0, 'D_RockWall'
+77,451,red,TeleOpD5Cross,0,5.0, 'D_RockWall'
+77,3484,red,TeleOpD5Cross,0,5.0, 'D_RockWall'
+77,4256,blue,TeleOpD5Cross,0,5.0, 'B_Ramparts'
+77,1939,blue,TeleOpD5Cross,2,5.0, 'B_Ramparts'
+77,2040,blue,TeleOpD5Cross,0,5.0, 'B_Ramparts'
+78,3324,red,TeleOpD5Cross,1,5.0, 'D_RockWall'
+78,48,red,TeleOpD5Cross,0,5.0, 'D_RockWall'
+78,279,red,TeleOpD5Cross,1,5.0, 'D_RockWall'
+78,4521,blue,TeleOpD5Cross,0,5.0, 'B_Ramparts'
+78,3201,blue,TeleOpD5Cross,0,5.0, 'B_Ramparts'
+78,2016,blue,TeleOpD5Cross,0,5.0, 'B_Ramparts'
+79,4920,red,TeleOpD5Cross,0,5.0, 'D_RockWall'
+79,5811,red,TeleOpD5Cross,2,5.0, 'D_RockWall'
+79,3814,red,TeleOpD5Cross,0,5.0, 'D_RockWall'
+79,5809,blue,TeleOpD5Cross,0,5.0, 'D_RockWall'
+79,1038,blue,TeleOpD5Cross,2,5.0, 'D_RockWall'
+79,4284,blue,TeleOpD5Cross,0,5.0, 'D_RockWall'
+80,2051,red,TeleOpD5Cross,1,5.0, 'B_Ramparts'
+80,3138,red,TeleOpD5Cross,0,5.0, 'B_Ramparts'
+80,1014,red,TeleOpD5Cross,0,5.0, 'B_Ramparts'
+80,4085,blue,TeleOpD5Cross,0,5.0, 'C_Drawbridge'
+80,120,blue,TeleOpD5Cross,1,5.0, 'C_Drawbridge'
+80,3266,blue,TeleOpD5Cross,0,5.0, 'C_Drawbridge'
+81,6181,red,TeleOpD5Cross,0,5.0, 'C_Drawbridge'
+81,1708,red,TeleOpD5Cross,0,5.0, 'C_Drawbridge'
+81,3504,red,TeleOpD5Cross,0,5.0, 'C_Drawbridge'
+81,337,blue,TeleOpD5Cross,0,5.0, 'C_Drawbridge'
+81,5749,blue,TeleOpD5Cross,0,5.0, 'C_Drawbridge'
+81,3000,blue,TeleOpD5Cross,0,5.0, 'C_Drawbridge'
+82,4115,red,TeleOpD5Cross,0,5.0, 'C_SallyPort'
+82,144,red,TeleOpD5Cross,0,5.0, 'C_SallyPort'
+82,5492,red,TeleOpD5Cross,0,5.0, 'C_SallyPort'
+82,3492,blue,TeleOpD5Cross,0,5.0, 'A_ChevalDeFrise'
+82,6185,blue,TeleOpD5Cross,0,5.0, 'A_ChevalDeFrise'
+82,3260,blue,TeleOpD5Cross,0,5.0, 'A_ChevalDeFrise'
+83,554,red,TeleOpD5Cross,0,5.0, 'D_RockWall'
+83,1308,red,TeleOpD5Cross,3,5.0, 'D_RockWall'
+83,128,red,TeleOpD5Cross,0,5.0, 'D_RockWall'
+83,3777,blue,TeleOpD5Cross,0,5.0, 'A_ChevalDeFrise'
+83,3821,blue,TeleOpD5Cross,0,5.0, 'A_ChevalDeFrise'
+83,4213,blue,TeleOpD5Cross,0,5.0, 'A_ChevalDeFrise'
+84,2603,red,TeleOpD5Cross,0,5.0, 'A_Portcullis'
+84,245,red,TeleOpD5Cross,1,5.0, 'A_Portcullis'
+84,868,red,TeleOpD5Cross,0,5.0, 'A_Portcullis'
+84,1985,blue,TeleOpD5Cross,0,5.0, 'D_RockWall'
+84,1249,blue,TeleOpD5Cross,0,5.0, 'D_RockWall'
+84,5413,blue,TeleOpD5Cross,0,5.0, 'D_RockWall'
+85,3484,red,TeleOpD5Cross,1,5.0, 'C_SallyPort'
+85,48,red,TeleOpD5Cross,1,5.0, 'C_SallyPort'
+85,6084,red,TeleOpD5Cross,0,5.0, 'C_SallyPort'
+85,3814,blue,TeleOpD5Cross,0,5.0, 'C_SallyPort'
+85,4085,blue,TeleOpD5Cross,0,5.0, 'C_SallyPort'
+85,451,blue,TeleOpD5Cross,0,5.0, 'C_SallyPort'
+86,120,blue,TeleOpD5Cross,2,5.0, 'A_ChevalDeFrise'
+86,3324,,TeleOpD5Cross,0,5.0,
+86,868,,TeleOpD5Cross,0,5.0,
+86,451,,TeleOpD5Cross,1,5.0,
+86,5492,,TeleOpD5Cross,0,5.0,
+86,5811,blue,TeleOpD5Cross,0,5.0, 'A_ChevalDeFrise'
+87,2051,red,TeleOpD5Cross,1,5.0, 'D_RockWall'
+87,1708,red,TeleOpD5Cross,0,5.0, 'D_RockWall'
+87,4145,red,TeleOpD5Cross,0,5.0, 'D_RockWall'
+87,5492,blue,TeleOpD5Cross,0,5.0, 'C_SallyPort'
+87,4284,blue,TeleOpD5Cross,0,5.0, 'C_SallyPort'
+87,5667,blue,TeleOpD5Cross,0,5.0, 'C_SallyPort'
+88,2016,red,TeleOpD5Cross,0,5.0, 'C_Drawbridge'
+88,1014,red,TeleOpD5Cross,0,5.0, 'C_Drawbridge'
+88,4256,red,TeleOpD5Cross,0,5.0, 'C_Drawbridge'
+88,3000,blue,TeleOpD5Cross,0,5.0, 'D_RockWall'
+88,4028,blue,TeleOpD5Cross,0,5.0, 'D_RockWall'
+88,6185,blue,TeleOpD5Cross,0,5.0, 'D_RockWall'
+77,5667,red,TeleOpD5Att,1,5.0, 'D_RockWall'
+77,451,red,TeleOpD5Att,0,5.0, 'D_RockWall'
+77,3484,red,TeleOpD5Att,0,5.0, 'D_RockWall'
+77,4256,blue,TeleOpD5Att,0,5.0, 'B_Ramparts'
+77,1939,blue,TeleOpD5Att,2,5.0, 'B_Ramparts'
+77,2040,blue,TeleOpD5Att,0,5.0, 'B_Ramparts'
+78,3324,red,TeleOpD5Att,1,5.0, 'D_RockWall'
+78,48,red,TeleOpD5Att,0,5.0, 'D_RockWall'
+78,279,red,TeleOpD5Att,1,5.0, 'D_RockWall'
+78,4521,blue,TeleOpD5Att,0,5.0, 'B_Ramparts'
+78,3201,blue,TeleOpD5Att,0,5.0, 'B_Ramparts'
+78,2016,blue,TeleOpD5Att,0,5.0, 'B_Ramparts'
+79,4920,red,TeleOpD5Att,0,5.0, 'D_RockWall'
+79,5811,red,TeleOpD5Att,2,5.0, 'D_RockWall'
+79,3814,red,TeleOpD5Att,0,5.0, 'D_RockWall'
+79,5809,blue,TeleOpD5Att,0,5.0, 'D_RockWall'
+79,1038,blue,TeleOpD5Att,5,5.0, 'D_RockWall'
+79,4284,blue,TeleOpD5Att,0,5.0, 'D_RockWall'
+80,2051,red,TeleOpD5Att,1,5.0, 'B_Ramparts'
+80,3138,red,TeleOpD5Att,0,5.0, 'B_Ramparts'
+80,1014,red,TeleOpD5Att,0,5.0, 'B_Ramparts'
+80,4085,blue,TeleOpD5Att,0,5.0, 'C_Drawbridge'
+80,120,blue,TeleOpD5Att,1,5.0, 'C_Drawbridge'
+80,3266,blue,TeleOpD5Att,0,5.0, 'C_Drawbridge'
+81,6181,red,TeleOpD5Att,0,5.0, 'C_Drawbridge'
+81,1708,red,TeleOpD5Att,0,5.0, 'C_Drawbridge'
+81,3504,red,TeleOpD5Att,0,5.0, 'C_Drawbridge'
+81,337,blue,TeleOpD5Att,0,5.0, 'C_Drawbridge'
+81,5749,blue,TeleOpD5Att,0,5.0, 'C_Drawbridge'
+81,3000,blue,TeleOpD5Att,0,5.0, 'C_Drawbridge'
+82,4115,red,TeleOpD5Att,1,5.0, 'C_SallyPort'
+82,144,red,TeleOpD5Att,0,5.0, 'C_SallyPort'
+82,5492,red,TeleOpD5Att,0,5.0, 'C_SallyPort'
+82,3492,blue,TeleOpD5Att,0,5.0, 'A_ChevalDeFrise'
+82,6185,blue,TeleOpD5Att,0,5.0, 'A_ChevalDeFrise'
+82,3260,blue,TeleOpD5Att,0,5.0, 'A_ChevalDeFrise'
+83,554,red,TeleOpD5Att,0,5.0, 'D_RockWall'
+83,1308,red,TeleOpD5Att,3,5.0, 'D_RockWall'
+83,128,red,TeleOpD5Att,0,5.0, 'D_RockWall'
+83,3777,blue,TeleOpD5Att,0,5.0, 'A_ChevalDeFrise'
+83,3821,blue,TeleOpD5Att,0,5.0, 'A_ChevalDeFrise'
+83,4213,blue,TeleOpD5Att,0,5.0, 'A_ChevalDeFrise'
+84,2603,red,TeleOpD5Att,0,5.0, 'A_Portcullis'
+84,245,red,TeleOpD5Att,1,5.0, 'A_Portcullis'
+84,868,red,TeleOpD5Att,0,5.0, 'A_Portcullis'
+84,1985,blue,TeleOpD5Att,0,5.0, 'D_RockWall'
+84,1249,blue,TeleOpD5Att,0,5.0, 'D_RockWall'
+84,5413,blue,TeleOpD5Att,0,5.0, 'D_RockWall'
+85,3484,red,TeleOpD5Att,1,5.0, 'C_SallyPort'
+85,48,red,TeleOpD5Att,1,5.0, 'C_SallyPort'
+85,6084,red,TeleOpD5Att,0,5.0, 'C_SallyPort'
+85,3814,blue,TeleOpD5Att,0,5.0, 'C_SallyPort'
+85,4085,blue,TeleOpD5Att,0,5.0, 'C_SallyPort'
+85,451,blue,TeleOpD5Att,0,5.0, 'C_SallyPort'
+86,120,blue,TeleOpD5Att,2,5.0, 'A_ChevalDeFrise'
+86,3324,,TeleOpD5Att,0,5.0,
+86,868,,TeleOpD5Att,0,5.0,
+86,451,,TeleOpD5Att,1,5.0,
+86,5492,,TeleOpD5Att,0,5.0,
+86,5811,blue,TeleOpD5Att,0,5.0, 'A_ChevalDeFrise'
+87,2051,red,TeleOpD5Att,1,5.0, 'D_RockWall'
+87,1708,red,TeleOpD5Att,0,5.0, 'D_RockWall'
+87,4145,red,TeleOpD5Att,0,5.0, 'D_RockWall'
+87,5492,blue,TeleOpD5Att,0,5.0, 'C_SallyPort'
+87,4284,blue,TeleOpD5Att,0,5.0, 'C_SallyPort'
+87,5667,blue,TeleOpD5Att,0,5.0, 'C_SallyPort'
+88,2016,red,TeleOpD5Att,0,5.0, 'C_Drawbridge'
+88,1014,red,TeleOpD5Att,0,5.0, 'C_Drawbridge'
+88,4256,red,TeleOpD5Att,0,5.0, 'C_Drawbridge'
+88,3000,blue,TeleOpD5Att,0,5.0, 'D_RockWall'
+88,4028,blue,TeleOpD5Att,0,5.0, 'D_RockWall'
+88,6185,blue,TeleOpD5Att,0,5.0, 'D_RockWall'
+77,5667,red,ChallengeScale,1,,
+77,451,red,ChallengeScale,1,,
+77,3484,red,ChallengeScale,1,,
+77,4256,blue,ChallengeScale,1,,
+77,1939,blue,ChallengeScale,1,,
+77,2040,blue,ChallengeScale,0,,
+78,3324,red,ChallengeScale,1,,
+78,48,red,ChallengeScale,1,,
+78,279,red,ChallengeScale,1,,
+78,4521,blue,ChallengeScale,0,,
+78,3201,blue,ChallengeScale,0,,
+78,2016,blue,ChallengeScale,0,,
+79,4920,red,ChallengeScale,0,,
+79,5811,red,ChallengeScale,1,,
+79,3814,red,ChallengeScale,0,,
+79,5809,blue,ChallengeScale,2,,
+79,1038,blue,ChallengeScale,1,,
+79,4284,blue,ChallengeScale,0,,
+80,2051,red,ChallengeScale,1,,
+80,3138,red,ChallengeScale,1,,
+80,1014,red,ChallengeScale,1,,
+80,4085,blue,ChallengeScale,2,,
+80,120,blue,ChallengeScale,0,,
+80,3266,blue,ChallengeScale,0,,
+81,6181,red,ChallengeScale,1,,
+81,1708,red,ChallengeScale,1,,
+81,3504,red,ChallengeScale,1,,
+81,337,blue,ChallengeScale,1,,
+81,5749,blue,ChallengeScale,1,,
+81,3000,blue,ChallengeScale,0,,
+82,4115,red,ChallengeScale,1,,
+82,144,red,ChallengeScale,1,,
+82,5492,red,ChallengeScale,1,,
+82,3492,blue,ChallengeScale,1,,
+82,6185,blue,ChallengeScale,1,,
+82,3260,blue,ChallengeScale,0,,
+83,554,red,ChallengeScale,1,,
+83,1308,red,ChallengeScale,1,,
+83,128,red,ChallengeScale,1,,
+83,3777,blue,ChallengeScale,0,,
+83,3821,blue,ChallengeScale,0,,
+83,4213,blue,ChallengeScale,0,,
+84,2603,red,ChallengeScale,1,,
+84,245,red,ChallengeScale,0,,
+84,868,red,ChallengeScale,1,,
+84,1985,blue,ChallengeScale,1,,
+84,1249,blue,ChallengeScale,0,,
+84,5413,blue,ChallengeScale,0,,
+85,3484,red,ChallengeScale,1,,
+85,48,red,ChallengeScale,0,,
+85,6084,red,ChallengeScale,1,,
+85,3814,blue,ChallengeScale,2,,
+85,4085,blue,ChallengeScale,1,,
+85,451,blue,ChallengeScale,0,,
+86,120,blue,ChallengeScale,2,,
+86,3324,,ChallengeScale,1,,
+86,868,,ChallengeScale,1,,
+86,451,,ChallengeScale,1,,
+86,5492,,ChallengeScale,1,,
+86,5811,blue,ChallengeScale,0,,
+87,2051,red,ChallengeScale,1,,
+87,1708,red,ChallengeScale,0,,
+87,4145,red,ChallengeScale,1,,
+87,5492,blue,ChallengeScale,1,,
+87,4284,blue,ChallengeScale,0,,
+87,5667,blue,ChallengeScale,0,,
+88,2016,red,ChallengeScale,1,,
+88,1014,red,ChallengeScale,1,,
+88,4256,red,ChallengeScale,1,,
+88,3000,blue,ChallengeScale,0,,
+88,4028,blue,ChallengeScale,0,,
+88,6185,blue,ChallengeScale,0,,
+77,5667,red,TeleOpHighShotMade,0,,
+77,451,red,TeleOpHighShotMade,0,,
+77,3484,red,TeleOpHighShotMade,0,,
+77,4256,blue,TeleOpHighShotMade,3,,
+77,1939,blue,TeleOpHighShotMade,0,,
+77,2040,blue,TeleOpHighShotMade,0,,
+78,3324,red,TeleOpHighShotMade,0,,
+78,48,red,TeleOpHighShotMade,5,,
+78,279,red,TeleOpHighShotMade,0,,
+78,4521,blue,TeleOpHighShotMade,0,,
+78,3201,blue,TeleOpHighShotMade,0,,
+78,2016,blue,TeleOpHighShotMade,0,,
+79,4920,red,TeleOpHighShotMade,0,,
+79,5811,red,TeleOpHighShotMade,0,,
+79,3814,red,TeleOpHighShotMade,0,,
+79,5809,blue,TeleOpHighShotMade,1,,
+79,1038,blue,TeleOpHighShotMade,0,,
+79,4284,blue,TeleOpHighShotMade,0,,
+80,2051,red,TeleOpHighShotMade,0,,
+80,3138,red,TeleOpHighShotMade,1,,
+80,1014,red,TeleOpHighShotMade,1,,
+80,4085,blue,TeleOpHighShotMade,0,,
+80,120,blue,TeleOpHighShotMade,4,,
+80,3266,blue,TeleOpHighShotMade,0,,
+81,6181,red,TeleOpHighShotMade,0,,
+81,1708,red,TeleOpHighShotMade,0,,
+81,3504,red,TeleOpHighShotMade,0,,
+81,337,blue,TeleOpHighShotMade,0,,
+81,5749,blue,TeleOpHighShotMade,0,,
+81,3000,blue,TeleOpHighShotMade,0,,
+82,4115,red,TeleOpHighShotMade,2,,
+82,144,red,TeleOpHighShotMade,0,,
+82,5492,red,TeleOpHighShotMade,1,,
+82,3492,blue,TeleOpHighShotMade,0,,
+82,6185,blue,TeleOpHighShotMade,0,,
+82,3260,blue,TeleOpHighShotMade,0,,
+83,554,red,TeleOpHighShotMade,0,,
+83,1308,red,TeleOpHighShotMade,0,,
+83,128,red,TeleOpHighShotMade,0,,
+83,3777,blue,TeleOpHighShotMade,0,,
+83,3821,blue,TeleOpHighShotMade,0,,
+83,4213,blue,TeleOpHighShotMade,0,,
+84,2603,red,TeleOpHighShotMade,0,,
+84,245,red,TeleOpHighShotMade,4,,
+84,868,red,TeleOpHighShotMade,0,,
+84,1985,blue,TeleOpHighShotMade,1,,
+84,1249,blue,TeleOpHighShotMade,0,,
+84,5413,blue,TeleOpHighShotMade,0,,
+85,3484,red,TeleOpHighShotMade,0,,
+85,48,red,TeleOpHighShotMade,4,,
+85,6084,red,TeleOpHighShotMade,0,,
+85,3814,blue,TeleOpHighShotMade,0,,
+85,4085,blue,TeleOpHighShotMade,0,,
+85,451,blue,TeleOpHighShotMade,0,,
+86,120,blue,TeleOpHighShotMade,1,,
+86,3324,,TeleOpHighShotMade,0,,
+86,868,,TeleOpHighShotMade,1,,
+86,451,,TeleOpHighShotMade,0,,
+86,5492,,TeleOpHighShotMade,0,,
+86,5811,blue,TeleOpHighShotMade,0,,
+87,2051,red,TeleOpHighShotMade,0,,
+87,1708,red,TeleOpHighShotMade,0,,
+87,4145,red,TeleOpHighShotMade,2,,
+87,5492,blue,TeleOpHighShotMade,0,,
+87,4284,blue,TeleOpHighShotMade,0,,
+87,5667,blue,TeleOpHighShotMade,0,,
+88,2016,red,TeleOpHighShotMade,3,,
+88,1014,red,TeleOpHighShotMade,0,,
+88,4256,red,TeleOpHighShotMade,0,,
+88,3000,blue,TeleOpHighShotMade,0,,
+88,4028,blue,TeleOpHighShotMade,5,,
+88,6185,blue,TeleOpHighShotMade,0,,
+77,5667,red,TeleOpHighShotAtt,1,,
+77,451,red,TeleOpHighShotAtt,0,,
+77,3484,red,TeleOpHighShotAtt,0,,
+77,4256,blue,TeleOpHighShotAtt,4,,
+77,1939,blue,TeleOpHighShotAtt,0,,
+77,2040,blue,TeleOpHighShotAtt,0,,
+78,3324,red,TeleOpHighShotAtt,1,,
+78,48,red,TeleOpHighShotAtt,6,,
+78,279,red,TeleOpHighShotAtt,0,,
+78,4521,blue,TeleOpHighShotAtt,0,,
+78,3201,blue,TeleOpHighShotAtt,0,,
+78,2016,blue,TeleOpHighShotAtt,0,,
+79,4920,red,TeleOpHighShotAtt,0,,
+79,5811,red,TeleOpHighShotAtt,0,,
+79,3814,red,TeleOpHighShotAtt,0,,
+79,5809,blue,TeleOpHighShotAtt,1,,
+79,1038,blue,TeleOpHighShotAtt,0,,
+79,4284,blue,TeleOpHighShotAtt,0,,
+80,2051,red,TeleOpHighShotAtt,0,,
+80,3138,red,TeleOpHighShotAtt,1,,
+80,1014,red,TeleOpHighShotAtt,2,,
+80,4085,blue,TeleOpHighShotAtt,0,,
+80,120,blue,TeleOpHighShotAtt,6,,
+80,3266,blue,TeleOpHighShotAtt,0,,
+81,6181,red,TeleOpHighShotAtt,0,,
+81,1708,red,TeleOpHighShotAtt,0,,
+81,3504,red,TeleOpHighShotAtt,0,,
+81,337,blue,TeleOpHighShotAtt,0,,
+81,5749,blue,TeleOpHighShotAtt,0,,
+81,3000,blue,TeleOpHighShotAtt,0,,
+82,4115,red,TeleOpHighShotAtt,2,,
+82,144,red,TeleOpHighShotAtt,0,,
+82,5492,red,TeleOpHighShotAtt,1,,
+82,3492,blue,TeleOpHighShotAtt,0,,
+82,6185,blue,TeleOpHighShotAtt,0,,
+82,3260,blue,TeleOpHighShotAtt,0,,
+83,554,red,TeleOpHighShotAtt,0,,
+83,1308,red,TeleOpHighShotAtt,0,,
+83,128,red,TeleOpHighShotAtt,0,,
+83,3777,blue,TeleOpHighShotAtt,0,,
+83,3821,blue,TeleOpHighShotAtt,0,,
+83,4213,blue,TeleOpHighShotAtt,0,,
+84,2603,red,TeleOpHighShotAtt,0,,
+84,245,red,TeleOpHighShotAtt,4,,
+84,868,red,TeleOpHighShotAtt,0,,
+84,1985,blue,TeleOpHighShotAtt,1,,
+84,1249,blue,TeleOpHighShotAtt,0,,
+84,5413,blue,TeleOpHighShotAtt,0,,
+85,3484,red,TeleOpHighShotAtt,0,,
+85,48,red,TeleOpHighShotAtt,7,,
+85,6084,red,TeleOpHighShotAtt,0,,
+85,3814,blue,TeleOpHighShotAtt,0,,
+85,4085,blue,TeleOpHighShotAtt,0,,
+85,451,blue,TeleOpHighShotAtt,0,,
+86,120,blue,TeleOpHighShotAtt,4,,
+86,3324,,TeleOpHighShotAtt,0,,
+86,868,,TeleOpHighShotAtt,2,,
+86,451,,TeleOpHighShotAtt,0,,
+86,5492,,TeleOpHighShotAtt,0,,
+86,5811,blue,TeleOpHighShotAtt,0,,
+87,2051,red,TeleOpHighShotAtt,0,,
+87,1708,red,TeleOpHighShotAtt,0,,
+87,4145,red,TeleOpHighShotAtt,2,,
+87,5492,blue,TeleOpHighShotAtt,1,,
+87,4284,blue,TeleOpHighShotAtt,0,,
+87,5667,blue,TeleOpHighShotAtt,0,,
+88,2016,red,TeleOpHighShotAtt,4,,
+88,1014,red,TeleOpHighShotAtt,0,,
+88,4256,red,TeleOpHighShotAtt,0,,
+88,3000,blue,TeleOpHighShotAtt,0,,
+88,4028,blue,TeleOpHighShotAtt,6,,
+88,6185,blue,TeleOpHighShotAtt,0,,
+77,5667,red,TeleOpLowShotMade,0,,
+77,451,red,TeleOpLowShotMade,0,,
+77,3484,red,TeleOpLowShotMade,1,,
+77,4256,blue,TeleOpLowShotMade,2,,
+77,1939,blue,TeleOpLowShotMade,3,,
+77,2040,blue,TeleOpLowShotMade,0,,
+78,3324,red,TeleOpLowShotMade,0,,
+78,48,red,TeleOpLowShotMade,0,,
+78,279,red,TeleOpLowShotMade,0,,
+78,4521,blue,TeleOpLowShotMade,0,,
+78,3201,blue,TeleOpLowShotMade,0,,
+78,2016,blue,TeleOpLowShotMade,0,,
+79,4920,red,TeleOpLowShotMade,2,,
+79,5811,red,TeleOpLowShotMade,3,,
+79,3814,red,TeleOpLowShotMade,0,,
+79,5809,blue,TeleOpLowShotMade,0,,
+79,1038,blue,TeleOpLowShotMade,1,,
+79,4284,blue,TeleOpLowShotMade,0,,
+80,2051,red,TeleOpLowShotMade,0,,
+80,3138,red,TeleOpLowShotMade,0,,
+80,1014,red,TeleOpLowShotMade,0,,
+80,4085,blue,TeleOpLowShotMade,0,,
+80,120,blue,TeleOpLowShotMade,0,,
+80,3266,blue,TeleOpLowShotMade,0,,
+81,6181,red,TeleOpLowShotMade,0,,
+81,1708,red,TeleOpLowShotMade,5,,
+81,3504,red,TeleOpLowShotMade,0,,
+81,337,blue,TeleOpLowShotMade,1,,
+81,5749,blue,TeleOpLowShotMade,2,,
+81,3000,blue,TeleOpLowShotMade,0,,
+82,4115,red,TeleOpLowShotMade,0,,
+82,144,red,TeleOpLowShotMade,2,,
+82,5492,red,TeleOpLowShotMade,1,,
+82,3492,blue,TeleOpLowShotMade,2,,
+82,6185,blue,TeleOpLowShotMade,0,,
+82,3260,blue,TeleOpLowShotMade,0,,
+83,554,red,TeleOpLowShotMade,4,,
+83,1308,red,TeleOpLowShotMade,0,,
+83,128,red,TeleOpLowShotMade,1,,
+83,3777,blue,TeleOpLowShotMade,0,,
+83,3821,blue,TeleOpLowShotMade,0,,
+83,4213,blue,TeleOpLowShotMade,0,,
+84,2603,red,TeleOpLowShotMade,0,,
+84,245,red,TeleOpLowShotMade,0,,
+84,868,red,TeleOpLowShotMade,0,,
+84,1985,blue,TeleOpLowShotMade,2,,
+84,1249,blue,TeleOpLowShotMade,0,,
+84,5413,blue,TeleOpLowShotMade,0,,
+85,3484,red,TeleOpLowShotMade,3,,
+85,48,red,TeleOpLowShotMade,1,,
+85,6084,red,TeleOpLowShotMade,0,,
+85,3814,blue,TeleOpLowShotMade,2,,
+85,4085,blue,TeleOpLowShotMade,0,,
+85,451,blue,TeleOpLowShotMade,0,,
+86,120,blue,TeleOpLowShotMade,0,,
+86,3324,,TeleOpLowShotMade,0,,
+86,868,,TeleOpLowShotMade,0,,
+86,451,,TeleOpLowShotMade,5,,
+86,5492,,TeleOpLowShotMade,0,,
+86,5811,blue,TeleOpLowShotMade,0,,
+87,2051,red,TeleOpLowShotMade,0,,
+87,1708,red,TeleOpLowShotMade,4,,
+87,4145,red,TeleOpLowShotMade,1,,
+87,5492,blue,TeleOpLowShotMade,4,,
+87,4284,blue,TeleOpLowShotMade,0,,
+87,5667,blue,TeleOpLowShotMade,0,,
+88,2016,red,TeleOpLowShotMade,0,,
+88,1014,red,TeleOpLowShotMade,3,,
+88,4256,red,TeleOpLowShotMade,0,,
+88,3000,blue,TeleOpLowShotMade,0,,
+88,4028,blue,TeleOpLowShotMade,0,,
+88,6185,blue,TeleOpLowShotMade,0,,
+77,5667,red,TeleOpLowShotAtt,0,,
+77,451,red,TeleOpLowShotAtt,0,,
+77,3484,red,TeleOpLowShotAtt,5,,
+77,4256,blue,TeleOpLowShotAtt,4,,
+77,1939,blue,TeleOpLowShotAtt,3,,
+77,2040,blue,TeleOpLowShotAtt,0,,
+78,3324,red,TeleOpLowShotAtt,0,,
+78,48,red,TeleOpLowShotAtt,0,,
+78,279,red,TeleOpLowShotAtt,0,,
+78,4521,blue,TeleOpLowShotAtt,0,,
+78,3201,blue,TeleOpLowShotAtt,0,,
+78,2016,blue,TeleOpLowShotAtt,0,,
+79,4920,red,TeleOpLowShotAtt,3,,
+79,5811,red,TeleOpLowShotAtt,3,,
+79,3814,red,TeleOpLowShotAtt,0,,
+79,5809,blue,TeleOpLowShotAtt,0,,
+79,1038,blue,TeleOpLowShotAtt,2,,
+79,4284,blue,TeleOpLowShotAtt,0,,
+80,2051,red,TeleOpLowShotAtt,0,,
+80,3138,red,TeleOpLowShotAtt,0,,
+80,1014,red,TeleOpLowShotAtt,1,,
+80,4085,blue,TeleOpLowShotAtt,0,,
+80,120,blue,TeleOpLowShotAtt,0,,
+80,3266,blue,TeleOpLowShotAtt,0,,
+81,6181,red,TeleOpLowShotAtt,1,,
+81,1708,red,TeleOpLowShotAtt,5,,
+81,3504,red,TeleOpLowShotAtt,1,,
+81,337,blue,TeleOpLowShotAtt,1,,
+81,5749,blue,TeleOpLowShotAtt,2,,
+81,3000,blue,TeleOpLowShotAtt,0,,
+82,4115,red,TeleOpLowShotAtt,0,,
+82,144,red,TeleOpLowShotAtt,3,,
+82,5492,red,TeleOpLowShotAtt,2,,
+82,3492,blue,TeleOpLowShotAtt,6,,
+82,6185,blue,TeleOpLowShotAtt,0,,
+82,3260,blue,TeleOpLowShotAtt,0,,
+83,554,red,TeleOpLowShotAtt,5,,
+83,1308,red,TeleOpLowShotAtt,0,,
+83,128,red,TeleOpLowShotAtt,1,,
+83,3777,blue,TeleOpLowShotAtt,0,,
+83,3821,blue,TeleOpLowShotAtt,0,,
+83,4213,blue,TeleOpLowShotAtt,0,,
+84,2603,red,TeleOpLowShotAtt,2,,
+84,245,red,TeleOpLowShotAtt,0,,
+84,868,red,TeleOpLowShotAtt,0,,
+84,1985,blue,TeleOpLowShotAtt,2,,
+84,1249,blue,TeleOpLowShotAtt,0,,
+84,5413,blue,TeleOpLowShotAtt,0,,
+85,3484,red,TeleOpLowShotAtt,3,,
+85,48,red,TeleOpLowShotAtt,1,,
+85,6084,red,TeleOpLowShotAtt,0,,
+85,3814,blue,TeleOpLowShotAtt,2,,
+85,4085,blue,TeleOpLowShotAtt,1,,
+85,451,blue,TeleOpLowShotAtt,0,,
+86,120,blue,TeleOpLowShotAtt,0,,
+86,3324,,TeleOpLowShotAtt,0,,
+86,868,,TeleOpLowShotAtt,0,,
+86,451,,TeleOpLowShotAtt,6,,
+86,5492,,TeleOpLowShotAtt,0,,
+86,5811,blue,TeleOpLowShotAtt,0,,
+87,2051,red,TeleOpLowShotAtt,0,,
+87,1708,red,TeleOpLowShotAtt,7,,
+87,4145,red,TeleOpLowShotAtt,1,,
+87,5492,blue,TeleOpLowShotAtt,4,,
+87,4284,blue,TeleOpLowShotAtt,0,,
+87,5667,blue,TeleOpLowShotAtt,0,,
+88,2016,red,TeleOpLowShotAtt,0,,
+88,1014,red,TeleOpLowShotAtt,6,,
+88,4256,red,TeleOpLowShotAtt,0,,
+88,3000,blue,TeleOpLowShotAtt,0,,
+88,4028,blue,TeleOpLowShotAtt,0,,
+88,6185,blue,TeleOpLowShotAtt,0,,
+77,5667,red,TeleOpTotalPoints,15,,
+77,451,red,TeleOpTotalPoints,20,,
+77,3484,red,TeleOpTotalPoints,12,,
+77,4256,blue,TeleOpTotalPoints,39,,
+77,1939,blue,TeleOpTotalPoints,21,,
+77,2040,blue,TeleOpTotalPoints,0,,
+78,3324,red,TeleOpTotalPoints,10,,
+78,48,red,TeleOpTotalPoints,40,,
+78,279,red,TeleOpTotalPoints,35,,
+78,4521,blue,TeleOpTotalPoints,0,,
+78,3201,blue,TeleOpTotalPoints,0,,
+78,2016,blue,TeleOpTotalPoints,0,,
+79,4920,red,TeleOpTotalPoints,4,,
+79,5811,red,TeleOpTotalPoints,36,,
+79,3814,red,TeleOpTotalPoints,5,,
+79,5809,blue,TeleOpTotalPoints,30,,
+79,1038,blue,TeleOpTotalPoints,32,,
+79,4284,blue,TeleOpTotalPoints,0,,
+80,2051,red,TeleOpTotalPoints,10,,
+80,3138,red,TeleOpTotalPoints,25,,
+80,1014,red,TeleOpTotalPoints,25,,
+80,4085,blue,TeleOpTotalPoints,35,,
+80,120,blue,TeleOpTotalPoints,35,,
+80,3266,blue,TeleOpTotalPoints,0,,
+81,6181,red,TeleOpTotalPoints,15,,
+81,1708,red,TeleOpTotalPoints,25,,
+81,3504,red,TeleOpTotalPoints,15,,
+81,337,blue,TeleOpTotalPoints,32,,
+81,5749,blue,TeleOpTotalPoints,14,,
+81,3000,blue,TeleOpTotalPoints,0,,
+82,4115,red,TeleOpTotalPoints,15,,
+82,144,red,TeleOpTotalPoints,14,,
+82,5492,red,TeleOpTotalPoints,32,,
+82,3492,blue,TeleOpTotalPoints,24,,
+82,6185,blue,TeleOpTotalPoints,15,,
+82,3260,blue,TeleOpTotalPoints,0,,
+83,554,red,TeleOpTotalPoints,18,,
+83,1308,red,TeleOpTotalPoints,30,,
+83,128,red,TeleOpTotalPoints,22,,
+83,3777,blue,TeleOpTotalPoints,10,,
+83,3821,blue,TeleOpTotalPoints,0,,
+83,4213,blue,TeleOpTotalPoints,0,,
+84,2603,red,TeleOpTotalPoints,10,,
+84,245,red,TeleOpTotalPoints,35,,
+84,868,red,TeleOpTotalPoints,25,,
+84,1985,blue,TeleOpTotalPoints,34,,
+84,1249,blue,TeleOpTotalPoints,0,,
+84,5413,blue,TeleOpTotalPoints,0,,
+85,3484,red,TeleOpTotalPoints,31,,
+85,48,red,TeleOpTotalPoints,27,,
+85,6084,red,TeleOpTotalPoints,25,,
+85,3814,blue,TeleOpTotalPoints,29,,
+85,4085,blue,TeleOpTotalPoints,10,,
+85,451,blue,TeleOpTotalPoints,0,,
+86,120,blue,TeleOpTotalPoints,30,,
+86,3324,,TeleOpTotalPoints,30,,
+86,868,,TeleOpTotalPoints,35,,
+86,451,,TeleOpTotalPoints,25,,
+86,5492,,TeleOpTotalPoints,30,,
+86,5811,blue,TeleOpTotalPoints,0,,
+87,2051,red,TeleOpTotalPoints,25,,
+87,1708,red,TeleOpTotalPoints,23,,
+87,4145,red,TeleOpTotalPoints,32,,
+87,5492,blue,TeleOpTotalPoints,23,,
+87,4284,blue,TeleOpTotalPoints,0,,
+87,5667,blue,TeleOpTotalPoints,0,,
+88,2016,red,TeleOpTotalPoints,30,,
+88,1014,red,TeleOpTotalPoints,26,,
+88,4256,red,TeleOpTotalPoints,20,,
+88,3000,blue,TeleOpTotalPoints,0,,
+88,4028,blue,TeleOpTotalPoints,35,,
+88,6185,blue,TeleOpTotalPoints,0,,
+77,5667,red,TotalPoints,25,,
+77,451,red,TotalPoints,30,,
+77,3484,red,TotalPoints,22,,
+77,4256,blue,TotalPoints,41,,
+77,1939,blue,TotalPoints,31,,
+77,2040,blue,TotalPoints,0,,
+78,3324,red,TotalPoints,20,,
+78,48,red,TotalPoints,50,,
+78,279,red,TotalPoints,37,,
+78,4521,blue,TotalPoints,10,,
+78,3201,blue,TotalPoints,10,,
+78,2016,blue,TotalPoints,0,,
+79,4920,red,TotalPoints,4,,
+79,5811,red,TotalPoints,46,,
+79,3814,red,TotalPoints,15,,
+79,5809,blue,TotalPoints,40,,
+79,1038,blue,TotalPoints,42,,
+79,4284,blue,TotalPoints,0,,
+80,2051,red,TotalPoints,20,,
+80,3138,red,TotalPoints,45,,
+80,1014,red,TotalPoints,35,,
+80,4085,blue,TotalPoints,65,,
+80,120,blue,TotalPoints,45,,
+80,3266,blue,TotalPoints,0,,
+81,6181,red,TotalPoints,25,,
+81,1708,red,TotalPoints,35,,
+81,3504,red,TotalPoints,25,,
+81,337,blue,TotalPoints,32,,
+81,5749,blue,TotalPoints,24,,
+81,3000,blue,TotalPoints,0,,
+82,4115,red,TotalPoints,25,,
+82,144,red,TotalPoints,24,,
+82,5492,red,TotalPoints,42,,
+82,3492,blue,TotalPoints,34,,
+82,6185,blue,TotalPoints,25,,
+82,3260,blue,TotalPoints,0,,
+83,554,red,TotalPoints,28,,
+83,1308,red,TotalPoints,40,,
+83,128,red,TotalPoints,24,,
+83,3777,blue,TotalPoints,12,,
+83,3821,blue,TotalPoints,0,,
+83,4213,blue,TotalPoints,0,,
+84,2603,red,TotalPoints,20,,
+84,245,red,TotalPoints,45,,
+84,868,red,TotalPoints,35,,
+84,1985,blue,TotalPoints,44,,
+84,1249,blue,TotalPoints,0,,
+84,5413,blue,TotalPoints,0,,
+85,3484,red,TotalPoints,31,,
+85,48,red,TotalPoints,37,,
+85,6084,red,TotalPoints,25,,
+85,3814,blue,TotalPoints,31,,
+85,4085,blue,TotalPoints,20,,
+85,451,blue,TotalPoints,0,,
+86,120,blue,TotalPoints,40,,
+86,3324,,TotalPoints,40,,
+86,868,,TotalPoints,45,,
+86,451,,TotalPoints,35,,
+86,5492,,TotalPoints,40,,
+86,5811,blue,TotalPoints,0,,
+87,2051,red,TotalPoints,35,,
+87,1708,red,TotalPoints,25,,
+87,4145,red,TotalPoints,47,,
+87,5492,blue,TotalPoints,33,,
+87,4284,blue,TotalPoints,10,,
+87,5667,blue,TotalPoints,0,,
+88,2016,red,TotalPoints,40,,
+88,1014,red,TotalPoints,31,,
+88,4256,red,TotalPoints,40,,
+88,3000,blue,TotalPoints,0,,
+88,4028,blue,TotalPoints,45,,
+88,6185,blue,TotalPoints,0,,
+77,5667,red,Defense,0,,
+77,451,red,Defense,0,,
+77,3484,red,Defense,0,,
+77,4256,blue,Defense,0,,
+77,1939,blue,Defense,0,,
+77,2040,blue,Defense,0,,
+78,3324,red,Defense,0,,
+78,48,red,Defense,0,,
+78,279,red,Defense,0,,
+78,4521,blue,Defense,0,,
+78,3201,blue,Defense,0,,
+78,2016,blue,Defense,0,,
+79,4920,red,Defense,0,,
+79,5811,red,Defense,0,,
+79,3814,red,Defense,0,,
+79,5809,blue,Defense,0,,
+79,1038,blue,Defense,0,,
+79,4284,blue,Defense,0,,
+80,2051,red,Defense,0,,
+80,3138,red,Defense,0,,
+80,1014,red,Defense,0,,
+80,4085,blue,Defense,0,,
+80,120,blue,Defense,0,,
+80,3266,blue,Defense,0,,
+81,6181,red,Defense,0,,
+81,1708,red,Defense,0,,
+81,3504,red,Defense,0,,
+81,337,blue,Defense,0,,
+81,5749,blue,Defense,0,,
+81,3000,blue,Defense,0,,
+82,4115,red,Defense,0,,
+82,144,red,Defense,0,,
+82,5492,red,Defense,0,,
+82,3492,blue,Defense,0,,
+82,6185,blue,Defense,0,,
+82,3260,blue,Defense,0,,
+83,554,red,Defense,0,,
+83,1308,red,Defense,0,,
+83,128,red,Defense,0,,
+83,3777,blue,Defense,0,,
+83,3821,blue,Defense,0,,
+83,4213,blue,Defense,0,,
+84,2603,red,Defense,0,,
+84,245,red,Defense,0,,
+84,868,red,Defense,0,,
+84,1985,blue,Defense,0,,
+84,1249,blue,Defense,0,,
+84,5413,blue,Defense,0,,
+85,3484,red,Defense,0,,
+85,48,red,Defense,0,,
+85,6084,red,Defense,0,,
+85,3814,blue,Defense,0,,
+85,4085,blue,Defense,0,,
+85,451,blue,Defense,0,,
+86,120,blue,Defense,0,,
+86,3324,,Defense,0,,
+86,868,,Defense,0,,
+86,451,,Defense,0,,
+86,5492,,Defense,0,,
+86,5811,blue,Defense,0,,
+87,2051,red,Defense,0,,
+87,1708,red,Defense,0,,
+87,4145,red,Defense,0,,
+87,5492,blue,Defense,0,,
+87,4284,blue,Defense,0,,
+87,5667,blue,Defense,0,,
+88,2016,red,Defense,0,,
+88,1014,red,Defense,0,,
+88,4256,red,Defense,0,,
+88,3000,blue,Defense,0,,
+88,4028,blue,Defense,0,,
+88,6185,blue,Defense,0,,
+77,5667,red,AutoCross,True,,
+77,451,red,AutoCross,True,,
+77,3484,red,AutoCross,True,,
+77,4256,blue,AutoCross,False,,
+77,1939,blue,AutoCross,True,,
+77,2040,blue,AutoCross,False,,
+78,3324,red,AutoCross,True,,
+78,48,red,AutoCross,True,,
+78,279,red,AutoCross,False,,
+78,4521,blue,AutoCross,True,,
+78,3201,blue,AutoCross,True,,
+78,2016,blue,AutoCross,False,,
+79,4920,red,AutoCross,False,,
+79,5811,red,AutoCross,True,,
+79,3814,red,AutoCross,True,,
+79,5809,blue,AutoCross,True,,
+79,1038,blue,AutoCross,True,,
+79,4284,blue,AutoCross,False,,
+80,2051,red,AutoCross,True,,
+80,3138,red,AutoCross,True,,
+80,1014,red,AutoCross,True,,
+80,4085,blue,AutoCross,True,,
+80,120,blue,AutoCross,True,,
+80,3266,blue,AutoCross,False,,
+81,6181,red,AutoCross,True,,
+81,1708,red,AutoCross,True,,
+81,3504,red,AutoCross,True,,
+81,337,blue,AutoCross,False,,
+81,5749,blue,AutoCross,True,,
+81,3000,blue,AutoCross,False,,
+82,4115,red,AutoCross,True,,
+82,144,red,AutoCross,True,,
+82,5492,red,AutoCross,True,,
+82,3492,blue,AutoCross,True,,
+82,6185,blue,AutoCross,True,,
+82,3260,blue,AutoCross,False,,
+83,554,red,AutoCross,True,,
+83,1308,red,AutoCross,True,,
+83,128,red,AutoCross,False,,
+83,3777,blue,AutoCross,False,,
+83,3821,blue,AutoCross,False,,
+83,4213,blue,AutoCross,False,,
+84,2603,red,AutoCross,True,,
+84,245,red,AutoCross,True,,
+84,868,red,AutoCross,True,,
+84,1985,blue,AutoCross,True,,
+84,1249,blue,AutoCross,False,,
+84,5413,blue,AutoCross,False,,
+85,3484,red,AutoCross,False,,
+85,48,red,AutoCross,True,,
+85,6084,red,AutoCross,False,,
+85,3814,blue,AutoCross,False,,
+85,4085,blue,AutoCross,True,,
+85,451,blue,AutoCross,False,,
+86,120,blue,AutoCross,True,,
+86,3324,,AutoCross,True,,
+86,868,,AutoCross,True,,
+86,451,,AutoCross,True,,
+86,5492,,AutoCross,True,,
+86,5811,blue,AutoCross,False,,
+87,2051,red,AutoCross,True,,
+87,1708,red,AutoCross,False,,
+87,4145,red,AutoCross,True,,
+87,5492,blue,AutoCross,True,,
+87,4284,blue,AutoCross,True,,
+87,5667,blue,AutoCross,False,,
+88,2016,red,AutoCross,True,,
+88,1014,red,AutoCross,False,,
+88,4256,red,AutoCross,True,,
+88,3000,blue,AutoCross,False,,
+88,4028,blue,AutoCross,True,,
+88,6185,blue,AutoCross,False,,
+77,5667,red,AutoReach,False,,
+77,451,red,AutoReach,False,,
+77,3484,red,AutoReach,False,,
+77,4256,blue,AutoReach,True,,
+77,1939,blue,AutoReach,False,,
+77,2040,blue,AutoReach,False,,
+78,3324,red,AutoReach,False,,
+78,48,red,AutoReach,False,,
+78,279,red,AutoReach,True,,
+78,4521,blue,AutoReach,False,,
+78,3201,blue,AutoReach,False,,
+78,2016,blue,AutoReach,False,,
+79,4920,red,AutoReach,False,,
+79,5811,red,AutoReach,False,,
+79,3814,red,AutoReach,False,,
+79,5809,blue,AutoReach,False,,
+79,1038,blue,AutoReach,False,,
+79,4284,blue,AutoReach,False,,
+80,2051,red,AutoReach,False,,
+80,3138,red,AutoReach,False,,
+80,1014,red,AutoReach,False,,
+80,4085,blue,AutoReach,False,,
+80,120,blue,AutoReach,False,,
+80,3266,blue,AutoReach,False,,
+81,6181,red,AutoReach,False,,
+81,1708,red,AutoReach,False,,
+81,3504,red,AutoReach,False,,
+81,337,blue,AutoReach,False,,
+81,5749,blue,AutoReach,False,,
+81,3000,blue,AutoReach,False,,
+82,4115,red,AutoReach,False,,
+82,144,red,AutoReach,False,,
+82,5492,red,AutoReach,False,,
+82,3492,blue,AutoReach,False,,
+82,6185,blue,AutoReach,False,,
+82,3260,blue,AutoReach,False,,
+83,554,red,AutoReach,False,,
+83,1308,red,AutoReach,False,,
+83,128,red,AutoReach,True,,
+83,3777,blue,AutoReach,True,,
+83,3821,blue,AutoReach,False,,
+83,4213,blue,AutoReach,False,,
+84,2603,red,AutoReach,False,,
+84,245,red,AutoReach,False,,
+84,868,red,AutoReach,False,,
+84,1985,blue,AutoReach,False,,
+84,1249,blue,AutoReach,False,,
+84,5413,blue,AutoReach,False,,
+85,3484,red,AutoReach,False,,
+85,48,red,AutoReach,False,,
+85,6084,red,AutoReach,False,,
+85,3814,blue,AutoReach,True,,
+85,4085,blue,AutoReach,False,,
+85,451,blue,AutoReach,False,,
+86,120,blue,AutoReach,False,,
+86,3324,,AutoReach,False,,
+86,868,,AutoReach,False,,
+86,451,,AutoReach,False,,
+86,5492,,AutoReach,False,,
+86,5811,blue,AutoReach,False,,
+87,2051,red,AutoReach,False,,
+87,1708,red,AutoReach,True,,
+87,4145,red,AutoReach,False,,
+87,5492,blue,AutoReach,False,,
+87,4284,blue,AutoReach,False,,
+87,5667,blue,AutoReach,False,,
+88,2016,red,AutoReach,False,,
+88,1014,red,AutoReach,False,,
+88,4256,red,AutoReach,False,,
+88,3000,blue,AutoReach,False,,
+88,4028,blue,AutoReach,False,,
+88,6185,blue,AutoReach,False,,
+77,5667,red,TeleCross,2,,
+77,451,red,TeleCross,3,,
+77,3484,red,TeleCross,1,,
+77,4256,blue,TeleCross,3,,
+77,1939,blue,TeleCross,2,,
+77,2040,blue,TeleCross,0,,
+78,3324,red,TeleCross,1,,
+78,48,red,TeleCross,2,,
+78,279,red,TeleCross,6,,
+78,4521,blue,TeleCross,0,,
+78,3201,blue,TeleCross,0,,
+78,2016,blue,TeleCross,0,,
+79,4920,red,TeleCross,0,,
+79,5811,red,TeleCross,5,,
+79,3814,red,TeleCross,1,,
+79,5809,blue,TeleCross,2,,
+79,1038,blue,TeleCross,5,,
+79,4284,blue,TeleCross,0,,
+80,2051,red,TeleCross,1,,
+80,3138,red,TeleCross,3,,
+80,1014,red,TeleCross,3,,
+80,4085,blue,TeleCross,4,,
+80,120,blue,TeleCross,3,,
+80,3266,blue,TeleCross,0,,
+81,6181,red,TeleCross,2,,
+81,1708,red,TeleCross,2,,
+81,3504,red,TeleCross,2,,
+81,337,blue,TeleCross,5,,
+81,5749,blue,TeleCross,1,,
+81,3000,blue,TeleCross,0,,
+82,4115,red,TeleCross,0,,
+82,144,red,TeleCross,1,,
+82,5492,red,TeleCross,4,,
+82,3492,blue,TeleCross,3,,
+82,6185,blue,TeleCross,2,,
+82,3260,blue,TeleCross,0,,
+83,554,red,TeleCross,1,,
+83,1308,red,TeleCross,5,,
+83,128,red,TeleCross,3,,
+83,3777,blue,TeleCross,2,,
+83,3821,blue,TeleCross,0,,
+83,4213,blue,TeleCross,0,,
+84,2603,red,TeleCross,1,,
+84,245,red,TeleCross,3,,
+84,868,red,TeleCross,4,,
+84,1985,blue,TeleCross,4,,
+84,1249,blue,TeleCross,0,,
+84,5413,blue,TeleCross,0,,
+85,3484,red,TeleCross,4,,
+85,48,red,TeleCross,1,,
+85,6084,red,TeleCross,4,,
+85,3814,blue,TeleCross,2,,
+85,4085,blue,TeleCross,1,,
+85,451,blue,TeleCross,0,,
+86,120,blue,TeleCross,2,,
+86,3324,,TeleCross,5,,
+86,868,,TeleCross,5,,
+86,451,,TeleCross,2,,
+86,5492,,TeleCross,5,,
+86,5811,blue,TeleCross,0,,
+87,2051,red,TeleCross,4,,
+87,1708,red,TeleCross,3,,
+87,4145,red,TeleCross,3,,
+87,5492,blue,TeleCross,2,,
+87,4284,blue,TeleCross,0,,
+87,5667,blue,TeleCross,0,,
+88,2016,red,TeleCross,2,,
+88,1014,red,TeleCross,3,,
+88,4256,red,TeleCross,3,,
+88,3000,blue,TeleCross,0,,
+88,4028,blue,TeleCross,2,,
+88,6185,blue,TeleCross,0,,
+77,5667,red,TeleCrossRaw,2,,
+77,451,red,TeleCrossRaw,3,,
+77,3484,red,TeleCrossRaw,1,,
+77,4256,blue,TeleCrossRaw,4,,
+77,1939,blue,TeleCrossRaw,2,,
+77,2040,blue,TeleCrossRaw,0,,
+78,3324,red,TeleCrossRaw,1,,
+78,48,red,TeleCrossRaw,4,,
+78,279,red,TeleCrossRaw,6,,
+78,4521,blue,TeleCrossRaw,0,,
+78,3201,blue,TeleCrossRaw,0,,
+78,2016,blue,TeleCrossRaw,0,,
+79,4920,red,TeleCrossRaw,0,,
+79,5811,red,TeleCrossRaw,5,,
+79,3814,red,TeleCrossRaw,1,,
+79,5809,blue,TeleCrossRaw,2,,
+79,1038,blue,TeleCrossRaw,5,,
+79,4284,blue,TeleCrossRaw,0,,
+80,2051,red,TeleCrossRaw,1,,
+80,3138,red,TeleCrossRaw,4,,
+80,1014,red,TeleCrossRaw,3,,
+80,4085,blue,TeleCrossRaw,4,,
+80,120,blue,TeleCrossRaw,3,,
+80,3266,blue,TeleCrossRaw,0,,
+81,6181,red,TeleCrossRaw,2,,
+81,1708,red,TeleCrossRaw,4,,
+81,3504,red,TeleCrossRaw,2,,
+81,337,blue,TeleCrossRaw,5,,
+81,5749,blue,TeleCrossRaw,1,,
+81,3000,blue,TeleCrossRaw,0,,
+82,4115,red,TeleCrossRaw,0,,
+82,144,red,TeleCrossRaw,1,,
+82,5492,red,TeleCrossRaw,4,,
+82,3492,blue,TeleCrossRaw,3,,
+82,6185,blue,TeleCrossRaw,2,,
+82,3260,blue,TeleCrossRaw,0,,
+83,554,red,TeleCrossRaw,1,,
+83,1308,red,TeleCrossRaw,6,,
+83,128,red,TeleCrossRaw,3,,
+83,3777,blue,TeleCrossRaw,2,,
+83,3821,blue,TeleCrossRaw,0,,
+83,4213,blue,TeleCrossRaw,0,,
+84,2603,red,TeleCrossRaw,1,,
+84,245,red,TeleCrossRaw,3,,
+84,868,red,TeleCrossRaw,4,,
+84,1985,blue,TeleCrossRaw,4,,
+84,1249,blue,TeleCrossRaw,0,,
+84,5413,blue,TeleCrossRaw,0,,
+85,3484,red,TeleCrossRaw,5,,
+85,48,red,TeleCrossRaw,1,,
+85,6084,red,TeleCrossRaw,4,,
+85,3814,blue,TeleCrossRaw,2,,
+85,4085,blue,TeleCrossRaw,1,,
+85,451,blue,TeleCrossRaw,0,,
+86,120,blue,TeleCrossRaw,2,,
+86,3324,,TeleCrossRaw,5,,
+86,868,,TeleCrossRaw,5,,
+86,451,,TeleCrossRaw,2,,
+86,5492,,TeleCrossRaw,8,,
+86,5811,blue,TeleCrossRaw,0,,
+87,2051,red,TeleCrossRaw,4,,
+87,1708,red,TeleCrossRaw,3,,
+87,4145,red,TeleCrossRaw,3,,
+87,5492,blue,TeleCrossRaw,2,,
+87,4284,blue,TeleCrossRaw,0,,
+87,5667,blue,TeleCrossRaw,0,,
+88,2016,red,TeleCrossRaw,2,,
+88,1014,red,TeleCrossRaw,3,,
+88,4256,red,TeleCrossRaw,3,,
+88,3000,blue,TeleCrossRaw,0,,
+88,4028,blue,TeleCrossRaw,2,,
+88,6185,blue,TeleCrossRaw,0,,

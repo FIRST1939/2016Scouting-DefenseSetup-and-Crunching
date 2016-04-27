@@ -469,7 +469,140 @@ def weekanalysis(week):
         dumptele(teleops, item, str(week), telefile)
         
     print('\nAll Done Now\n')
+
+def d2cevents(teamlist):
+    '''
+    Take the team event list 
+    
+     {5931: [(5931, 'Bots of Prey'),
+         {'key': '2016cars',
+          'name': 'Carson Division',
+          'start_date': '2016-04-27'},
+         {'key': '2016idbo',
+          'name': 'Idaho Regional',
+          'start_date': '2016-03-30'}]},
+          
+    reformat it like this
+    
+    [[5931, 'Bots of Prey', '2016cars', 'Carson Division','2016-04-27']]
+    '''
+
+    d2clist = []
+    d2clist.append('Team, Nick, ECode, EventName, StartDate')
+
+    
+    for oneteam in teamlist:
+        pprint(oneteam)
+        header = [oneteam[0][0], oneteam[0][1]]
         
+        
+        for curevent in oneteam[1:]:
+            thisone = header[:]
+            thisone.append(curevent['key'])
+            thisone.append(curevent['name'])
+            thisone.append(curevent['start_date'])
+            
+            d2clist.append(thisone)
+    
+    return d2clist
+    
+def awdclean(awdname):
+    '''
+    Takes award name and returns standardized short spelling.
+    '''
+   
+    if 'Gracious' in awdname:
+        newawd = 'Gracious Professionalism'
+    elif 'Star' in awdname:
+        newawd = 'Rookie All-Star'
+    elif 'Subdivision' in awdname:
+        newawd = awdname
+    elif 'Division' in awdname:
+        if 'Finalist' in awdname:
+            newawd = 'Division Finalist'
+        elif 'Winner' in awdname or 'Champion' in awdname:
+            newawd = 'Division Winner'
+    elif 'Imagery' in awdname:
+        newawd = 'Imagery'
+    elif 'Quality' in awdname:
+        newawd = 'Quality'
+    elif 'Chairman' in awdname:
+        if 'District' in awdname:
+            newawd = 'District Chairmans Award'
+        elif 'Regional' in awdname:
+            newawd = 'Regional Chairmans Award'
+        else:
+            newawd = awdname
+            print('WTF:', awdname)
+    elif 'Inspiration' in awdname:
+        if 'Rookie' in awdname:
+            newawd = 'Rookie Inspiration'
+        elif 'District' in awdname:
+            newawd = 'District Engineering Inspiration'
+        elif 'Regional' in awdname:
+            newawd = 'Regional Engineering Inspiration'
+        else:
+            newawd = 'Regional Engineering Inspiration?'
+            #Note this will screw up champs EIs
+    elif 'Entrepreneurship' in awdname or 'Kleiner' in awdname:
+        newawd = 'Entrepreneurship'
+    elif 'Safety' in awdname:
+        newawd = 'Safety'
+    elif 'Sportsmanship' in awdname:
+        newawd = 'Gracious Professionalism'
+    elif 'Control' in awdname:
+        newawd = 'Innovation in Controls'
+    elif 'Creativity' in awdname:
+        newawd = 'Creativity'
+    elif 'Finalist' in awdname:
+        if 'Dean' in awdname:
+            newawd = 'Deans List Finalist'
+        elif 'Woodie' in awdname:
+            newawd = 'Woodie Flowers Finalist'
+        elif 'Subdivision' in awdname:
+            newawd = 'Subdivision Finalist'
+        elif 'Championship' in awdname:
+            if 'District' in awdname:
+                newawd = 'District Championship Finalist'
+            elif 'State' in awdname:
+                newawd = 'State Championship Finalist'
+            else:
+                newawd = 'Championship Finalist'
+        elif 'District' in awdname:
+            newawd = 'District Finalist'
+        else:
+            newawd = 'Regional Finalist'
+    elif 'Winners' in awdname:
+        newawd = awdname[:-1]
+    elif 'Industrial Design' in awdname:
+        newawd = 'GM Industrial Design'
+    elif 'Spirit' in awdname:
+        newawd = 'Team Spirit'
+    elif 'Autodesk' in awdname:
+        newawd = 'Autodesk Award'
+    elif 'Delphi' in awdname:
+        newawd = 'Delphi Excellence in Engineering'
+    elif 'Judge' in awdname:
+        newawd = 'Judges Award'
+    
+    else:
+        newawd = awdname
+        
+    
+    return newawd
+        
+def d2ca(teamlist):
+    
+    awdlist = []
+    awdlist.append(['Team,EventKey,Award'])
+    for team in teamlist:
+        #pprint(teamlist[team])
+        for ekey in teamlist[team]:
+            for award in teamlist[team][ekey]:
+                awdlist.append([team, ekey, awdclean(award)])    
+
+    return awdlist
+    
 def andy(event='mokc'):
     teamdetails = get_event_teams(event)
     #print(teamdetails[0])
@@ -493,29 +626,31 @@ def andy(event='mokc'):
         teamhistory.append(history)
         thisyear = []
         lastyear = []
-        for event in history:
-            if event['end_date'][0:4] == '2016':
+        for anevent in history:
+            if anevent['end_date'] == None:
+                pass
+            elif anevent['end_date'][0:4] == '2016':
                 #pprint(event)
-                thisyear.append(event)
-            elif event['end_date'][0:4] == '2015':
+                thisyear.append(anevent)
+            elif anevent['end_date'][0:4] == '2015':
                 #pprint(event)
-                lastyear.append(event)
+                lastyear.append(anevent)
 
         thisyearshort = []
         thisyearshort.append((team, nicks[team]))
         lastyearshort = []
-        for event in thisyear:
-            summary = {'name': event['name'], 'start_date': event['start_date'],
-                       'key': event['key']}
+        for thisevent in thisyear:
+            summary = {'name': thisevent['name'], 'start_date': thisevent['start_date'],
+                       'key': thisevent['key']}
             thisyearshort.append(summary)
 
-        for event in lastyear:
-            summary = {'name': event['name'], 'start_date': event['start_date'],
-                       'key': event['key']}
+        for thisevent in lastyear:
+            summary = {'name': thisevent['name'], 'start_date': thisevent['start_date'],
+                       'key': thisevent['key']}
             lastyearshort.append(summary)
         
-        team2016.append({team: thisyearshort})
-        team2015.append({team: lastyearshort})
+        team2016.append(thisyearshort)
+        team2015.append(lastyearshort)
 
         awards = get_award_history(team)
         #pprint(awards)
@@ -531,11 +666,32 @@ def andy(event='mokc'):
    # writefile.write(str(team2016))
    # writefile.write('\n\nAward histories\n')
    # writefile.write(str(teamawards))
-                                        
+    
+    print('\n', event, '\n')                                        
+    outfilename = event + '2016events.csv'
+    outfile = open(outfilename, 'w')
+    
     print('\n2016 events:')
-    pprint(team2016)
+    currentevents = d2cevents(team2016)
+    for line in currentevents:
+        outstr = str(line).replace('[','')
+        outstr = outstr.replace(']','').replace('\'','').replace('"','')+'\n'
+        outfile.write(outstr)
+    
+    outfile.close()
+    outfilename = event+'Histories.csv'
+    outfile = open(outfilename, 'w')
+    
     print('\nAward histories')
-    pprint(teamawards)
+    ehist = d2ca(teamawards)
+    
+    for line in ehist:
+        outstr = str(line).replace('[','')
+        outstr = outstr.replace(']','').replace('\'','').replace('"','')+'\n'
+        outfile.write(outstr)
+    
+    outfile.close()
+        
     
     print('\n', event ,'2015 Awards')
     pprint(get_event_awards(event, 2015))
@@ -638,3 +794,32 @@ def scoutMatchList(event):
         prepfile.write(outstr)
         
     prepfile.close()
+    
+def gethof():
+    hoflist = [191,7,151,144,47,23,120,16,22,175,103,254,67,
+               111,365,842,236,341,359,1114,1538,27]
+
+    hoflist = [597]               
+               
+    hofhist = {}    
+    for team in hoflist:
+        hofhist[team] = get_award_history(team)
+
+
+    awdlist = []        
+    for team in hofhist:
+        for award in hofhist[team]:
+            awdlist.append([team, award['event_key'], award['name']])
+
+    outfilename = 'hof.csv'
+    outfile = open(outfilename,'a')
+    
+    for line in awdlist:
+        print(line[0])
+        if line[2][0:8] == 'Gracious':
+            line[2] = 'Gracious Professionalism sponsored by Johnson & Johnson'
+        outstr = str(line).replace('[','')
+        outstr = outstr.replace(']','').replace('\'','').replace('"','')+'\n'
+        outfile.write(outstr)
+        
+    outfile.close()

@@ -1,0 +1,7 @@
+Team,AutoD1Cross,AutoD1Reach,AutoD2Cross,AutoD2Reach,AutoD3Cross,AutoD3Reach,AutoD4Cross,AutoD4Reach,AutoD5Cross,AutoD5Reach,AutoHighShotMade,AutoHighShotAtt,AutoLowShotMade,AutoLowShotAtt,AutoTotalPoints,TeleOpD1Cross,TeleOpD1Att,TeleOpD2Cross,TeleOpD2Att,TeleOpD3Cross,TeleOpD3Att,TeleOpD4Cross,TeleOpD4Att,TeleOpD5Cross,TeleOpD5Att,ChallengeScale,TeleOpHighShotMade,TeleOpHighShotAtt,TeleOpLowShotMade,TeleOpLowShotAtt,TeleOpTotalPoints,TotalPoints,Defense,Match,Alliance,AutoCross,AutoReach,TeleCross,TeleCrossRaw
+120,0,0,0,0,0,0,0,0,1,1,0,0,0,0,10,0,0,0,0,0,0,0,0,2,2,2,1,4,0,0,30,40,0,86,blue,True,False,2,2
+3324,0,0,0,0,1,1,0,0,0,0,0,0,0,0,10,0,0,2,3,1,1,2,3,0,0,1,0,0,0,0,30,40,0,86,,True,False,5,5
+868,1,1,0,0,0,0,0,0,0,0,0,0,0,0,10,2,2,2,2,1,1,0,0,0,0,1,1,2,0,0,35,45,0,86,,True,False,5,5
+451,0,0,0,0,0,0,1,1,0,0,0,0,0,0,10,0,0,0,0,0,0,1,1,1,1,1,0,0,5,6,25,35,0,86,,True,False,2,2
+5492,0,0,0,0,1,1,0,0,0,0,0,0,0,0,10,1,1,2,2,5,5,0,0,0,0,1,0,0,0,0,30,40,0,86,,True,False,5,8
+5811,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,86,blue,False,False,0,0
